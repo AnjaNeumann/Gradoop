@@ -1,0 +1,512 @@
+{"data":{"name":"Acetaldehyde reversible transport"},"meta":{"lable":"reaction"},"id":"3eaf93ee-a14f-4b20-93ca-542607a8cd8d"}
+{"data":{"name":"GLNt4"},"meta":{"lable":"reaction"},"id":"60ad4508-8db1-4394-af6e-5d92d897021c"}
+{"data":{"name":"DHAAt1r"},"meta":{"lable":"reaction"},"id":"649a01ac-ba4a-428f-a14c-1c770c3fd2a3"}
+{"data":{"name":"L-Phenylalanine exchange"},"meta":{"lable":"reaction"},"id":"56b874b5-bb9a-4875-a847-5bd50d060433"}
+{"data":{"name":"1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:2,C16:0)"},"meta":{"lable":"reaction"},"id":"c0422250-f239-4c97-9ae7-a9f17bd99cc2"}
+{"data":{"name":"Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C16:0)"},"meta":{"lable":"reaction"},"id":"3f9c493b-b868-48ad-ace4-28e5b13a8961"}
+{"data":{"name":"L-Normetanephrine exchange"},"meta":{"lable":"reaction"},"id":"ab00d125-d67c-41ca-b9cb-239f257e39af"}
+{"data":{"name":"Sink pchol hs 16 0 18 1(c)"},"meta":{"lable":"reaction"},"id":"747cc703-f090-4229-986e-f2442e96511c"}
+{"data":{"name":"1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:1,C18:2)"},"meta":{"lable":"reaction"},"id":"d0166f37-b880-4826-9f1d-60c90a1a04de"}
+{"data":{"name":"D-Glucose exchange"},"meta":{"lable":"reaction"},"id":"15b2a871-6469-4e3f-bd80-99061ff4444c"}
+{"data":{"name":"GALOR"},"meta":{"lable":"reaction"},"id":"a6d82067-d612-4677-8d77-6ab69fd35bfd"}
+{"data":{"name":"Phosphoglycerate mutase"},"meta":{"lable":"reaction"},"id":"a7cbe9b8-36a2-4063-bf52-fbff49580799"}
+{"data":{"name":"Phenylalanine metabolism"},"meta":{"lable":"subsystem"},"id":"cc1f8e5f-4660-4611-a159-b3871d90963c"}
+{"data":{"name":"Cytidylate kinase (CMP)"},"meta":{"lable":"reaction"},"id":"7851f5cb-c1bb-4fc4-8ace-cb44f1392a1d"}
+{"data":{"name":"Diacylglycerol phosphate kinase (homo sapiens, C18:1,C18:2)"},"meta":{"lable":"reaction"},"id":"7b1a507c-afd4-4218-84dd-6ec91ae7562d"}
+{"data":{"name":"Intracellular source\/sink"},"meta":{"lable":"subsystem"},"id":"421d797a-a418-4dc1-9af6-edd01bf080e2"}
+{"data":{"name":"Diacylglycerol phosphate kinase (homo sapiens, C18:2,C16:0)"},"meta":{"lable":"reaction"},"id":"a6d1c88b-c7e0-4fdf-b271-ea73e783e9df"}
+{"data":{"name":"Proton diffusion"},"meta":{"lable":"reaction"},"id":"de7b819a-8a7d-445b-b0e8-e1a3f4485e46"}
+{"data":{"name":"PI4PLC 16 0 18 1"},"meta":{"lable":"reaction"},"id":"448e1e63-b7d3-4481-8ada-5fb31f10da0e"}
+{"data":{"name":"L-Alanine exchange"},"meta":{"lable":"reaction"},"id":"10a867c6-1e5d-4ebe-8dc0-009b344424c7"}
+{"data":{"name":"L-Methionine exchange"},"meta":{"lable":"reaction"},"id":"38d6e006-e0e6-44bb-b4d0-b0424f84761e"}
+{"data":{"name":"Sink pe hs 18 1 18 2(c)"},"meta":{"lable":"reaction"},"id":"9b4deb60-2d7b-4f0b-94bd-b39e5ad02d3a"}
+{"data":{"name":"Hexadecanoate (n-C16:0) exchange"},"meta":{"lable":"reaction"},"id":"d09e9658-1cd9-42e1-9e18-98c3c529ff8f"}
+{"data":{"name":"UTP-glucose-1-phosphate uridylyltransferase (irreversible)"},"meta":{"lable":"reaction"},"id":"8ec188b6-6d31-4d11-848b-1db206040e89"}
+{"data":{"name":"PYDXDH"},"meta":{"lable":"reaction"},"id":"fc861412-bcdc-4561-9e7f-9a0d4d874642"}
+{"data":{"name":"ADEt"},"meta":{"lable":"reaction"},"id":"2aedfdba-86a0-4ec7-82f7-7d56a0adefca"}
+{"data":{"name":"1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:1,C18:1)"},"meta":{"lable":"reaction"},"id":"c287c695-2398-4550-8709-99f57fa0715b"}
+{"data":{"name":"CO2 exchange"},"meta":{"lable":"reaction"},"id":"dc26ea86-dc96-4cd4-a68c-cdfa27a7a05b"}
+{"data":{"name":"ROS Detoxification"},"meta":{"lable":"subsystem"},"id":"7e727029-a977-45c3-9bc9-066406a888a2"}
+{"data":{"name":"FRUt1r"},"meta":{"lable":"reaction"},"id":"de94d70e-f30f-4a9e-a0e6-2ad4981a4614"}
+{"data":{"name":"Phosphatidylinositol-4-phosphate 4-phosphatase (C18:2,C18:1)"},"meta":{"lable":"reaction"},"id":"2e55ae2c-1a23-4e02-9733-3f130d1eef39"}
+{"data":{"name":"Pyridoxine 5-phosphate phosphatase"},"meta":{"lable":"reaction"},"id":"b383e002-7937-42f9-8e39-0a13fefdeb25"}
+{"data":{"name":"Spermine transport via proton antiport irreversible"},"meta":{"lable":"reaction"},"id":"9f0e670c-875a-4f33-b43a-70c11827a4fc"}
+{"data":{"name":"Diacylglycerol phosphate kinase (homo sapiens, C18:1,C18:1)"},"meta":{"lable":"reaction"},"id":"2c797e9c-328d-46e7-8e75-6e3f2c808316"}
+{"data":{"name":"3-Methoxytyramine secretion via secretory vesicle (ATP driven)"},"meta":{"lable":"reaction"},"id":"f54dd185-dfc9-4723-a7a6-c328127c31e3"}
+{"data":{"name":"PI4PLC 16 0 18 2"},"meta":{"lable":"reaction"},"id":"b2ab63ec-6d31-4192-a526-669ff99dfa67"}
+{"data":{"name":"Sink pe hs 18 1 18 1(c)"},"meta":{"lable":"reaction"},"id":"64dc10ac-672d-4aee-8fdd-473a579f9916"}
+{"data":{"name":"Ascorbate and Aldarate Metabolism"},"meta":{"lable":"subsystem"},"id":"f2e2591c-bf44-43ca-ba22-16c7b4540342"}
+{"data":{"name":"Pyrimidine Biosynthesis"},"meta":{"lable":"subsystem"},"id":"5b73fab9-c6df-4aef-b31a-a70c51b1a6b0"}
+{"data":{"name":"Riboflavin exchange"},"meta":{"lable":"reaction"},"id":"434428d9-9884-4edc-88d8-98ec3d77614b"}
+{"data":{"name":"XYLUR"},"meta":{"lable":"reaction"},"id":"9bd58359-f39a-4aa7-a304-0eb4ae37e5ee"}
+{"data":{"name":"Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C18:1)"},"meta":{"lable":"reaction"},"id":"f4b524ba-18a7-4d0e-bde2-8218470d98a0"}
+{"data":{"name":"THMTP"},"meta":{"lable":"reaction"},"id":"a53ff420-855b-4fd8-9a05-ca0b6a2138c7"}
+{"data":{"name":"Phosphate exchange"},"meta":{"lable":"reaction"},"id":"8b611605-61b2-4171-bb22-241b862c830f"}
+{"data":{"name":"Phospholipase A2 (C18:2,C18:1)"},"meta":{"lable":"reaction"},"id":"76027f07-69fe-41da-8543-4693ab3e9a4f"}
+{"data":{"name":"LTA4H"},"meta":{"lable":"reaction"},"id":"7dde08b6-fd84-4c42-bac2-867b36a0b7f1"}
+{"data":{"name":"D-Galactose exchange"},"meta":{"lable":"reaction"},"id":"1b8837af-b171-4bbe-9365-62d5899e243f"}
+{"data":{"name":"EX leuktrA4 e"},"meta":{"lable":"reaction"},"id":"c09920ac-492c-4ea2-aadb-8570eed2e224"}
+{"data":{"name":"Enolase"},"meta":{"lable":"reaction"},"id":"017a9da3-4790-45d7-99fe-dba6b20ce603"}
+{"data":{"name":"N-acetyl-D-mannosamine kinase"},"meta":{"lable":"reaction"},"id":"f43bef97-0b57-4394-b9dd-d1b49aef1f9f"}
+{"data":{"name":"L-Glutamine exchange"},"meta":{"lable":"reaction"},"id":"3685bef3-e4a4-4392-96ac-8ad75580239d"}
+{"data":{"name":"Spermidine exchange"},"meta":{"lable":"reaction"},"id":"fc6ea633-81df-4b35-8849-568b88401f1d"}
+{"data":{"name":"Porphobilinogen synthase"},"meta":{"lable":"reaction"},"id":"ba5f1e8a-d50f-4ba3-8eb6-a5176d743497"}
+{"data":{"name":"cytosol","id":"c"},"meta":{"lable":"compartment"},"id":"3937045c-01d8-4c48-91cf-35a1fff136cb"}
+{"data":{"name":"L-Arginine exchange"},"meta":{"lable":"reaction"},"id":"d35f80d6-0134-4a0a-9e1b-c0ea20bbd857"}
+{"data":{"name":"Pyruvate kinase"},"meta":{"lable":"reaction"},"id":"a790b8d3-07c2-4819-bbdc-837378c3fadf"}
+{"data":{"name":"extracellular space","id":"e"},"meta":{"lable":"compartment"},"id":"240d4c6c-4c82-422b-9c8a-ca7227ad3114"}
+{"data":{"name":"Phosphatidylinositol 4-phosphate 5-kinase (C18:1,C18:2)"},"meta":{"lable":"reaction"},"id":"f675ef72-a508-4129-bf17-310233d74c5c"}
+{"data":{"name":"Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:1, C18:1)"},"meta":{"lable":"reaction"},"id":"b3ab53e7-9d7f-4149-aabf-0a40aa1028a1"}
+{"data":{"name":"Glucosamine-6-phosphate deaminase"},"meta":{"lable":"reaction"},"id":"0110d529-d62c-4bf8-8599-09d1c8008bd0"}
+{"data":{"name":"Ornithine Decarboxylase"},"meta":{"lable":"reaction"},"id":"feb7cd01-2c82-4d1c-92d3-db6881531257"}
+{"data":{"name":"Phosphatidate cytidylyltransferase (C18:2,C16:0)"},"meta":{"lable":"reaction"},"id":"30e98d24-e6be-4aa1-936f-afc8ba8e3563"}
+{"data":{"name":"Phosphoglucomutase"},"meta":{"lable":"reaction"},"id":"e72ae16a-7133-43bb-bc00-6c6a960fff3c"}
+{"data":{"name":"3-Methoxytyramine exchange"},"meta":{"lable":"reaction"},"id":"7649445f-b181-4c5d-9ef0-ba74bd88b1eb"}
+{"data":{"name":"Heme Biosynthesis"},"meta":{"lable":"subsystem"},"id":"b42a1ac3-505a-4daa-9b3d-70f5d2512829"}
+{"data":{"name":"PIK4 18 1 18 2"},"meta":{"lable":"reaction"},"id":"b837a3c6-70a9-4806-a12d-a196bab5855f"}
+{"data":{"name":"PIK4 18 1 18 1"},"meta":{"lable":"reaction"},"id":"79ffcd43-3f19-4538-aa99-73f899c05d5f"}
+{"data":{"name":"Sink pe hs 18 2 16 0(c)"},"meta":{"lable":"reaction"},"id":"3feae015-6a5d-45d3-9fcd-284ec43f9a69"}
+{"data":{"name":"Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C18:2)"},"meta":{"lable":"reaction"},"id":"36dbe46a-a38e-4173-a2cc-751b2efa474b"}
+{"data":{"name":"2-keto-4-methylthiobutyrate transamination"},"meta":{"lable":"reaction"},"id":"4a68710f-cec8-44b9-961a-b8c286f55099"}
+{"data":{"name":"Adenylate kinase"},"meta":{"lable":"reaction"},"id":"c154a452-f03d-46ea-84d4-4431588d64a7"}
+{"data":{"name":"Inorganic diphosphatase"},"meta":{"lable":"reaction"},"id":"f7a25db2-bda9-49d3-a177-45d811f57c55"}
+{"data":{"name":"Uridine exchange"},"meta":{"lable":"reaction"},"id":"dff8dcc9-3a1e-4f6a-a7c1-bd8e302cab69"}
+{"data":{"name":"Myo Inositol 1 phosphate synthase"},"meta":{"lable":"reaction"},"id":"8fc7434e-9d62-4566-a578-31ba0dbd6bed"}
+{"data":{"name":"Calcium (Ca+2) transport via diffusion (extracellular to periplasm)"},"meta":{"lable":"reaction"},"id":"c4a7273a-ac5c-476f-931c-864212173625"}
+{"data":{"name":"Pyridoxal exchange"},"meta":{"lable":"reaction"},"id":"26659527-b4e7-43be-836a-54ff1ae24bff"}
+{"data":{"name":"Octadecenoate  n C181  transport in via uniport"},"meta":{"lable":"reaction"},"id":"7bc9d57e-aebf-4452-87e2-dbca4a74f57c"}
+{"data":{"name":"Miscellaneous"},"meta":{"lable":"subsystem"},"id":"5dd127fb-6024-4fde-8959-9d8398014979"}
+{"data":{"name":"CEPTE 18 1 18 1"},"meta":{"lable":"reaction"},"id":"179e5a8c-d1c8-4d41-8999-33e7ddce809d"}
+{"data":{"name":"Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:1, C18:2)"},"meta":{"lable":"reaction"},"id":"f602d8bb-56d3-4f86-b01a-fc34b7fd76d6"}
+{"data":{"name":"Dopamine exchange"},"meta":{"lable":"reaction"},"id":"9f97bf31-0ae1-4974-89fc-282ee85ed513"}
+{"data":{"name":"Phosphatidylinositol 4-kinase (C18:2,C18 1)"},"meta":{"lable":"reaction"},"id":"db5b1b76-dc99-4ce2-8250-caf78e8d786a"}
+{"data":{"name":"URIt"},"meta":{"lable":"reaction"},"id":"c1c38710-ddeb-4e80-8090-fc0cd4046fac"}
+{"data":{"name":"GMP reductase"},"meta":{"lable":"reaction"},"id":"7bdac497-c8fd-4730-b478-1760f77bc025"}
+{"data":{"name":"Purine-nucleoside phosphorylase (Inosine)"},"meta":{"lable":"reaction"},"id":"ca2c3222-ffee-4e26-a2bb-404a8ccd5aa1"}
+{"data":{"name":"Sink akg(c)"},"meta":{"lable":"reaction"},"id":"e08a3f83-94ce-47b0-8980-9f843285b755"}
+{"data":{"name":"Adenosylhomocysteinase"},"meta":{"lable":"reaction"},"id":"3d5f9f49-5d2b-40c7-900b-da499fd8822e"}
+{"data":{"name":"Diacylglycerol phosphate kinase (homo sapiens, C16:0, C16:0)"},"meta":{"lable":"reaction"},"id":"9da25fd7-49f8-4663-a5a3-aa80e1ea1ae0"}
+{"data":{"name":"GULN3D"},"meta":{"lable":"reaction"},"id":"2aa6269b-4031-4df1-a62d-1dcb2b0be61d"}
+{"data":{"name":"Adrenaline (epinephrine) transport, uniport"},"meta":{"lable":"reaction"},"id":"fa80f33e-cf2e-453e-b679-8a45e2d0b3c1"}
+{"data":{"name":"Pentose and Glucuronate Interconversions"},"meta":{"lable":"subsystem"},"id":"930ab4dc-5e62-4c69-afda-af1fdfe7dee6"}
+{"data":{"name":"H2O transport via diffusion"},"meta":{"lable":"reaction"},"id":"eddc3b42-f73d-46bd-9916-33bb080afa9a"}
+{"data":{"name":"Phosphatidylinositol 4-phosphate 5-kinase (C18:2,C18:1)"},"meta":{"lable":"reaction"},"id":"c60ccc4b-8c5c-44b7-9e1c-5ddf47643c76"}
+{"data":{"name":"PI4PLC 16 0 16 0"},"meta":{"lable":"reaction"},"id":"81a50f3d-7b99-49f7-8b1f-0b7f84b773e5"}
+{"data":{"name":"ACNAMPH"},"meta":{"lable":"reaction"},"id":"e5ccd502-0b8f-445a-a486-76bce2b67bd1"}
+{"data":{"name":"Transketolase"},"meta":{"lable":"reaction"},"id":"2117abf2-b132-4d16-b4b2-3ddd4a4e2d7c"}
+{"data":{"name":"IMP dehydrogenase"},"meta":{"lable":"reaction"},"id":"79cbb466-1857-4e93-a6ac-a9291aeaf0e0"}
+{"data":{"name":"NRPPHRtu"},"meta":{"lable":"reaction"},"id":"0ff73756-8eea-4f99-9b74-678b2c6f9f6b"}
+{"data":{"name":"Demand NADH"},"meta":{"lable":"reaction"},"id":"4dfb7867-4806-47b8-9ffb-da02f60a4b67"}
+{"data":{"name":"5 Amino 4 oxopentanoate exchange"},"meta":{"lable":"reaction"},"id":"dbc7f31b-5328-4cc0-8346-d0bdc32a9281"}
+{"data":{"name":"1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C18:2)"},"meta":{"lable":"reaction"},"id":"a94691db-21a4-4211-83c0-23dd293798c3"}
+{"data":{"name":"GLYt7 LPAREN 211 RPAREN r"},"meta":{"lable":"reaction"},"id":"e9338ce0-1e57-4956-bce1-afa47daa4368"}
+{"data":{"name":"Orotate phosphoribosyltransferase"},"meta":{"lable":"reaction"},"id":"9bd31919-c975-447b-8298-ff36ce224e5b"}
+{"data":{"name":"Glycolysis\/Gluconeogenesis"},"meta":{"lable":"subsystem"},"id":"11adb0a9-10ab-4fa4-b630-c0af8ae7cc40"}
+{"data":{"name":"CHOLt4"},"meta":{"lable":"reaction"},"id":"666fb42d-d79d-4012-ac4a-e66ad68b51af"}
+{"data":{"name":"PI45PLC 16 0 18 1"},"meta":{"lable":"reaction"},"id":"74abc871-945b-497a-ba16-27cb94eac005"}
+{"data":{"name":"PI45PLC 16 0 18 2"},"meta":{"lable":"reaction"},"id":"404fbf77-9121-48c4-bd4f-280acbdb5db5"}
+{"data":{"name":"CHLP"},"meta":{"lable":"reaction"},"id":"c11944cb-c44c-45a3-9e3a-b2e771e167f1"}
+{"data":{"name":"Mannose-6-phosphate isomerase"},"meta":{"lable":"reaction"},"id":"285a6669-cd7b-45d2-81a7-16540a8c2391"}
+{"data":{"name":"Glyceraldehyde-3-phosphate dehydrogenase"},"meta":{"lable":"reaction"},"id":"cd62b996-0629-4cfd-bce1-97e349a593f1"}
+{"data":{"name":"CEPTE 18 1 18 2"},"meta":{"lable":"reaction"},"id":"183b8b65-ce28-4cf5-9e60-b987c621a71c"}
+{"data":{"name":"D-Glucosamine exchange"},"meta":{"lable":"reaction"},"id":"1f58931b-2abf-401d-89c7-d671e6ded1cf"}
+{"data":{"name":"Carnitine transferase"},"meta":{"lable":"reaction"},"id":"3b8bf396-eaf1-4441-a477-81cbe0eca9c8"}
+{"data":{"name":"N-Acetylneuraminate exchange"},"meta":{"lable":"reaction"},"id":"a7eab842-59bc-4f79-868e-0912d669c5b5"}
+{"data":{"name":"Nicotinic acid transport"},"meta":{"lable":"reaction"},"id":"8e32c02b-32b8-425a-a91f-6469d010b966"}
+{"data":{"name":"Glutathione Metabolism"},"meta":{"lable":"subsystem"},"id":"2934f80c-cf0e-4ab1-86c7-531810bfed4d"}
+{"data":{"name":"HCO3 CLt"},"meta":{"lable":"reaction"},"id":"9d886d9b-6751-4a21-bfd5-ab480106ffa7"}
+{"data":{"name":"Methionine adenosyltransferase"},"meta":{"lable":"reaction"},"id":"8329faae-01cf-48a2-8104-16b6650361db"}
+{"data":{"name":"1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C18:1)"},"meta":{"lable":"reaction"},"id":"f25572dd-d20f-4899-a8b1-5092c225e0b0"}
+{"data":{"name":"Phosphatidic acid phosphatase (C18:2, C18:1)"},"meta":{"lable":"reaction"},"id":"008f335f-7680-46a3-a034-1e4f8f4fd742"}
+{"data":{"name":"CAATPS"},"meta":{"lable":"reaction"},"id":"fb8df268-c0c4-4a75-9da1-594f1eadfede"}
+{"data":{"name":"Glycerol-3-phosphate acyltransferase (C18:2)"},"meta":{"lable":"reaction"},"id":"daa62bb4-c9dc-457d-a06e-dc183d0ddf8b"}
+{"data":{"name":"Phenylalanine transaminase"},"meta":{"lable":"reaction"},"id":"44bbdd98-8590-4253-b93f-099ad20cebf8"}
+{"data":{"name":"Phosphatidylinositol phospholipase C (C18:2,C16:0)"},"meta":{"lable":"reaction"},"id":"3de1336c-c119-4c93-ab14-7e9fb83a1348"}
+{"data":{"name":"RIBFLVt3"},"meta":{"lable":"reaction"},"id":"a10deeba-9cc6-4c18-ba62-32ec3d7600af"}
+{"data":{"name":"Ethanolamine exchange"},"meta":{"lable":"reaction"},"id":"08cb8996-04bf-4d0b-96ec-e999eb907cdd"}
+{"data":{"name":"Spermine exchange"},"meta":{"lable":"reaction"},"id":"ec24819f-1e72-4488-a197-b8ffca0f1a47"}
+{"data":{"name":"Starch and Sucrose Metabolism"},"meta":{"lable":"subsystem"},"id":"b1a77ea7-9330-47cc-8c07-b1d7d0ba0301"}
+{"data":{"name":"L lactate reversible transport via proton symport"},"meta":{"lable":"reaction"},"id":"828f3587-83a9-4990-bdbb-f3fcbaf12afd"}
+{"data":{"name":"Sink pchol hs 16 0 18 2(c)"},"meta":{"lable":"reaction"},"id":"7826198c-f24c-4fb8-8ca1-8b5b7d977c4b"}
+{"data":{"name":"1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:2,C18:1)"},"meta":{"lable":"reaction"},"id":"30727b07-421e-4293-abc5-73ca0d753674"}
+{"data":{"name":"Acetaldehyde exchange"},"meta":{"lable":"reaction"},"id":"adcb9648-8a97-49e4-bd65-2a0ae1fb1058"}
+{"data":{"name":"Hexadecanoate  n C160  transport in via uniport"},"meta":{"lable":"reaction"},"id":"8020a5cc-e9fd-47fc-a2d7-bc353891b29d"}
+{"data":{"name":"Phosphatidylinositol 4-phosphate phospholipase C (C18:2,C18:1)"},"meta":{"lable":"reaction"},"id":"0d5657d3-b27b-48d8-9704-c19d63082d66"}
+{"data":{"name":"Fe2+ exchange"},"meta":{"lable":"reaction"},"id":"7d75f866-aeb5-4479-989a-c9c7d0f92cbf"}
+{"data":{"name":"Glycerol-3-phosphate acyltransferase (C18:1)"},"meta":{"lable":"reaction"},"id":"13cdcbd4-f588-40c7-b554-907b05448101"}
+{"data":{"name":"Octadecenoate (n-C18:1) exchange"},"meta":{"lable":"reaction"},"id":"cd028aa8-41e5-4d0a-be7b-d02d1606f655"}
+{"data":{"name":"FMN adenylyltransferase"},"meta":{"lable":"reaction"},"id":"10c74066-f1f3-433f-bbd7-a754374783e5"}
+{"data":{"name":"EX leuktrB4 e"},"meta":{"lable":"reaction"},"id":"73427192-cfea-4469-b4c6-37d68ee10e70"}
+{"data":{"name":"Glycerol transport via channel"},"meta":{"lable":"reaction"},"id":"6f6e10f1-5789-444b-b349-9869ba2a9aaa"}
+{"data":{"name":"GALt1r"},"meta":{"lable":"reaction"},"id":"3d5097da-f0f8-4325-8a9d-eb06b6020e4e"}
+{"data":{"name":"UDPglucose--hexose-1-phosphate uridylyltransferase"},"meta":{"lable":"reaction"},"id":"fa885aa8-39e4-4f5c-bc6f-187fbd60a32b"}
+{"data":{"name":"Isocitrate dehydrogenase (NADP)"},"meta":{"lable":"reaction"},"id":"f456bd38-406e-4bbf-9b9d-416be373c1cd"}
+{"data":{"name":"5'-nucleotidase (IMP)"},"meta":{"lable":"reaction"},"id":"ae74d5a9-a0c3-4515-859a-ab4b6bf7e356"}
+{"data":{"name":"Hydrogen peroxide exchange"},"meta":{"lable":"reaction"},"id":"f96c0e63-8779-4f5a-9ba8-cc3f3f11dd8c"}
+{"data":{"name":"Sink bandmt(c)"},"meta":{"lable":"reaction"},"id":"bcce647c-f357-4fbf-9a47-2936ca24ba91"}
+{"data":{"name":"Riboflavin transport out (ATP dependent)"},"meta":{"lable":"reaction"},"id":"581a1772-610f-40bc-a115-f34bd0df9c90"}
+{"data":{"name":"EX co LPAREN e RPAREN "},"meta":{"lable":"reaction"},"id":"2473cf46-ef44-49c6-97f9-b5a90a47cbe7"}
+{"data":{"name":"Band membrane protein-methyltransferase"},"meta":{"lable":"reaction"},"id":"2137349c-4c53-4b7c-9e62-d79954a9a53b"}
+{"data":{"name":"Malate exchange, diffusion"},"meta":{"lable":"reaction"},"id":"4cf8b698-2e8e-4958-b4b0-7d2c658352f6"}
+{"data":{"name":"PLA2 2 16 0 18 1"},"meta":{"lable":"reaction"},"id":"669dccc4-6f7b-4880-93fc-341200d7902a"}
+{"data":{"name":"PLA2 2 16 0 18 2"},"meta":{"lable":"reaction"},"id":"6daf9082-5f83-4cec-bdf9-175a1995db6e"}
+{"data":{"name":"EX bilglcur e"},"meta":{"lable":"reaction"},"id":"0b37065c-fdd1-45fc-8e4e-0f38c0200933"}
+{"data":{"name":"5  methylthioadenosine phosphorylase"},"meta":{"lable":"reaction"},"id":"4070ab8b-5455-4293-9dd5-2cec59dba876"}
+{"data":{"name":"Phosphatidylinositol-4-phosphate 4-phosphatase (C18:1,C18:2)"},"meta":{"lable":"reaction"},"id":"870f15ef-5ae0-4a59-aeba-2c8d8704161c"}
+{"data":{"name":"Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C16:0)"},"meta":{"lable":"reaction"},"id":"1d54fcee-1b69-42df-8c1d-ef2b33216038"}
+{"data":{"name":"Phosphatidylinositol-4-phosphate 4-phosphatase (C18:2,C16:0)"},"meta":{"lable":"reaction"},"id":"e9bfb0f6-767d-42ab-9f57-0c96a887630b"}
+{"data":{"name":"NAt"},"meta":{"lable":"reaction"},"id":"cbe525eb-e9ab-443a-af54-b41eedc3f45b"}
+{"data":{"name":"Gamma-glutamylcysteine synthetase"},"meta":{"lable":"reaction"},"id":"202c84ca-43c9-42fd-b34f-6d6b40599e87"}
+{"data":{"name":"Pyridoxine exchange"},"meta":{"lable":"reaction"},"id":"8527998f-b72b-4d66-a4b2-7eefb5155160"}
+{"data":{"name":"L-lactate dehydrogenase"},"meta":{"lable":"reaction"},"id":"06157ea1-b8d9-49a8-b0dd-110941d0f4e6"}
+{"data":{"name":"Sink mi145p(c)"},"meta":{"lable":"reaction"},"id":"03aa4666-34fa-400b-a6a3-a786baf99402"}
+{"data":{"name":"Sink pe hs 16 0 16 0(c)"},"meta":{"lable":"reaction"},"id":"8beaefe4-41e6-4f2b-ba57-f5cec16aa2fc"}
+{"data":{"name":"Glycerophosphodiester phosphodiesterase (Glycerophosphocholine)"},"meta":{"lable":"reaction"},"id":"caba351d-406b-4dbc-b7c3-c48fc69ee2f4"}
+{"data":{"name":"Thiamine monophosphate transport (passive - red blood cell)"},"meta":{"lable":"reaction"},"id":"3451ab20-9064-4c98-b5c6-f4e4979b3ab4"}
+{"data":{"name":"Phosphogluconate dehydrogenase"},"meta":{"lable":"reaction"},"id":"0035a0cb-5efb-418d-8f81-140ef7a6a112"}
+{"data":{"name":"Oxidized glutathione irreversible active transport (rbc)"},"meta":{"lable":"reaction"},"id":"709e298d-04ac-4714-a518-5d2110c76c9c"}
+{"data":{"name":"Acetate exchange"},"meta":{"lable":"reaction"},"id":"17d0f419-ea6d-4cbf-b3d3-b0614c8a2fd5"}
+{"data":{"name":"5-methylthioribose-1-phosphate isomerase"},"meta":{"lable":"reaction"},"id":"4762f0fa-4933-472a-bb8f-cd75c5f601fa"}
+{"data":{"name":"L-homocysteine exchange"},"meta":{"lable":"reaction"},"id":"3878ceee-28c0-451b-ad93-53065574620d"}
+{"data":{"name":"Methionine Metabolism"},"meta":{"lable":"subsystem"},"id":"790b2194-380c-44c7-9eab-f8d40cea5e3c"}
+{"data":{"name":"ASCBt"},"meta":{"lable":"reaction"},"id":"e0ba36b0-a75a-4247-a9b7-d24f6c6dd3d1"}
+{"data":{"name":"Ammonia exchange"},"meta":{"lable":"reaction"},"id":"175ce642-6ca4-4393-a994-7bba18052264"}
+{"data":{"name":"Galactose metabolism"},"meta":{"lable":"subsystem"},"id":"7dd12bb6-83d8-4457-ba3c-59014b5c4578"}
+{"data":{"name":"SALMCOM2"},"meta":{"lable":"reaction"},"id":"1763a5ed-e9c4-45ae-b239-9c935e591c1c"}
+{"data":{"name":"MANt1r"},"meta":{"lable":"reaction"},"id":"c5681835-8579-4d47-82cb-02d6af1cb5a5"}
+{"data":{"name":"Riboflavin kinase"},"meta":{"lable":"reaction"},"id":"f213b7dc-e56e-42ff-90e1-1d9fa656e809"}
+{"data":{"name":"LNLCt"},"meta":{"lable":"reaction"},"id":"6f1ae689-f929-45ac-8068-7bb2829f1ffa"}
+{"data":{"name":"Phosphatidate cytidylyltransferase (C18:2,C18:1)"},"meta":{"lable":"reaction"},"id":"909da27f-a8b6-469b-9e83-ee2d55bc4b88"}
+{"data":{"name":"Thiamin monophosphate exchange"},"meta":{"lable":"reaction"},"id":"ef79e579-a4d8-48b4-9a2e-f3146cfaa587"}
+{"data":{"name":"Fructose and Mannose Metabolism"},"meta":{"lable":"subsystem"},"id":"d6fe7ef3-ceba-4661-9044-5a00688aefe0"}
+{"data":{"name":"ADNt"},"meta":{"lable":"reaction"},"id":"4ffae4ef-cf63-4ec5-b80d-2212fe79c9ec"}
+{"data":{"name":"5 Aminolevulinate transport in via proton symport"},"meta":{"lable":"reaction"},"id":"87b92c34-b11a-4926-a505-1caf935256b4"}
+{"data":{"name":"Choline phosphotransferase (C18:2, C18:1)"},"meta":{"lable":"reaction"},"id":"4c816c99-ab88-4c09-bd46-c32ff5d42101"}
+{"data":{"name":"Choline phosphate cytididyltransferase"},"meta":{"lable":"reaction"},"id":"1da19de6-5e9e-46e7-bd0d-49057d706196"}
+{"data":{"name":"Ethanolamine transport via diffusion  extracellular "},"meta":{"lable":"reaction"},"id":"0a279983-f536-446d-b210-a271f70a2e3e"}
+{"data":{"name":"Nicotinate-nucleotide adenylyltransferase"},"meta":{"lable":"reaction"},"id":"2cf98b91-5beb-4826-9e5d-93483bcd8bad"}
+{"data":{"name":"Thiamine diphosphate kinase"},"meta":{"lable":"reaction"},"id":"5d99b7b2-4585-42da-bf6e-64173f9c995a"}
+{"data":{"name":"Ribose-5-phosphate isomerase"},"meta":{"lable":"reaction"},"id":"1bdd8e70-4a00-4f11-8a6b-3311cb4eb875"}
+{"data":{"name":"Pyridoxal 5-phosphate phosphatase"},"meta":{"lable":"reaction"},"id":"18fa8f0c-f6c4-4fe4-b7a5-42e34bdb4f4e"}
+{"data":{"name":"Adenosine deaminase"},"meta":{"lable":"reaction"},"id":"ff02cd91-d1e8-45a5-ac74-4dc801334314"}
+{"data":{"name":"Galactose 1 phosphate uridylyltransferase"},"meta":{"lable":"reaction"},"id":"c2651eee-e774-4503-8f11-e91ea60dc67c"}
+{"data":{"name":"Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C16:0)"},"meta":{"lable":"reaction"},"id":"a4d4fc02-1090-41be-a7d4-de3295cc32e6"}
+{"data":{"name":"Pyridoxamine exchange"},"meta":{"lable":"reaction"},"id":"6381c2f8-c719-49e1-89b6-9d3af8b022b0"}
+{"data":{"name":"Thiamine transprot (passive - red blood cell)"},"meta":{"lable":"reaction"},"id":"7b30f66d-4013-45d7-8b4d-e09402cc1ee3"}
+{"data":{"name":"Phospholipase A2 (C18:2,C16:0)"},"meta":{"lable":"reaction"},"id":"9d6cf1cc-c2bc-42c0-9fb9-52cdf956fdef"}
+{"data":{"name":"Lactoylglutathione lyase"},"meta":{"lable":"reaction"},"id":"68274a8f-2257-4c42-ad31-33918616e017"}
+{"data":{"name":"Sink pchol hs 18 1 18 2(c)"},"meta":{"lable":"reaction"},"id":"9c1a6cf0-0dbb-4237-9625-b3d26c10a552"}
+{"data":{"name":"Xylulokinase"},"meta":{"lable":"reaction"},"id":"b3ab1c51-78ee-4805-a2de-14210fc1124a"}
+{"data":{"name":"ALAt4"},"meta":{"lable":"reaction"},"id":"988b26e3-ddb3-4cd3-a057-e7c20760016c"}
+{"data":{"name":"&apos;"},"meta":{"lable":"subsystem"},"id":"10301928-4357-4980-b16c-850e5af4eee9"}
+{"data":{"name":"Coproporphyrinogen oxidase (O2 required)"},"meta":{"lable":"reaction"},"id":"8e05b0c1-e2bc-4b41-8464-7cc48e26cd49"}
+{"data":{"name":"Enolase-phosphatase E1"},"meta":{"lable":"reaction"},"id":"09bc8e31-f53a-47e1-9dd3-2dbd1cab6468"}
+{"data":{"name":"EX camp e"},"meta":{"lable":"reaction"},"id":"7b407eb4-2725-4eed-9904-37049c261d3d"}
+{"data":{"name":"COt"},"meta":{"lable":"reaction"},"id":"1611ce81-8aa2-4896-8e09-5bbbc13d4977"}
+{"data":{"name":"DGULND"},"meta":{"lable":"reaction"},"id":"e1a03719-0c44-4062-968e-dd91fb1a2046"}
+{"data":{"name":"Nucleoside-diphosphate kinase (ATP:UDP)"},"meta":{"lable":"reaction"},"id":"35b8df82-cc3a-4047-9fb9-88fd69e7f32e"}
+{"data":{"name":"Adenylate cyclase"},"meta":{"lable":"reaction"},"id":"6e06a86f-8fa8-47a7-aad9-1b32ebd746c7"}
+{"data":{"name":"Pyruvate transport in via proton symport"},"meta":{"lable":"reaction"},"id":"35ab321a-fe7a-4b12-bac7-e14fb2623e74"}
+{"data":{"name":"Spermidine synthase"},"meta":{"lable":"reaction"},"id":"d9070b7e-ea2d-4115-9d98-b2caea0f638d"}
+{"data":{"name":"Urea exchange"},"meta":{"lable":"reaction"},"id":"79190392-f753-4942-937d-8da7cad026c9"}
+{"data":{"name":"Glycerophospholipid Metabolism"},"meta":{"lable":"subsystem"},"id":"6fe37942-cbbe-434f-8915-779f25730178"}
+{"data":{"name":"Phosphatidylinositol synthase (Homo sapiens, C18:2,C16:0)"},"meta":{"lable":"reaction"},"id":"57039a14-4299-48af-b27d-c21019b2d7dd"}
+{"data":{"name":"PIt"},"meta":{"lable":"reaction"},"id":"c64e8d54-634c-472b-a5dd-6e0517bc02c0"}
+{"data":{"name":"Pyridoxine 5'-phosphate oxidase"},"meta":{"lable":"reaction"},"id":"468e4e28-c242-4b2a-874b-575af2a449cd"}
+{"data":{"name":"Ribosylnicotinamide kinase"},"meta":{"lable":"reaction"},"id":"919e2734-0c27-4a5b-ad5b-6f2aeeaffc0e"}
+{"data":{"name":"HYXNt"},"meta":{"lable":"reaction"},"id":"6a0a6b7d-ad91-47db-9573-06a908cb0d4e"}
+{"data":{"name":"GGLUCT"},"meta":{"lable":"reaction"},"id":"9ffdff5c-505e-49fe-bdda-91b9a3c3642c"}
+{"data":{"name":"C181CPT1"},"meta":{"lable":"reaction"},"id":"127f9ce4-5dea-465c-ab14-725b574875b4"}
+{"data":{"name":"ACGAM2E"},"meta":{"lable":"reaction"},"id":"5e292a3e-55d0-43ce-9e86-e88ac13d736d"}
+{"data":{"name":"Aldehyde dehydrogenase (acetaldehyde, NAD)"},"meta":{"lable":"reaction"},"id":"cc2eeb44-b20f-47b2-9727-2731e899900a"}
+{"data":{"name":"Iron  II  transport"},"meta":{"lable":"reaction"},"id":"045d068f-5b3e-45c1-9deb-2a24485b0351"}
+{"data":{"name":"Orotidine-5'-phosphate decarboxylase"},"meta":{"lable":"reaction"},"id":"3eb775e2-4afe-4dbf-ad72-6ee65429175d"}
+{"data":{"name":"5'-nucleotidase (GMP)"},"meta":{"lable":"reaction"},"id":"7d8b2ded-ff4a-4196-88c6-d6d6ccce32c8"}
+{"data":{"name":"Arginine and Proline Metabolism"},"meta":{"lable":"subsystem"},"id":"dbc83dae-442b-45d9-9bd2-ab80911bf69f"}
+{"data":{"name":"LPASE 16 0"},"meta":{"lable":"reaction"},"id":"aceb199e-9f7e-478d-a22e-9f5cba620df3"}
+{"data":{"name":"Pentose Phosphate Pathway"},"meta":{"lable":"subsystem"},"id":"42911e4a-d45d-4535-a062-367d0b78b8fc"}
+{"data":{"name":"N-acetylglucosamine-6-phosphate deacetylase"},"meta":{"lable":"reaction"},"id":"0a2a3af9-de4c-4618-8fea-b7282b9f89d4"}
+{"data":{"name":"Hexokinase (D-mannose:ATP)"},"meta":{"lable":"reaction"},"id":"b143dac6-984c-4a4b-bb22-2bbd68d1247c"}
+{"data":{"name":"EX mepi e"},"meta":{"lable":"reaction"},"id":"83b9156e-cae9-481d-b3d8-2049f47920c5"}
+{"data":{"name":"L-Lactate exchange"},"meta":{"lable":"reaction"},"id":"5d0b769f-5c4f-4aa3-913e-55c0e0e8fdf6"}
+{"data":{"name":"D-Fructose exchange"},"meta":{"lable":"reaction"},"id":"1119163c-102a-4586-92b2-4924e30b829f"}
+{"data":{"name":"Adenosylmethionine decarboxylase"},"meta":{"lable":"reaction"},"id":"f7f2b105-11ca-40f8-b5bb-6af50a312d3d"}
+{"data":{"name":"ETHP"},"meta":{"lable":"reaction"},"id":"b6d39fe8-8fba-4361-ad39-4992e16a1403"}
+{"data":{"name":"Phosphatidylinositol 4-phosphate phospholipase C (C18:2,C16:0)"},"meta":{"lable":"reaction"},"id":"850b7bfe-4c10-4c35-a8ed-3f142343c5bb"}
+{"data":{"name":"FACOAL1821"},"meta":{"lable":"reaction"},"id":"9c6faa02-b44c-49b4-be18-8d895cd09312"}
+{"data":{"name":"3',5'-cyclic-nucleotide phosphodiesterase"},"meta":{"lable":"reaction"},"id":"504594b5-b8cd-4841-8d84-8d590d21eb8a"}
+{"data":{"name":"Transport, Extracellular"},"meta":{"lable":"subsystem"},"id":"2281bbf6-a573-4b7a-a7dd-6ee43ec49d79"}
+{"data":{"name":"CAMPt"},"meta":{"lable":"reaction"},"id":"e9435d5d-25b8-4649-bc7f-e7bd630ef1bb"}
+{"data":{"name":"Fatty acid  CoA ligase  octadecenoate "},"meta":{"lable":"reaction"},"id":"f37e904f-c357-4b5e-8b84-e33ddf90e1a7"}
+{"data":{"name":"UDPGNP"},"meta":{"lable":"reaction"},"id":"3ce7b58d-bcbd-4d07-af66-dd389b29c7f6"}
+{"data":{"name":"H2O2t"},"meta":{"lable":"reaction"},"id":"002b8351-b186-4b5f-bc03-d9576bb249d1"}
+{"data":{"name":"Fumarate transport via diffusion (reversible)"},"meta":{"lable":"reaction"},"id":"33f713e4-aaab-4d81-a86d-42bf378510f8"}
+{"data":{"name":"Adenosine monophosphate deaminase"},"meta":{"lable":"reaction"},"id":"105fc783-d4d0-4229-9480-c867454fef1e"}
+{"data":{"name":"PPAP 18 1 18 2"},"meta":{"lable":"reaction"},"id":"5b0662c4-e823-46d3-9cce-8464b8af663f"}
+{"data":{"name":"D sorbitol reductase"},"meta":{"lable":"reaction"},"id":"b12a5746-202c-4c5e-a90e-612830d815f1"}
+{"data":{"name":"OPAH"},"meta":{"lable":"reaction"},"id":"ae94023c-192e-4e3d-83db-359d2739aded"}
+{"data":{"name":"Glycerol exchange"},"meta":{"lable":"reaction"},"id":"5c1a7953-a3bb-4c20-91a4-134e1b4d71ef"}
+{"data":{"name":"Adenosine exchange"},"meta":{"lable":"reaction"},"id":"9224f9c8-053d-4790-95a4-fc3fcb2cca5d"}
+{"data":{"name":"Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C18:1)"},"meta":{"lable":"reaction"},"id":"4e7c8ea5-e52d-4ce9-b3e4-75f442708de9"}
+{"data":{"name":"PPAP 18 1 18 1"},"meta":{"lable":"reaction"},"id":"e08fa6e4-500c-45e7-8c36-7fb7daa277e7"}
+{"data":{"name":"6-phosphogluconolactonase"},"meta":{"lable":"reaction"},"id":"1c4d44f7-e9ed-4ccf-ac7b-99b31328f97a"}
+{"data":{"name":"Pyridoxamine 5'-phosphate oxidase"},"meta":{"lable":"reaction"},"id":"24f0b66e-a510-4c1d-82b6-6a7b19698405"}
+{"data":{"name":"Myo-inositol 1-phosphatase"},"meta":{"lable":"reaction"},"id":"ace2cff1-11df-4ca1-8af6-844aa53a97ac"}
+{"data":{"name":"Choline kinase"},"meta":{"lable":"reaction"},"id":"3caa8ccd-85f1-40ae-bf99-91b4b2a67ce4"}
+{"data":{"name":"C160CPT1"},"meta":{"lable":"reaction"},"id":"b6a2c090-cb65-4946-bcec-e9507e20c23e"}
+{"data":{"name":"Phosphatidylinositol-4-phosphate 4-phosphatase (C18:1,C18:1)"},"meta":{"lable":"reaction"},"id":"44444729-e4cf-4d71-b04e-d9e59d2690a5"}
+{"data":{"name":"Fructose 2 6 bisphosphate 2 phosphatase"},"meta":{"lable":"reaction"},"id":"6be42f1a-a3f4-4a79-a632-d60507b2be6c"}
+{"data":{"name":"Xylitol dehydrogenase  D xyulose forming "},"meta":{"lable":"reaction"},"id":"711b45e2-1042-43f4-9115-208c6e983f7a"}
+{"data":{"name":"D sorbitol dehydrogenase  D fructose producing "},"meta":{"lable":"reaction"},"id":"e5c23677-75f1-4b3d-ace3-10388b702df7"}
+{"data":{"name":"Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C18:2)"},"meta":{"lable":"reaction"},"id":"6d7d319d-1923-4ec5-914a-f7d51045a28e"}
+{"data":{"name":"CDIPTr 16 0 18 1"},"meta":{"lable":"reaction"},"id":"96406050-080a-4b6c-951a-de7514daaea6"}
+{"data":{"name":"PYDXtr"},"meta":{"lable":"reaction"},"id":"a17509a7-2125-45fa-b86e-937a1ee0a7ae"}
+{"data":{"name":"CDIPTr 16 0 18 2"},"meta":{"lable":"reaction"},"id":"bcf25069-c30d-4738-871d-51851735771a"}
+{"data":{"name":"O2 transport  diffusion "},"meta":{"lable":"reaction"},"id":"8c45ea77-3c7e-443b-aa6c-495ff53db22a"}
+{"data":{"name":"Hexokinase (D-glucose:ATP)"},"meta":{"lable":"reaction"},"id":"dda939d1-d329-4601-ad3f-f9a21196914b"}
+{"data":{"name":"Glucose transport  uniport "},"meta":{"lable":"reaction"},"id":"4a687e82-e4ef-442d-a64d-71743e216848"}
+{"data":{"name":"Ethanolamine phosphotransferase (C18:2,C16:0)"},"meta":{"lable":"reaction"},"id":"7735b0df-b28f-4c9f-80f8-f11ebe7dc6a7"}
+{"data":{"name":"LEUKTRA4t"},"meta":{"lable":"reaction"},"id":"93475348-bce5-4af6-a7fb-22d3840f2a81"}
+{"data":{"name":"Inositol Phosphate Metabolism"},"meta":{"lable":"subsystem"},"id":"fb417a38-e08f-4e23-9563-1f8649959569"}
+{"data":{"name":"EX 4pyrdx e"},"meta":{"lable":"reaction"},"id":"652c401c-2a82-455b-a010-1443f9a7eeac"}
+{"data":{"name":"PYDAMtr"},"meta":{"lable":"reaction"},"id":"a818bff0-b74c-46b8-b3c6-ea7d2ff3973c"}
+{"data":{"name":"UDPglucose 6-dehydrogenase"},"meta":{"lable":"reaction"},"id":"04a8eef6-28f3-4f5c-94ea-22c6d32a9fa9"}
+{"data":{"name":"Phosphomannomutase"},"meta":{"lable":"reaction"},"id":"1d780329-145a-42ae-9c5d-24365383316e"}
+{"data":{"name":"LPASE 18 2"},"meta":{"lable":"reaction"},"id":"8a1acb16-1dff-4800-ac5d-5282c7ea2f17"}
+{"data":{"name":"Sink mi14p(c)"},"meta":{"lable":"reaction"},"id":"02ed0401-2266-40e1-adcc-47eaebd5776f"}
+{"data":{"name":"LPASE 18 1"},"meta":{"lable":"reaction"},"id":"4b05931d-27b2-413f-a584-03afe32cd3ef"}
+{"data":{"name":"Pyrimidine Catabolism"},"meta":{"lable":"subsystem"},"id":"3cbff6ac-fed5-4f5f-88d0-13ba99b3471b"}
+{"data":{"name":"PPAP 16 0 18 1"},"meta":{"lable":"reaction"},"id":"c7a72af2-4d8c-409c-b7b8-fab2a2d1987d"}
+{"data":{"name":"PPAP 16 0 18 2"},"meta":{"lable":"reaction"},"id":"2b1e146b-7c57-4d44-bb00-d02223b68a28"}
+{"data":{"name":"Glutathione oxidoreductase"},"meta":{"lable":"reaction"},"id":"70618229-c299-440a-8e05-af2a9c753cd2"}
+{"data":{"name":"Adenine exchange"},"meta":{"lable":"reaction"},"id":"3b0d9513-b633-4502-8af0-0a3aca7d9416"}
+{"data":{"name":"INSt"},"meta":{"lable":"reaction"},"id":"77b1fd1c-29bb-4f99-bdf3-bf43f865f794"}
+{"data":{"name":"Vitamin B6 Metabolism"},"meta":{"lable":"subsystem"},"id":"8403f885-8ed6-430f-893b-4670a88bb149"}
+{"data":{"name":"HEX10"},"meta":{"lable":"reaction"},"id":"1e8b5999-bc3b-4a5c-b713-695f5457fad7"}
+{"data":{"name":"Triose-phosphate isomerase"},"meta":{"lable":"reaction"},"id":"5ea5f06c-2a48-4a0d-83e2-5f56e52c8704"}
+{"data":{"name":"Purine-nucleoside phosphorylase (Adenosine)"},"meta":{"lable":"reaction"},"id":"9c047153-f45a-40d5-81a2-0ec560f6b211"}
+{"data":{"name":"Phosphoribosylpyrophosphate synthetase"},"meta":{"lable":"reaction"},"id":"7a40de1b-ec79-45a4-b5f1-3d0926d85a7f"}
+{"data":{"name":"EX nrpphr e"},"meta":{"lable":"reaction"},"id":"280a626e-8a9e-443e-af99-97599832d8b6"}
+{"data":{"name":"Fumarase"},"meta":{"lable":"reaction"},"id":"81937112-9a71-4502-a1bc-195b795fce33"}
+{"data":{"name":"Methylglyoxal synthase"},"meta":{"lable":"reaction"},"id":"cf4edcf6-b885-4d52-afcc-d1fd1be623f4"}
+{"data":{"name":"Bilirubin UDP-glucuronosyltransferase"},"meta":{"lable":"reaction"},"id":"c49eacee-60b9-4191-a3d9-e20074a18bc9"}
+{"data":{"name":"PLA2 2 18 1 18 1"},"meta":{"lable":"reaction"},"id":"7ef71f3c-cae1-4ed2-9de2-696366e0d694"}
+{"data":{"name":"Oxidized glutathione exchange"},"meta":{"lable":"reaction"},"id":"4a820689-4022-4021-9cd5-aa51ca75de06"}
+{"data":{"name":"Riboflavin Metabolism"},"meta":{"lable":"subsystem"},"id":"a4aa8812-79fa-4d12-9019-54bf653f9269"}
+{"data":{"name":"EX hco3 LPAREN e RPAREN "},"meta":{"lable":"reaction"},"id":"44653ed7-db5a-4e07-9c58-271c26a9a16f"}
+{"data":{"name":"ACNAM9PL"},"meta":{"lable":"reaction"},"id":"4517f354-8643-474d-8843-b34bd972cc20"}
+{"data":{"name":"PIPLC 16 0 16 0"},"meta":{"lable":"reaction"},"id":"29e8de93-cff9-48bd-8f15-9ccc33fedae2"}
+{"data":{"name":"PLA2 2 18 1 18 2"},"meta":{"lable":"reaction"},"id":"50ec31a3-ab2c-4e2b-933e-784f03a52265"}
+{"data":{"name":"Putrescine exchange"},"meta":{"lable":"reaction"},"id":"00817d2a-6005-45f7-9d6a-86bde3bbf2a9"}
+{"data":{"name":"PI45PLC 18 1 18 1"},"meta":{"lable":"reaction"},"id":"4ac79b06-9e2d-4d74-a762-01a2e3762222"}
+{"data":{"name":"Heme oxygenase 1"},"meta":{"lable":"reaction"},"id":"09fa3798-f73c-4553-a4ff-5f73363344e1"}
+{"data":{"name":"PI45PLC 18 1 18 2"},"meta":{"lable":"reaction"},"id":"110119fd-0d3a-4e33-9820-d40a58ef03cf"}
+{"data":{"name":"5'-nucleotidase (AMP)"},"meta":{"lable":"reaction"},"id":"ceab02da-ef47-4e71-a288-c5444575cb55"}
+{"data":{"name":"Choline phosphotransferase (C18:2, C16:0)"},"meta":{"lable":"reaction"},"id":"619155b7-81cf-4823-bd9f-9012083268d1"}
+{"data":{"name":"D lactate transport via proton symport"},"meta":{"lable":"reaction"},"id":"323cfab8-1d97-4637-a64d-1b7d01d4229b"}
+{"data":{"name":"Nicotinamide acid uptake"},"meta":{"lable":"reaction"},"id":"a59360ba-1571-4365-b2da-718dc0f938b9"}
+{"data":{"name":"Glycine exchange"},"meta":{"lable":"reaction"},"id":"82c0a0af-46c7-4b4c-9c6b-991d35aef612"}
+{"data":{"name":"PYDXNtr"},"meta":{"lable":"reaction"},"id":"b0c930d9-617c-432b-8309-03e40d50e3e3"}
+{"data":{"name":"Sink pchol hs 16 0 16 0(c)"},"meta":{"lable":"reaction"},"id":"7f78b4a5-8339-4653-9ec4-d9fa121d92ed"}
+{"data":{"name":"Fructose-bisphosphate aldolase"},"meta":{"lable":"reaction"},"id":"cb5591c8-bee2-4877-bfda-f782c447b92c"}
+{"data":{"name":"Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:2, C16:0)"},"meta":{"lable":"reaction"},"id":"a85c4369-9504-4c4f-8567-21e1764bd592"}
+{"data":{"name":"Fumarate exchange"},"meta":{"lable":"reaction"},"id":"968bca17-88c6-4d52-8858-6e854dfabb4f"}
+{"data":{"name":"6 phosphofructo 2 kinase"},"meta":{"lable":"reaction"},"id":"a1358711-08e2-4260-a25b-7f02b1a4b766"}
+{"data":{"name":"D-lactate exchange"},"meta":{"lable":"reaction"},"id":"60483e53-22d0-4692-b394-488bf9b76ed9"}
+{"data":{"name":"Purine-nucleoside phosphorylase (Guanosine)"},"meta":{"lable":"reaction"},"id":"7bcf24f1-707b-4b9c-af1e-d27d55787d91"}
+{"data":{"name":"Sink mi134p(c)"},"meta":{"lable":"reaction"},"id":"b7740d04-78cf-46f6-9084-b01d31342d26"}
+{"data":{"name":"Sink pe hs 18 2 18 1(c)"},"meta":{"lable":"reaction"},"id":"3e2edf7e-bc88-446a-a96a-07a7ac816347"}
+{"data":{"name":"5'-nucleotidase (UMP)"},"meta":{"lable":"reaction"},"id":"4ef067fb-eb89-4173-abad-e13244033b5b"}
+{"data":{"name":"Phosphoglycerate kinase"},"meta":{"lable":"reaction"},"id":"021ce1fb-9638-4e26-8c5c-bde265ebfe88"}
+{"data":{"name":"PIPLC 18 1 18 2"},"meta":{"lable":"reaction"},"id":"e7a48af0-f935-4f2d-99ae-34cd5b21acbd"}
+{"data":{"name":"PIPLC 18 1 18 1"},"meta":{"lable":"reaction"},"id":"279802c0-ead0-4059-8625-a15dd7a52e16"}
+{"data":{"name":"N-acetylglucosamine kinase"},"meta":{"lable":"reaction"},"id":"5d4d11f4-83c0-476e-8d9e-ea1b10e66223"}
+{"data":{"name":"HCO3 equilibration reaction"},"meta":{"lable":"reaction"},"id":"1d44c645-92c1-4f98-b390-3c3c62bae10e"}
+{"data":{"name":"EX adrnl e"},"meta":{"lable":"reaction"},"id":"30319ff1-b74e-4e98-9e2d-cd9cc604d334"}
+{"data":{"name":"Hydroxyacylglutathione hydrolase"},"meta":{"lable":"reaction"},"id":"08ea2a17-72d5-4b7e-8796-940d8077b934"}
+{"data":{"name":"CDIPTr 16 0 16 0"},"meta":{"lable":"reaction"},"id":"a4847098-7528-4c7f-86e6-688958bd2e8d"}
+{"data":{"name":"Sink pchol hs 18 1 18 1(c)"},"meta":{"lable":"reaction"},"id":"2c2b2fa5-4777-4c4e-bf95-981152ca57af"}
+{"data":{"name":"Thiamin pyrophosphatase"},"meta":{"lable":"reaction"},"id":"a296c1d5-c7dc-46cf-9175-77705ee59954"}
+{"data":{"name":"GAMt1r"},"meta":{"lable":"reaction"},"id":"2a69474b-ba34-4b43-bd3a-cd3f3b9f66cd"}
+{"data":{"name":"UMP kinase"},"meta":{"lable":"reaction"},"id":"bf695990-d26a-4f93-a213-7f9031e8a1ee"}
+{"data":{"name":"Pyridoxal kinase"},"meta":{"lable":"reaction"},"id":"be043856-61bb-4902-a69e-d015616e653e"}
+{"data":{"name":"PPAP 16 0 16 0"},"meta":{"lable":"reaction"},"id":"49ae50a9-ea9e-4edf-a279-1dcb524cd06c"}
+{"data":{"name":"Fatty acid  CoA ligase  hexadecanoate "},"meta":{"lable":"reaction"},"id":"535feeae-9295-49d4-927a-771cc225d9ec"}
+{"data":{"name":"Thiamine diphosphokinase"},"meta":{"lable":"reaction"},"id":"7db56630-cf6f-4944-94a4-130e976dee4c"}
+{"data":{"name":"NP1"},"meta":{"lable":"reaction"},"id":"f80aed04-268c-43a5-b61e-21c78c8d5b90"}
+{"data":{"name":"Sink pe hs 16 0 18 1(c)"},"meta":{"lable":"reaction"},"id":"e159d72e-af90-4e2f-b409-8cdcbb656610"}
+{"data":{"name":"GTHDH"},"meta":{"lable":"reaction"},"id":"d5ae0ef3-87f3-40ca-9ec0-baed51b86408"}
+{"data":{"name":"1;2-dihydroxy-3-keto-5-methylthiopentene dioxygenase"},"meta":{"lable":"reaction"},"id":"21a57ae4-2e6d-4320-9b41-8975a6586a98"}
+{"data":{"name":"Hypoxanthine phosphoribosyltransferase (Hypoxanthine)"},"meta":{"lable":"reaction"},"id":"58ea6c12-3bfb-44d8-a6bd-7efc75c46303"}
+{"data":{"name":"NaKt"},"meta":{"lable":"reaction"},"id":"9720e818-733d-47ad-8444-b0756907bcfd"}
+{"data":{"name":"Carnitine octadecenoyl transferase"},"meta":{"lable":"reaction"},"id":"4ddd0ce5-b59f-4764-a7ba-bf50ad78f348"}
+{"data":{"name":"Phosphatidylinositol synthase (Homo sapiens, C18:2,C18:1)"},"meta":{"lable":"reaction"},"id":"2bdd4d19-6a86-4d23-937c-9d16cba5855e"}
+{"data":{"name":"Hexokinase (D-fructose:ATP)"},"meta":{"lable":"reaction"},"id":"fa8a104d-2b39-4d40-9967-13267de327c1"}
+{"data":{"name":"NADPN"},"meta":{"lable":"reaction"},"id":"9c72859d-7ff7-49b6-a255-53e0e8f59f87"}
+{"data":{"name":"Nad(p)h biliverdin reductase"},"meta":{"lable":"reaction"},"id":"a5ee88b2-471b-45b0-b0b3-d5711cc09491"}
+{"data":{"name":"Arginase"},"meta":{"lable":"reaction"},"id":"bfd7bd0d-ef74-4b41-bec0-f869472f05af"}
+{"data":{"name":"Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:2, C16:0)"},"meta":{"lable":"reaction"},"id":"89ebd5a3-1c9a-4527-a7a8-c58da91c0ead"}
+{"data":{"name":"Glutamine synthetase"},"meta":{"lable":"reaction"},"id":"03e2ec9b-0ac1-4d9d-a7e8-d26cc98ccc68"}
+{"data":{"name":"Sink mi1345p(c)"},"meta":{"lable":"reaction"},"id":"04a7cd8d-053b-4002-95ab-ceddc3e133f9"}
+{"data":{"name":"FADDP"},"meta":{"lable":"reaction"},"id":"8c5eb3ae-fde2-40aa-b459-60d3e2a6e8d7"}
+{"data":{"name":"Uroporphyrinogen-III synthase"},"meta":{"lable":"reaction"},"id":"9a9b73ef-2c9d-4fac-b683-06491db82b6a"}
+{"data":{"name":"Urea transport via facilitate diffusion"},"meta":{"lable":"reaction"},"id":"61f82cf4-b477-4977-8299-87a0611a432f"}
+{"data":{"name":"NT5C"},"meta":{"lable":"reaction"},"id":"b8a12196-6136-4917-817e-3ddc53d028bf"}
+{"data":{"name":"Sink pe hs 16 0 18 2(c)"},"meta":{"lable":"reaction"},"id":"d0c99cef-c443-4d96-97d6-c165fcefc700"}
+{"data":{"name":"Catalase"},"meta":{"lable":"reaction"},"id":"640bec3a-ab9e-40b5-ba12-9b394e2a5d36"}
+{"data":{"name":"Gulonate dehydrogenase"},"meta":{"lable":"reaction"},"id":"1ff445c7-6804-460d-b890-d07a09f972b1"}
+{"data":{"name":"Spermine synthase"},"meta":{"lable":"reaction"},"id":"ff119f13-db51-4651-8f1d-fbb67f9c8be9"}
+{"data":{"name":"Oxidative Phosphorylation"},"meta":{"lable":"subsystem"},"id":"d1faca44-a2f9-40ee-bb54-219839e70b44"}
+{"data":{"name":"N-Acetylneuraminate lyase"},"meta":{"lable":"reaction"},"id":"b38acc43-d9e5-491a-80ca-b56feda6af09"}
+{"data":{"name":"DOPAMT"},"meta":{"lable":"reaction"},"id":"38f399fc-0ac4-4e3e-bac8-fb2d4b90b4ac"}
+{"data":{"name":"Eicosanoid Metabolism"},"meta":{"lable":"subsystem"},"id":"421ede7b-63ec-4b67-8014-8b9f9a1bed81"}
+{"data":{"name":"PLA2 2 16 0 16 0"},"meta":{"lable":"reaction"},"id":"d5309828-95f1-48cb-8feb-1add3964c5b5"}
+{"data":{"name":"Spermidine transport (faciliated)"},"meta":{"lable":"reaction"},"id":"ff0a9b04-fbad-4a10-b719-d5293881dde7"}
+{"data":{"name":"Nucleoside-diphosphate kinase (ATP:CDP)"},"meta":{"lable":"reaction"},"id":"38094b08-7d36-4fc7-a52a-8c9e8da60809"}
+{"data":{"name":"Adenosine kinase"},"meta":{"lable":"reaction"},"id":"821440db-9122-4e33-b865-abf72b72600f"}
+{"data":{"name":"Glycerol kinase"},"meta":{"lable":"reaction"},"id":"673dc5e9-7990-4490-a7f6-3315e8b041b8"}
+{"data":{"name":"Uroporphyrinogen decarboxylase (uroporphyrinogen III)"},"meta":{"lable":"reaction"},"id":"2c122919-9697-4b52-8251-7f4bbee629e0"}
+{"data":{"name":"PIPLC 16 0 18 2"},"meta":{"lable":"reaction"},"id":"a6eda192-7342-4cd8-9ecb-cfa528e50a6c"}
+{"data":{"name":"Diphosphoglyceromutase"},"meta":{"lable":"reaction"},"id":"8efa86bd-a5a6-4305-989c-5c77111d1e2f"}
+{"data":{"name":"PIPLC 16 0 18 1"},"meta":{"lable":"reaction"},"id":"858ba2d6-f012-434b-ba0d-25fa99b6cd00"}
+{"data":{"name":"EX 35cgmp e"},"meta":{"lable":"reaction"},"id":"d3dc5cfb-bc52-4a49-b32c-2f23287af531"}
+{"data":{"name":"Glutathione peridoxase"},"meta":{"lable":"reaction"},"id":"10115a7b-cf77-43a6-bc67-130356b4ec08"}
+{"data":{"name":"C160 reverse"},"meta":{"lable":"reaction"},"id":"633609b0-a554-44b5-8a66-9b86557fca05"}
+{"data":{"name":"Sink for(c)"},"meta":{"lable":"reaction"},"id":"66f8bf11-a8c7-4228-951f-d30dced9decc"}
+{"data":{"name":"Pyridoxine kinase"},"meta":{"lable":"reaction"},"id":"cab1301d-7855-4f6b-a316-9bdecb0ae215"}
+{"data":{"name":"Phosphopentomutase"},"meta":{"lable":"reaction"},"id":"a551ab84-5c06-4b3e-bddb-697d22ebfb35"}
+{"data":{"name":"PI4PLC 18 1 18 2"},"meta":{"lable":"reaction"},"id":"9c29621b-d3f9-4571-842c-85b940dae520"}
+{"data":{"name":"PI4PLC 18 1 18 1"},"meta":{"lable":"reaction"},"id":"16cf3087-81fb-413d-b27b-46336adbc43d"}
+{"data":{"name":"Nucleotides"},"meta":{"lable":"subsystem"},"id":"843b5332-39b1-4416-8e5e-a23dc8c7b76f"}
+{"data":{"name":"Ethanolamine phosphotransferase (C18:2,C18:1)"},"meta":{"lable":"reaction"},"id":"f72f825c-3343-4a94-8624-3da5644f9fef"}
+{"data":{"name":"Guanylate cyclase"},"meta":{"lable":"reaction"},"id":"f446f165-dc57-49a7-bdcc-d92f68a1c775"}
+{"data":{"name":"H+ exchange"},"meta":{"lable":"reaction"},"id":"ff9f9900-cdd8-4a03-9e2a-7384b3d7bc4b"}
+{"data":{"name":"Sink band(c)"},"meta":{"lable":"reaction"},"id":"11a42364-1075-4aa0-b690-c7fe27362230"}
+{"data":{"name":"Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C18:2)"},"meta":{"lable":"reaction"},"id":"7b0f9588-0f60-4237-a8a9-c048249cf81a"}
+{"data":{"name":"CEPTE 16 0 16 0"},"meta":{"lable":"reaction"},"id":"2f0af6f4-540b-40c8-bef2-a06ac232adbe"}
+{"data":{"name":"MI1345PP"},"meta":{"lable":"reaction"},"id":"47559d28-a8a4-44de-99b9-ef08921290fe"}
+{"data":{"name":"CEPTC 16 0 18 1"},"meta":{"lable":"reaction"},"id":"40f103fe-6d78-4000-9abf-f32c3fceae94"}
+{"data":{"name":"Sink pchol hs 18 2 16 0(c)"},"meta":{"lable":"reaction"},"id":"19ef8da0-63d7-49df-9ca4-ff357a620521"}
+{"data":{"name":"CEPTC 16 0 18 2"},"meta":{"lable":"reaction"},"id":"853c8e32-6076-4a35-86a7-a367bf398d5c"}
+{"data":{"name":"Thiamin exchange"},"meta":{"lable":"reaction"},"id":"0076c847-320e-4b98-8d29-f50c11d29d51"}
+{"data":{"name":"Phosphofructokinase"},"meta":{"lable":"reaction"},"id":"8fa3c71a-ac0a-45a5-9014-928ee3a4b05b"}
+{"data":{"name":"Urea cycle\/amino group metabolism"},"meta":{"lable":"subsystem"},"id":"f0a0dc17-64ef-46fa-ab9d-5874b6a07821"}
+{"data":{"name":"D-Mannose exchange"},"meta":{"lable":"reaction"},"id":"6fa0bf00-ec5f-4adf-874f-8477baef7bd1"}
+{"data":{"name":"Nicotinamide ribonucleotide phosphohydrolase"},"meta":{"lable":"reaction"},"id":"032ce712-5433-4a26-831c-f3064e63df2e"}
+{"data":{"name":"PI45PLC 16 0 16 0"},"meta":{"lable":"reaction"},"id":"ecc4e0d5-7b3e-4e7f-ab27-ffd64795e47c"}
+{"data":{"name":"Pyruvate exchange"},"meta":{"lable":"reaction"},"id":"cef47ec4-71b7-4386-b8f5-0c3f15ec1c1a"}
+{"data":{"name":"Aminosugar Metabolism"},"meta":{"lable":"subsystem"},"id":"2954557f-9707-438d-9107-baa65faad95b"}
+{"data":{"name":"Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:2, C18:1)"},"meta":{"lable":"reaction"},"id":"564c290e-4bca-467e-977d-96e70e310642"}
+{"data":{"name":"Homocysteine transport (extracellular)"},"meta":{"lable":"reaction"},"id":"767f7b5c-18f5-416f-b367-6377580d45de"}
+{"data":{"name":"NH4t3r"},"meta":{"lable":"reaction"},"id":"d56ff170-b9e5-48ba-ad94-d013af75eba6"}
+{"data":{"name":"Fatty acid activation"},"meta":{"lable":"subsystem"},"id":"82b23eb9-d931-4d37-a3b5-537d49012d5c"}
+{"data":{"name":"Protoporphyrinogen oxidase (aerobic)"},"meta":{"lable":"reaction"},"id":"d605d650-65a4-42d2-9b7f-2192e45b2457"}
+{"data":{"name":"Acetate reversible transport via proton symport"},"meta":{"lable":"reaction"},"id":"461cbf51-5af6-414f-a39a-6927b9aaa728"}
+{"data":{"name":"Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C18:1)"},"meta":{"lable":"reaction"},"id":"8959989b-a64c-419b-ab29-079732a5a308"}
+{"data":{"name":"Phosphatidic acid phosphatase (C18:2, C16:0)"},"meta":{"lable":"reaction"},"id":"7c4cff00-172a-4465-b2ff-fa019ec10c11"}
+{"data":{"name":"CYStec"},"meta":{"lable":"reaction"},"id":"ab885316-bb33-4402-bb17-44d8a3168136"}
+{"data":{"name":"Nicotinamide-nucleotide adenylyltransferase"},"meta":{"lable":"reaction"},"id":"1739c6c4-93e2-4b7e-8b04-295e3f9b1958"}
+{"data":{"name":"GMP synthase"},"meta":{"lable":"reaction"},"id":"ba5eff75-81fc-4591-af57-f657e33c7793"}
+{"data":{"name":"PHEtec"},"meta":{"lable":"reaction"},"id":"f970b196-f928-4bfd-b089-58a68c1dfce9"}
+{"data":{"name":"Ethanolamine kinase"},"meta":{"lable":"reaction"},"id":"965999a8-cea1-464a-a139-905ca13ae2f8"}
+{"data":{"name":"Sodium exchange"},"meta":{"lable":"reaction"},"id":"9a7315f0-5c84-4ecf-bc80-727938f55a82"}
+{"data":{"name":"CDS 16 0 16 0"},"meta":{"lable":"reaction"},"id":"7b8fc4f5-f0ff-4f6b-83d0-2e4090241049"}
+{"data":{"name":"4PYRDX"},"meta":{"lable":"reaction"},"id":"98b3bb17-79be-4715-adfe-4fbabcb5a4f8"}
+{"data":{"name":"OROATP"},"meta":{"lable":"reaction"},"id":"516cf84a-6336-494f-9b9e-312c2e36dcb9"}
+{"data":{"name":"Orotate exchange"},"meta":{"lable":"reaction"},"id":"58514798-91ef-4955-8c10-02899626c81a"}
+{"data":{"name":"Salvage Pathway"},"meta":{"lable":"subsystem"},"id":"8b1e3939-25bd-448f-82d1-30270ad75fab"}
+{"data":{"name":"Malic enzyme (NADP)"},"meta":{"lable":"reaction"},"id":"f4e41d97-de2e-4745-8f09-a9781dfcf509"}
+{"data":{"name":"MI145PP"},"meta":{"lable":"reaction"},"id":"e7104eb0-3f47-497c-9f41-eceafa0ea6ef"}
+{"data":{"name":"H2O exchange"},"meta":{"lable":"reaction"},"id":"53d99e3f-f9b5-4f33-8b67-16f6bae3a061"}
+{"data":{"name":"MI145PK"},"meta":{"lable":"reaction"},"id":"02d13385-9de2-44c6-b98c-b75219f448ca"}
+{"data":{"name":"SALMCOM"},"meta":{"lable":"reaction"},"id":"579c02d4-d516-45c0-8651-69fdb50176c6"}
+{"data":{"name":"L-Cysteine exchange"},"meta":{"lable":"reaction"},"id":"47b0c7ee-870c-487c-b0ca-e373756113cb"}
+{"data":{"name":"Sink pchol hs 18 2 18 1(c)"},"meta":{"lable":"reaction"},"id":"d355b650-665c-4c13-93a5-f3b86d67526a"}
+{"data":{"name":"UDPglucose 4-epimerase"},"meta":{"lable":"reaction"},"id":"d19826d8-3bfa-4789-9cf9-345c5f21624e"}
+{"data":{"name":"Heme Degradation"},"meta":{"lable":"subsystem"},"id":"da9ef733-fe06-49bb-85b0-ce0a674a7dd1"}
+{"data":{"name":"Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:2, C18:1)"},"meta":{"lable":"reaction"},"id":"85ae5194-bf51-4e44-86cc-fc5347ed6127"}
+{"data":{"name":"PIK4 16 0 18 1"},"meta":{"lable":"reaction"},"id":"3ff45c2d-47fc-4bb4-a7ba-910d7ff01f91"}
+{"data":{"name":"PIK4 16 0 18 2"},"meta":{"lable":"reaction"},"id":"73e01551-66fe-46e9-9ab4-b5cb8c194602"}
+{"data":{"name":"NAD kinase"},"meta":{"lable":"reaction"},"id":"b3654543-62c6-42fa-94df-034fd40b76f6"}
+{"data":{"name":"CEPTC 16 0 16 0"},"meta":{"lable":"reaction"},"id":"a662ec6f-bbc5-45d1-a097-cae6f698473b"}
+{"data":{"name":"CEPTE 16 0 18 2"},"meta":{"lable":"reaction"},"id":"0e643b1e-71ef-4f9b-951e-8628611d0745"}
+{"data":{"name":"CEPTE 16 0 18 1"},"meta":{"lable":"reaction"},"id":"a5954921-ce3b-4c6d-abf4-c0fad08686b4"}
+{"data":{"name":"Malate dehydrogenase"},"meta":{"lable":"reaction"},"id":"0ba859ec-85e7-42fd-9934-439077776082"}
+{"data":{"name":"Nicotinamide exchange"},"meta":{"lable":"reaction"},"id":"72ae5789-3fa8-4fed-9dc5-4dcc59daad82"}
+{"data":{"name":"Tyrosine metabolism"},"meta":{"lable":"subsystem"},"id":"d3f9ff8f-52b6-4522-acc0-65749e9774af"}
+{"data":{"name":"Glutathione synthetase"},"meta":{"lable":"reaction"},"id":"422717d1-1d09-4b3e-a244-dc8c7f18d952"}
+{"data":{"name":"Guanine phosphoribosyltransferase"},"meta":{"lable":"reaction"},"id":"9dcd113f-66da-4018-a2b1-99f2dd6906a3"}
+{"data":{"name":"Carnitine shuttle"},"meta":{"lable":"subsystem"},"id":"344fc98b-0a16-44ce-a4b1-11ceb74967c8"}
+{"data":{"name":"Transaldolase"},"meta":{"lable":"reaction"},"id":"8b8c1590-bd37-453a-ac87-994388b5a2e2"}
+{"data":{"name":"BILGLCURt"},"meta":{"lable":"reaction"},"id":"504b27a4-de4f-43b7-8f8b-6f266fdf1cdd"}
+{"data":{"name":"Methionine Salvage"},"meta":{"lable":"subsystem"},"id":"ff87f4ac-78e8-447b-9118-4c5688d36c15"}
+{"data":{"name":"N-acetylneuraminate proton symport"},"meta":{"lable":"reaction"},"id":"99ff9de3-d4d3-47f0-8af9-7f48b791bf78"}
+{"data":{"name":"Nucleoside-diphosphate kinase (ATP:GDP)"},"meta":{"lable":"reaction"},"id":"b5e38f5f-ce4d-4bc3-99e7-7a4bcd3769c7"}
+{"data":{"name":"Glucose 6-phosphate dehydrogenase"},"meta":{"lable":"reaction"},"id":"03c4bce3-812c-431c-865d-67fa0d6e8b7c"}
+{"data":{"name":"K+ exchange"},"meta":{"lable":"reaction"},"id":"e458f301-40b0-449c-b0c5-84af8efed195"}
+{"data":{"name":"Choline exchange"},"meta":{"lable":"reaction"},"id":"251e5c04-31b9-4f98-96a3-81b6b0a0d111"}
+{"data":{"name":"Phosphatidylinositol 4-phosphate 5-kinase (C18:1,C18:1)"},"meta":{"lable":"reaction"},"id":"d75ed862-56f9-4065-86b6-390a909bb473"}
+{"data":{"name":"AP4AH1"},"meta":{"lable":"reaction"},"id":"599bfd1e-d0d3-46be-8d05-2400594354fd"}
+{"data":{"name":"METtec"},"meta":{"lable":"reaction"},"id":"b668ba0c-ab54-452d-9c7c-abda5806674d"}
+{"data":{"name":"MEPIVESSte"},"meta":{"lable":"reaction"},"id":"fd3c0a46-e701-4ddb-a864-b3a3aa15f2b9"}
+{"data":{"name":"NICRNS"},"meta":{"lable":"reaction"},"id":"090dbe65-12cd-4090-923e-916f72fb894b"}
+{"data":{"name":"EX dhdascb e"},"meta":{"lable":"reaction"},"id":"79f8da54-614f-461d-adfa-720380548715"}
+{"data":{"name":"Phosphoethanolamine cytidyltransferase"},"meta":{"lable":"reaction"},"id":"4f2f0470-7c0b-48f9-9bcc-53deb0ffa567"}
+{"data":{"name":"Chloride exchange"},"meta":{"lable":"reaction"},"id":"eb31667d-d4f8-4f64-85c5-69b636ea3c37"}
+{"data":{"name":"CGMPt"},"meta":{"lable":"reaction"},"id":"c7343162-43af-4588-a009-f43e4c048b8b"}
+{"data":{"name":"Phosphatidylinositol 4-phosphate 5-kinase (C18:2,C16:0)"},"meta":{"lable":"reaction"},"id":"224cc04b-1af2-4a9f-b734-b0e26df81a82"}
+{"data":{"name":"EX gluala e"},"meta":{"lable":"reaction"},"id":"c4e7ab7d-0406-4b98-9a18-fc9f73d9620e"}
+{"data":{"name":"Ribulose 5-phosphate 3-epimerase"},"meta":{"lable":"reaction"},"id":"cf928ddb-dbf5-4567-aca8-a3c59fa7f57a"}
+{"data":{"name":"EX lnlc e"},"meta":{"lable":"reaction"},"id":"fcd6701a-eec0-4c3f-8478-3ab84829698e"}
+{"data":{"name":"Purine Catabolism"},"meta":{"lable":"subsystem"},"id":"09a2765a-ed6f-4a1d-8188-cf7e39615131"}
+{"data":{"name":"Diacylglycerol phosphate kinase (homo sapiens, C16:0, C18:2)"},"meta":{"lable":"reaction"},"id":"63bb185e-6cb3-489e-becd-50d93631aefd"}
+{"data":{"name":"1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C16:0)"},"meta":{"lable":"reaction"},"id":"add4b3ae-09d2-4c80-b517-fd860ce06daf"}
+{"data":{"name":"Sink adprbp(c)"},"meta":{"lable":"reaction"},"id":"66c75082-68ce-4182-ae15-88f3d717cdd8"}
+{"data":{"name":"Hypoxanthine exchange"},"meta":{"lable":"reaction"},"id":"3852241f-a4c2-4e71-8856-d188cdc7e812"}
+{"data":{"name":"Diacylglycerol phosphate kinase (homo sapiens, C16:0, C18:1)"},"meta":{"lable":"reaction"},"id":"cae790df-8710-4662-a0a1-a1e45a5905ab"}
+{"data":{"name":"DOPAtu"},"meta":{"lable":"reaction"},"id":"5f1d6079-dcdf-47e5-8d7f-71d8a9ab2a4d"}
+{"data":{"name":"Glucose-6-phosphate isomerase"},"meta":{"lable":"reaction"},"id":"e1915814-a4de-42e1-845e-2bb3dd482945"}
+{"data":{"name":"Puterscine transport (faciliated)"},"meta":{"lable":"reaction"},"id":"1f8eea8f-3ad9-4f31-a2f2-9266b3429dc2"}
+{"data":{"name":"Purine nucleoside phosphorylase"},"meta":{"lable":"reaction"},"id":"dbd1bad1-4438-423e-83f2-4ecd65f5e0b6"}
+{"data":{"name":"CDS 16 0 18 1"},"meta":{"lable":"reaction"},"id":"91c5d8dc-b86a-4964-8c3d-ed2d7989599a"}
+{"data":{"name":"Glutamate metabolism"},"meta":{"lable":"subsystem"},"id":"28fad1dc-8442-4d59-905d-6071f8305e69"}
+{"data":{"name":"L-Normetanephrine seceretion via secretory vesicle (ATP driven)"},"meta":{"lable":"reaction"},"id":"e2e65aaf-05dc-4a39-9649-08a4a2e0e02c"}
+{"data":{"name":"CDS 16 0 18 2"},"meta":{"lable":"reaction"},"id":"aa58ffa6-b22c-4109-b64b-724afba52efd"}
+{"data":{"name":"Guanylate kinase (GMP:ATP)"},"meta":{"lable":"reaction"},"id":"46106095-63ff-4abe-a8d1-8b5e6fb27cf8"}
+{"data":{"name":"Phosphatidylinositol 4-kinase (C18:2,C16:0)"},"meta":{"lable":"reaction"},"id":"29f7c79c-4d4d-4606-a773-cdb0c51b57e6"}
+{"data":{"name":"DPGase"},"meta":{"lable":"reaction"},"id":"f35c461a-e7ea-4a59-851f-48604b6f0097"}
+{"data":{"name":"KCCt"},"meta":{"lable":"reaction"},"id":"3766c082-8bc3-43e1-a8b6-fadd7978c28b"}
+{"data":{"name":"Calcium exchange"},"meta":{"lable":"reaction"},"id":"17149174-e877-42c9-be3e-c67269bdc98e"}
+{"data":{"name":"ARGt5r"},"meta":{"lable":"reaction"},"id":"7daf566e-7dde-42e9-a8e5-ceea743fe015"}
+{"data":{"name":"CEPTC 18 1 18 2"},"meta":{"lable":"reaction"},"id":"e5ec6c34-7de3-47cc-be5d-0b0d34a6844a"}
+{"data":{"name":"CEPTC 18 1 18 1"},"meta":{"lable":"reaction"},"id":"bec06622-4599-4c6f-aa7e-fdecfebf69fa"}
+{"data":{"name":"Hydroxymethylbilane synthase"},"meta":{"lable":"reaction"},"id":"4a391f52-171d-4f4c-bf9e-4b3d1428f5bc"}
+{"data":{"name":"Nicotinate exchange"},"meta":{"lable":"reaction"},"id":"a85c1614-42b9-4a72-ae1b-703dfa2d0095"}
+{"data":{"name":"Thiamine Metabolism"},"meta":{"lable":"subsystem"},"id":"0f598ea5-36d0-446e-b2b9-ceda0a6ac267"}
+{"data":{"name":"5-Methylthio-5-deoxy-D-ribulose 1-phosphate dehydratase"},"meta":{"lable":"reaction"},"id":"268369e9-fc13-45d2-838c-c1b4396771cf"}
+{"data":{"name":"Extracellular exchange"},"meta":{"lable":"subsystem"},"id":"0d94fc5e-1596-43ad-b236-e9e46df5d0c7"}
+{"data":{"name":"L-Malate exchange"},"meta":{"lable":"reaction"},"id":"7a4c55b0-7089-4e67-b18f-476f76498a4d"}
+{"data":{"name":"NAD Metabolism"},"meta":{"lable":"subsystem"},"id":"bc1cf669-c6cc-4ace-9907-998b8b0efe45"}
+{"data":{"name":"Glycerol-3-phosphate acyltransferase (C16:0)"},"meta":{"lable":"reaction"},"id":"4acbc97e-5c4f-485d-8de1-89f22d298ba7"}
+{"data":{"name":"PIK4 16 0 16 0"},"meta":{"lable":"reaction"},"id":"bfeceb3d-6030-4f0a-aec9-734a1ba2abdb"}
+{"data":{"name":"LEUKTRB4t"},"meta":{"lable":"reaction"},"id":"ebe4bfe5-ec04-4b92-8d0e-b8d523d0da45"}
+{"data":{"name":"Pyridoxamine kinase"},"meta":{"lable":"reaction"},"id":"80b08bbb-f223-42c8-8740-9c4a8081648a"}
+{"data":{"name":"L-Ascorbate exchange"},"meta":{"lable":"reaction"},"id":"4fd2c608-53a5-469f-9bfb-9680d4c679cd"}
+{"data":{"name":"CO2 transporter via diffusion"},"meta":{"lable":"reaction"},"id":"47bb8632-322b-422a-b477-3aa97c6264c9"}
+{"data":{"name":"Inosine exchange"},"meta":{"lable":"reaction"},"id":"37135ecb-c235-4e1a-8a72-ee69df069dde"}
+{"data":{"name":"Ferrochelatase"},"meta":{"lable":"reaction"},"id":"88c39857-acbf-4537-aa21-03f9e0ecd15e"}
+{"data":{"name":"CDIPTr 18 1 18 2"},"meta":{"lable":"reaction"},"id":"bbadafa8-6e2b-4a31-90bc-f3bc30ffc9a5"}
+{"data":{"name":"Galactokinase"},"meta":{"lable":"reaction"},"id":"387418b6-0353-4b55-a083-50281e4a1de4"}
+{"data":{"name":"CDIPTr 18 1 18 1"},"meta":{"lable":"reaction"},"id":"2bfb4e0f-7549-4a4d-9704-d62cfd6997ce"}
+{"data":{"name":"Diacylglycerol Synthesis"},"meta":{"lable":"subsystem"},"id":"edcf9a6a-a0eb-4e00-aa9d-794395141da5"}
+{"data":{"name":"Citric Acid Cycle"},"meta":{"lable":"subsystem"},"id":"d7355cf2-d049-4b59-860c-9012ae29e877"}
+{"data":{"name":"Nicotinate-mononucleotide adenylyltransferase"},"meta":{"lable":"reaction"},"id":"525d1bc4-8518-472c-b095-25023de0d46c"}
+{"data":{"name":"O2 exchange"},"meta":{"lable":"reaction"},"id":"785977a6-e353-4616-aa1d-96b2b8210c27"}
+{"data":{"name":"ACP1 FMN"},"meta":{"lable":"reaction"},"id":"2e12f5b6-c1f6-4e36-ac3a-f5a69ec8ea48"}
+{"data":{"name":"CDS 18 1 18 1"},"meta":{"lable":"reaction"},"id":"190bc027-ec33-456e-83f3-3395f823b489"}
+{"data":{"name":"CDS 18 1 18 2"},"meta":{"lable":"reaction"},"id":"7c7dbde1-695e-49d9-8d97-01f8eec04e8e"}
+{"data":{"name":"Adenine phosphoribosyltransferase"},"meta":{"lable":"reaction"},"id":"b9e218b6-4dd6-4058-add3-8c0d1c592351"}
+{"data":{"name":"LNLCCPT1"},"meta":{"lable":"reaction"},"id":"6dafaff5-f83d-4805-abe1-5263e90416ff"}
+{"data":{"name":"Diacylglycerol phosphate kinase (homo sapiens, C18:2,C18:1)"},"meta":{"lable":"reaction"},"id":"fbf98c55-5452-446c-98fb-60e39059f5cc"}
+{"data":{"name":"Pyruvate Metabolism"},"meta":{"lable":"subsystem"},"id":"cc036352-2ba9-42bc-9ae0-0483767e1091"}
+{"data":{"name":"Phosphatidylinositol phospholipase C (C18:2,C18:1)"},"meta":{"lable":"reaction"},"id":"495fe443-bfc5-499b-9727-d0adf7098dfc"}
