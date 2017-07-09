@@ -41,7 +41,7 @@ public class Metabolism extends AbstractRunner {
 		return graphHead.getPropertyValue(edgeCount.getAggregatePropertyKey()).toString();
 	}
 
-	public void getVertexEdges() throws Exception {
+	public void getVertexEdges(int in, int out) throws Exception {
 
 		List<Edge> edges = graph.getEdges().collect();
 		List<Vertex> vertices = graph.getVertices().collect();
@@ -57,45 +57,50 @@ public class Metabolism extends AbstractRunner {
 			cntIn = 0;
 			cntOut = 0;
 			for (Edge edge : edges) {
-				// if (edge.getSourceId().equals(vertexID)) {
+				if (edge.getSourceId().equals(vertexID)) {
+					// System.out.println("Source -> "+edge.getSourceId());
+					cntOut++;
+				}
 				if (edge.getTargetId().equals(vertexID)) {
-					EdgesInCounts.put(vertex, cntIn);
-					EdgesOutCounts.put(vertex, cntOut);
-
-					System.out.println("Vertex: " + vertex.getLabel() + ":\t incoming Edges: " + cntIn
-							+ "\t outgoing Edges: " + cntOut);
-
+					// //System.out.println("Target -> "+edge.getSourceId());
+					cntIn++;
 				}
 			}
+
+			EdgesInCounts.put(vertex, cntIn);
+			EdgesOutCounts.put(vertex, cntOut);
+			if (cntIn > in || cntOut > out)
+				System.out.println("Vertex: " + vertex.getLabel() + ":\t incoming Edges: " + cntIn
+						+ "\t outgoing Edges: " + cntOut);
+
 		}
 	}
-
-	// public static void main(String[] args) throws Exception {
-	//
-	//
-	//
-	// List<Edge> edges =graph.getEdges().collect(); List<Vertex> vertices =
-	// graph.getVertices().collect();
-	// System.out.println("Edges: "+edges.size());
-	// System.out.println("Vertices: "+vertices.size());
-	//
-	// Map<Vertex, Integer> EdgesInCounts = new HashMap<>(); Map<Vertex,
-	// Integer> EdgesOutCounts = new HashMap<>(); Set<GradoopId> idSet = new
-	// HashSet<>(); int cntIn, cntOut; for (Vertex vertex : vertices){
-	// GradoopId vertexID = vertex.getId(); //System.out.println(vertexID);
-	//
-	// cntIn = 0; cntOut = 0; for(Edge edge : edges){
-	// //System.out.println(edge.getSourceId());
-	// idSet.add(edge.getSourceId()); if
-	// (edge.getSourceId().equals(vertexID)){
-	// System.out.println("Source -> "+edge.getSourceId()); cntOut ++; }
-	// if (edge.getTargetId().equals(vertexID)){
-	// //System.out.println("Target -> "+edge.getSourceId()); cntIn ++; } }
-	// EdgesInCounts.put(vertex, cntIn); EdgesOutCounts.put(vertex, cntOut);
-	// System.out.println("Vertex: "+vertex.getLabel()
-	// +":\t incoming Edges: "+ cntIn +"\t outgoing Edges: "+ cntOut);
-	// }
-	//
-	// }
-
 }
+
+// public static void main(String[] args) throws Exception {
+//
+//
+//
+// List<Edge> edges =graph.getEdges().collect(); List<Vertex> vertices =
+// graph.getVertices().collect();
+// System.out.println("Edges: "+edges.size());
+// System.out.println("Vertices: "+vertices.size());
+//
+// Map<Vertex, Integer> EdgesInCounts = new HashMap<>(); Map<Vertex,
+// Integer> EdgesOutCounts = new HashMap<>(); Set<GradoopId> idSet = new
+// HashSet<>(); int cntIn, cntOut; for (Vertex vertex : vertices){
+// GradoopId vertexID = vertex.getId(); //System.out.println(vertexID);
+//
+// cntIn = 0; cntOut = 0; for(Edge edge : edges){
+// //System.out.println(edge.getSourceId());
+// idSet.add(edge.getSourceId()); if
+// (edge.getSourceId().equals(vertexID)){
+// System.out.println("Source -> "+edge.getSourceId()); cntOut ++; }
+// if (edge.getTargetId().equals(vertexID)){
+// //System.out.println("Target -> "+edge.getSourceId()); cntIn ++; } }
+// EdgesInCounts.put(vertex, cntIn); EdgesOutCounts.put(vertex, cntOut);
+// System.out.println("Vertex: "+vertex.getLabel()
+// +":\t incoming Edges: "+ cntIn +"\t outgoing Edges: "+ cntOut);
+// }
+//
+// }

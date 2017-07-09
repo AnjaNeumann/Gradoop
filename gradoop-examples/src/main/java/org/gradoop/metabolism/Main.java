@@ -7,7 +7,7 @@ public class Main {
 		String vcnt = mtb.getVertexCount();
 		String ecnt = mtb.getEdgeCount();
 
-		mtb.getVertexEdges();
+		mtb.getVertexEdges(0, 0);
 
 		System.out.println("VertexCount: " + vcnt);
 		System.out.println("EdgeCount: " + ecnt);
