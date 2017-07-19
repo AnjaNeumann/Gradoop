@@ -1,0 +1,11 @@
+BDP:
+
+
+- Was geht raus (Membrantransport)
+- Filtern (Subsysteme)
+- frequent subgraph mining
+- vertex grouping nach #edges
+- Daten aus Gradoop exportiern (visualisierbar)
+- überlegen, was man noch so mit gradoop machen kann
+
+- Gene einlesen (Namesgebung der Kanten überdenken)
