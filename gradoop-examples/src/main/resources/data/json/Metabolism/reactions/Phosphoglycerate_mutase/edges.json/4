@@ -1,0 +1,4 @@
+{"id":"5964c0f0c7edff2ede4d4d3b","source":"5964c0f0c7edff2ede4d412e","target":"5964c0f0c7edff2ede4d4d39","data":{"quantity":-1},"meta":{"label":"input","graphs":["5964c0f0c7edff2ede4d4129","5964c0f0c7edff2ede4d4624","5964c0f0c7edff2ede4d4d3a"]}}
+{"id":"5964c0f0c7edff2ede4d4d3c","source":"5964c0f0c7edff2ede4d4d39","target":"5964c0f0c7edff2ede4d4132","data":{"quantity":1},"meta":{"label":"output","graphs":["5964c0f0c7edff2ede4d4129","5964c0f0c7edff2ede4d4624","5964c0f0c7edff2ede4d4d3a"]}}
+{"id":"5964c0f0c7edff2ede4d4d3d","source":"5964c0f0c7edff2ede4d42f3","target":"5964c0f0c7edff2ede4d4d39","data":{},"meta":{"label":"gene_or","graphs":["5964c0f0c7edff2ede4d4624","5964c0f0c7edff2ede4d4d3a"]}}
+{"id":"5964c0f0c7edff2ede4d4d3e","source":"5964c0f0c7edff2ede4d42f4","target":"5964c0f0c7edff2ede4d4d39","data":{},"meta":{"label":"gene_or","graphs":["5964c0f0c7edff2ede4d4624","5964c0f0c7edff2ede4d4d3a"]}}

@@ -1,0 +1,6 @@
+{"id":"5964c0f0c7edff2ede4d4946","data":{"type":"reaction_blank"},"meta":{"label":"Fumarase","graphs":["5964c0f0c7edff2ede4d4948","5964c0f0c7edff2ede4d4947","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4b04","data":{"type":"reaction_blank"},"meta":{"label":"Isocitrate dehydrogenase (NADP)","graphs":["5964c0f0c7edff2ede4d4948","5964c0f0c7edff2ede4d4b05","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4b87","data":{"type":"reaction_blank"},"meta":{"label":"Malate dehydrogenase","graphs":["5964c0f0c7edff2ede4d4948","5964c0f0c7edff2ede4d4b88","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d430b","data":{"type":"gene","oldID":"Fh_AT1"},"meta":{"label":"Fh_AT1","graphs":["5964c0f0c7edff2ede4d4948","5964c0f0c7edff2ede4d4947"]}}
+{"id":"5964c0f0c7edff2ede4d435c","data":{"type":"gene","oldID":"Mdh1_AT1"},"meta":{"label":"Mdh1_AT1","graphs":["5964c0f0c7edff2ede4d4948","5964c0f0c7edff2ede4d4b88"]}}
+{"id":"5964c0f0c7edff2ede4d4350","data":{"type":"gene","oldID":"Idh1_AT1"},"meta":{"label":"Idh1_AT1","graphs":["5964c0f0c7edff2ede4d4948","5964c0f0c7edff2ede4d4b05"]}}

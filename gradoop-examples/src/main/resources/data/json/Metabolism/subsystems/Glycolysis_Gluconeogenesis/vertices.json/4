@@ -1,0 +1,8 @@
+{"id":"5964c0f0c7edff2ede4d4622","data":{"type":"reaction_blank"},"meta":{"label":"Aldehyde dehydrogenase (acetaldehyde, NAD)","graphs":["5964c0f0c7edff2ede4d4624","5964c0f0c7edff2ede4d4623","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d48c3","data":{"type":"reaction_blank"},"meta":{"label":"Diphosphoglyceromutase","graphs":["5964c0f0c7edff2ede4d4624","5964c0f0c7edff2ede4d48c4","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d48ca","data":{"type":"reaction_blank"},"meta":{"label":"DPGase","graphs":["5964c0f0c7edff2ede4d4624","5964c0f0c7edff2ede4d48cb","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d48d2","data":{"type":"reaction_blank"},"meta":{"label":"Enolase","graphs":["5964c0f0c7edff2ede4d4624","5964c0f0c7edff2ede4d48d3","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4912","data":{"type":"reaction_blank"},"meta":{"label":"Fructose-bisphosphate aldolase","graphs":["5964c0f0c7edff2ede4d4624","5964c0f0c7edff2ede4d4913","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4993","data":{"type":"reaction_blank"},"meta":{"label":"Glyceraldehyde-3-phosphate dehydrogenase","graphs":["5964c0f0c7edff2ede4d4624","5964c0f0c7edff2ede4d4994","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4aa4","data":{"type":"reaction_blank"},"meta":{"label":"Hexokinase (D-glucose:ATP)","graphs":["5964c0f0c7edff2ede4d4624","5964c0f0c7edff2ede4d4aa5","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4b2a","data":{"type":"reaction_blank"},"meta":{"label":"L-lactate dehydrogenase","graphs":["5964c0f0c7edff2ede4d4624","5964c0f0c7edff2ede4d4b2b","5964c0f0c7edff2ede4d4129"]}}

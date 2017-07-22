@@ -1,0 +1,2 @@
+{"id":"5964c0f0c7edff2ede4d50f2","data":{"type":"reaction_blank"},"meta":{"label":"UDPglucose 4-epimerase","graphs":["5964c0f0c7edff2ede4d4963","5964c0f0c7edff2ede4d50f3","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4229","data":{"type":"metabolite","oldID":"udpgal"},"meta":{"label":"UDPgalactose","graphs":["5964c0f0c7edff2ede4d4129","5964c0f0c7edff2ede4d4963","5964c0f0c7edff2ede4d4975","5964c0f0c7edff2ede4d50f3","5964c0f0c7edff2ede4d510a"]}}

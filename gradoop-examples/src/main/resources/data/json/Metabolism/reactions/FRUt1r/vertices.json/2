@@ -1,0 +1,2 @@
+{"id":"5964c0f0c7edff2ede4d424e","data":{"type":"metabolite","oldID":"fru"},"meta":{"label":"D-Fructose","graphs":["5964c0f0c7edff2ede4d412a","5964c0f0c7edff2ede4d4427","5964c0f0c7edff2ede4d4510","5964c0f0c7edff2ede4d493e","5964c0f0c7edff2ede4d4129","5964c0f0c7edff2ede4d491d","5964c0f0c7edff2ede4d4ad2","5964c0f0c7edff2ede4d5086"]}}
+{"id":"5964c0f0c7edff2ede4d4307","data":{"type":"gene","oldID":"Slc2a7_1_e"},"meta":{"label":"Slc2a7_1_e","graphs":["5964c0f0c7edff2ede4d4510","5964c0f0c7edff2ede4d493e"]}}

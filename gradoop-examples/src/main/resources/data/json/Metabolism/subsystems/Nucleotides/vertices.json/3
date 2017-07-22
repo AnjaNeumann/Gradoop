@@ -1,0 +1,17 @@
+{"id":"5964c0f0c7edff2ede4d4572","data":{"type":"reaction_blank"},"meta":{"label":"Adenylate kinase","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d4573","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4581","data":{"type":"reaction_blank"},"meta":{"label":"Adenylate cyclase","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d4582","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4590","data":{"type":"reaction_blank"},"meta":{"label":"Adenosine kinase","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d4591","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4637","data":{"type":"reaction_blank"},"meta":{"label":"Adenosine monophosphate deaminase","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d4638","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d463f","data":{"type":"reaction_blank"},"meta":{"label":"AP4AH1","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d4640","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d47f8","data":{"type":"reaction_blank"},"meta":{"label":"Cytidylate kinase (CMP)","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d47f9","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d49a3","data":{"type":"reaction_blank"},"meta":{"label":"Guanylate kinase (GMP:ATP)","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d49a4","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d49f3","data":{"type":"reaction_blank"},"meta":{"label":"GMP reductase","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d49f4","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d49fc","data":{"type":"reaction_blank"},"meta":{"label":"GMP synthase","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d49fd","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4a5d","data":{"type":"reaction_blank"},"meta":{"label":"Guanylate cyclase","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d4a5e","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4b0c","data":{"type":"reaction_blank"},"meta":{"label":"IMP dehydrogenase","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d4b0d","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4c1a","data":{"type":"reaction_blank"},"meta":{"label":"Nucleoside-diphosphate kinase (ATP:GDP)","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d4c1b","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4c26","data":{"type":"reaction_blank"},"meta":{"label":"Nucleoside-diphosphate kinase (ATP:UDP)","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d4c27","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4c32","data":{"type":"reaction_blank"},"meta":{"label":"Nucleoside-diphosphate kinase (ATP:CDP)","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d4c33","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4c92","data":{"type":"reaction_blank"},"meta":{"label":"5'-nucleotidase (AMP)","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d4c93","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4c99","data":{"type":"reaction_blank"},"meta":{"label":"5'-nucleotidase (GMP)","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d4c9a","5964c0f0c7edff2ede4d4129"]}}
+{"id":"5964c0f0c7edff2ede4d4cdd","data":{"type":"reaction_blank"},"meta":{"label":"3',5'-cyclic-nucleotide phosphodiesterase","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d4cde","5964c0f0c7edff2ede4d4129"]}}

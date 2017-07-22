@@ -1,0 +1,4 @@
+{"id":"5964c0f0c7edff2ede4d42d8","data":{"type":"gene","oldID":"Chk_AT1"},"meta":{"label":"Chk_AT1","graphs":["5964c0f0c7edff2ede4d46c8","5964c0f0c7edff2ede4d47d0","5964c0f0c7edff2ede4d48d9"]}}
+{"id":"5964c0f0c7edff2ede4d42d6","data":{"type":"gene","oldID":"Chk_AT2"},"meta":{"label":"Chk_AT2","graphs":["5964c0f0c7edff2ede4d46c8","5964c0f0c7edff2ede4d47d0","5964c0f0c7edff2ede4d48d9"]}}
+{"id":"5964c0f0c7edff2ede4d42d9","data":{"type":"gene","oldID":"Chkl_AT2"},"meta":{"label":"Chkl_AT2","graphs":["5964c0f0c7edff2ede4d46c8","5964c0f0c7edff2ede4d47d0"]}}
+{"id":"5964c0f0c7edff2ede4d42d7","data":{"type":"gene","oldID":"Chkl_AT1"},"meta":{"label":"Chkl_AT1","graphs":["5964c0f0c7edff2ede4d46c8","5964c0f0c7edff2ede4d47d0"]}}

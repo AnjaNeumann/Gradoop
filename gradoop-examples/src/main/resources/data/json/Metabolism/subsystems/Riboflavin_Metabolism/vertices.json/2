@@ -1,0 +1,7 @@
+{"id":"5964c0f0c7edff2ede4d4296","data":{"type":"gene","oldID":"Acp1_AT1"},"meta":{"label":"Acp1_AT1","graphs":["5964c0f0c7edff2ede4d4556","5964c0f0c7edff2ede4d4555"]}}
+{"id":"5964c0f0c7edff2ede4d4297","data":{"type":"gene","oldID":"Acp1_AT2"},"meta":{"label":"Acp1_AT2","graphs":["5964c0f0c7edff2ede4d4556","5964c0f0c7edff2ede4d4555"]}}
+{"id":"5964c0f0c7edff2ede4d4298","data":{"type":"gene","oldID":"Acp1_AT3"},"meta":{"label":"Acp1_AT3","graphs":["5964c0f0c7edff2ede4d4556","5964c0f0c7edff2ede4d4555"]}}
+{"id":"5964c0f0c7edff2ede4d4304","data":{"type":"gene","oldID":"FadS_AT1"},"meta":{"label":"FadS_AT1","graphs":["5964c0f0c7edff2ede4d4556","5964c0f0c7edff2ede4d4935"]}}
+{"id":"5964c0f0c7edff2ede4d4305","data":{"type":"gene","oldID":"FadS_AT2"},"meta":{"label":"FadS_AT2","graphs":["5964c0f0c7edff2ede4d4556","5964c0f0c7edff2ede4d4935"]}}
+{"id":"5964c0f0c7edff2ede4d43c4","data":{"type":"gene","oldID":"Rfk_AT1"},"meta":{"label":"Rfk_AT1","graphs":["5964c0f0c7edff2ede4d4556","5964c0f0c7edff2ede4d5047"]}}
+{"id":"5964c0f0c7edff2ede4d42f7","data":{"type":"gene","oldID":"EnpP1_AT1"},"meta":{"label":"EnpP1_AT1","graphs":["5964c0f0c7edff2ede4d4556","5964c0f0c7edff2ede4d490b"]}}

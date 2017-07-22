@@ -12,6 +12,8 @@ public class Main {
 		System.out.println("VertexCount: " + vcnt);
 		System.out.println("EdgeCount: " + ecnt);
 
+		// mtb.getSubsystems();
+		mtb.writeSubsystems2File();
 	}
 
 }
