@@ -121,6 +121,11 @@ public class Metabolism extends AbstractRunner {
 		EPGMGraphHead graphHead = graph.getGraphHead().collect().get(0);
 		return graphHead.getPropertyValue(edgeCount.getAggregatePropertyKey()).toString();
 	}
+	
+	public void getMembraneReactionGraph() throws Exception {
+		System.out.println(graph.match("(n1)-[:gene_or]->(n2)").getVertices().count());
+		
+	}
 
 	public void getVertexEdges(int in, int out) throws Exception {
 
