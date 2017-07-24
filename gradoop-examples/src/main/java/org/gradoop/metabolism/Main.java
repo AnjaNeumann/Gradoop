@@ -13,7 +13,8 @@ public class Main {
 		System.out.println("EdgeCount: " + ecnt);
 
 		// mtb.getSubsystems();
-		mtb.writeSubsystems2File();
+		// mtb.writeSubsystems2File();
+		mtb.getLogestPath();
 	}
 
 }

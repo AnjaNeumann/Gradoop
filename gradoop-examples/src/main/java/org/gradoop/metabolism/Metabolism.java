@@ -1,8 +1,11 @@
 package org.gradoop.metabolism;
 
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import org.apache.flink.api.common.functions.FilterFunction;
 import org.apache.flink.api.java.ExecutionEnvironment;
@@ -26,6 +29,10 @@ public class Metabolism extends AbstractRunner {
 
 	LogicalGraph graph;
 	String inputDir;
+	Map<Vertex, Integer> EdgesInCounts;
+	Map<Vertex, Integer> EdgesOutCounts;
+	Map<GradoopId, Vertex> vertexMap;
+	LinkedList<GraphSet> paths;
 
 	public LogicalGraph getGraph() {
 		return graph;
@@ -59,6 +66,77 @@ public class Metabolism extends AbstractRunner {
 		}
 
 		// writeLogicalGraph(subgraph, inputDir + "/subgraph");
+
+	}
+
+	public void getLogestPath() throws Exception {
+		vertexMap = new HashMap<>();
+
+		List<Vertex> vertices = graph.getVertices().collect();
+		Set<Vertex> sourceSet = new HashSet<>();
+		for (Vertex v : vertices) {
+			vertexMap.put(v.getId(), v);
+			if (EdgesInCounts.get(v).equals(0) && v.getPropertyValue("type").toString().equals("metabolite")) {
+				System.out.println(v.getLabel());
+				sourceSet.add(v);
+			}
+
+		}
+
+		paths = new LinkedList<>();
+
+		for (Vertex v : sourceSet) {
+			GraphSet graphSet = new GraphSet();
+
+			graphSet.addVertex(v);
+			graphSet = getTargetSet(v, graphSet);
+			paths.add(graphSet);
+			System.out.println(graphSet.getVertexCount());
+
+		}
+		int cnt = 0;
+		GraphSet gs = null;
+		for (GraphSet set : paths) {
+			int len = set.longestPathSize();
+			if (len > cnt) {
+				cnt = len;
+				gs = set;
+			}
+			System.out.println("vertices: " + set.getVertexCount() + " \tedges: " + set.getEdgeCount()
+					+ " \tlongestPath: " + set.longestPathSize());
+		}
+		// LogicalGraph lonPath = gs.getLogicalGraph();
+		// writeLogicalGraph(lonPath, inputDir + "/longestPath");
+		// lonPath.writeTo();
+
+	}
+
+	private JSONDataSink getJDataSink(String folder) {
+		String graphHeadFile = inputDir + "/" + folder + "/graphs.json";
+		String vertexFile = inputDir + "/" + folder + "/vertices.json";
+		String edgeFile = inputDir + "/" + folder + "/edges.json";
+
+		ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
+		GradoopFlinkConfig config = GradoopFlinkConfig.createConfig(env);
+
+		// writeLogicalGraph(graph, inputDir + "/graphs");
+
+		return new JSONDataSink(graphHeadFile, vertexFile, edgeFile, config);
+	}
+
+	private GraphSet getTargetSet(Vertex vertex, GraphSet graphSet) throws Exception {
+		// Set<Vertex> vertexSet = new HashSet<>();
+		List<Edge> out = graph.getOutgoingEdges(vertex.getId()).collect();
+		for (Edge edge : out) {
+			graphSet.addEdge(edge);
+			Vertex target = vertexMap.get(edge.getTargetId());
+			if (!graphSet.containsVertex(target)) {
+				graphSet.addVertex(target);
+				graphSet = getTargetSet(target, graphSet);
+			}
+
+		}
+		return graphSet;
 
 	}
 
@@ -129,8 +207,8 @@ public class Metabolism extends AbstractRunner {
 		// System.out.println("Edges: "+edges.size());
 		// System.out.println("Vertices: "+vertices.size());
 
-		Map<Vertex, Integer> EdgesInCounts = new HashMap<>();
-		Map<Vertex, Integer> EdgesOutCounts = new HashMap<>();
+		EdgesInCounts = new HashMap<>();
+		EdgesOutCounts = new HashMap<>();
 		int cntIn, cntOut;
 		for (Vertex vertex : vertices) {
 			GradoopId vertexID = vertex.getId();
