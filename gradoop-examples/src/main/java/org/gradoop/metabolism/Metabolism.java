@@ -1,5 +1,6 @@
 package org.gradoop.metabolism;
 
+import java.time.Instant;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -27,13 +28,14 @@ import com.google.common.base.Preconditions;
 
 public class Metabolism extends AbstractRunner {
 
-	LogicalGraph graph;
-	String inputDir;
-	Map<Vertex, Integer> edgesInCounts = new HashMap<>();
-	Map<Vertex, Integer> edgesOutCounts = new HashMap<>();
-	Map<GradoopId, Vertex> vertexMap;
-	Map<Vertex, List<Edge>> edgesOutMap;
-	LinkedList<GraphSet> paths;
+	private LogicalGraph graph;
+	private String inputDir;
+	private Map<Vertex, Integer> edgesInCounts = new HashMap<>();
+	private Map<Vertex, Integer> edgesOutCounts = new HashMap<>();
+	private Map<GradoopId, Vertex> vertexMap;
+	private Map<Vertex, List<Edge>> edgesOutMap;
+	private LinkedList<GraphSet> paths;
+	private ExecutionEnvironment env;
 
 	public LogicalGraph getGraph() {
 		return graph;
@@ -85,34 +87,46 @@ public class Metabolism extends AbstractRunner {
 		}
 
 		paths = new LinkedList<>();
-
+		Instant start = Instant.now();
 		for (Vertex v : sourceSet) {
 			System.out.println(v.getLabel() + ": calculating path");
 			GraphSet graphSet = new GraphSet();
 
 			graphSet.addVertex(v);
-			graphSet = getTargetSet(v, graphSet);
+			// graphSet = getTargetSet(v, graphSet);
+			graphSet = getSubgraphSet(v, graphSet);
 			paths.add(graphSet);
 			System.out.println(graphSet.getVertexCount());
 
 		}
-		int cnt = 0;
-		GraphSet gs = null;
-		for (GraphSet set : paths) {
-			int len = set.longestPathSize();
-			if (len > cnt) {
-				cnt = len;
-				gs = set;
-			}
-			System.out.println("vertices: " + set.getVertexCount() + " \tedges: " + set.getEdgeCount()
-					+ " \tlongestPath: " + set.longestPathSize());
-		}
+
+		GraphSet longestPath = sourceSet.parallelStream().map(node -> getTargetSet(node, new GraphSet(node)))
+				.peek(gs -> System.out.println("Graphset with " + gs.getVertexCount() + " vertices processed."))
+				.max((gs1, gs2) -> Integer.compare(gs1.getVertexCount(), gs2.getVertexCount())).orElse(null);
+		Long millisecondsTaken = Instant.now().toEpochMilli() - start.toEpochMilli();
+
+		System.out.println("Finding all partial graphs took " + millisecondsTaken + "ms.");
+
+		// int cnt = 0;
+		// GraphSet gs = null;
+		// for (GraphSet set : paths) {
+		// int len = set.longestPathSize();
+		// if (len > cnt) {
+		// cnt = len;
+		// gs = set;
+		// }
+		// System.out.println("vertices: " + set.getVertexCount() + " \tedges: "
+		// + set.getEdgeCount()
+		// + " \tlongestPath: " + set.longestPathSize());
+		// }
 
 		ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 		GradoopFlinkConfig config = GradoopFlinkConfig.createConfig(env);
+		// LogicalGraph lg = LogicalGraph.fromCollections(new
+		// GraphHead(GradoopId.get(), "longestPath", null),
+		// gs.getVertices(), gs.getEdges(), config);
 		LogicalGraph lg = LogicalGraph.fromCollections(new GraphHead(GradoopId.get(), "longestPath", null),
-				gs.getVertices(), gs.getEdges(), config);
-
+				longestPath.getVertices(), longestPath.getEdges(), config);
 		// LogicalGraph lonPath = gs.getLogicalGraph();
 		// writeLogicalGraph(lg, inputDir + "/longestPath");
 		lg.writeTo(getJDataSink("longestPath"));
@@ -125,15 +139,32 @@ public class Metabolism extends AbstractRunner {
 		String vertexFile = inputDir + "/" + folder + "/vertices.json";
 		String edgeFile = inputDir + "/" + folder + "/edges.json";
 
-		ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
+		// ExecutionEnvironment env =
+		// ExecutionEnvironment.getExecutionEnvironment();
 		GradoopFlinkConfig config = GradoopFlinkConfig.createConfig(env);
-
-		// writeLogicalGraph(graph, inputDir + "/graphs");
 
 		return new JSONDataSink(graphHeadFile, vertexFile, edgeFile, config);
 	}
 
-	private GraphSet getTargetSet(Vertex vertex, GraphSet graphSet) throws Exception {
+	private GraphSet getSubgraphSet(Vertex vertex, GraphSet graphSet) throws Exception {
+		List<Edge> out = edgesOutMap.get(vertex);
+
+		for (Edge edge : out) {
+			graphSet.addEdge(edge);
+			// GraphSet graphSetPart = graphSet.copy();
+			// graphSetPart.addEdge(edge);
+			Vertex target = vertexMap.get(edge.getTargetId());
+			if (!graphSet.containsVertex(target)) {
+				graphSet.addVertex(target);
+				graphSet = getSubgraphSet(target, graphSet);
+			}
+
+		}
+		return graphSet;
+
+	}
+
+	private GraphSet getTargetSet(Vertex vertex, GraphSet graphSet) {
 		List<Edge> out = edgesOutMap.get(vertex);
 		// graph.getOutgoingEdges(vertex.getId()).collect();
 		// System.out.println(vertex.getLabel());
@@ -200,7 +231,7 @@ public class Metabolism extends AbstractRunner {
 		Preconditions.checkArgument(args.length == 1, "input dir required");
 		inputDir = args[0];
 		System.out.println(args[0]);
-
+		env = ExecutionEnvironment.getExecutionEnvironment();
 		this.graph = readLogicalGraph(inputDir);
 	}
 
@@ -258,6 +289,17 @@ public class Metabolism extends AbstractRunner {
 						+ "\t outgoing Edges: " + cntOut);
 
 		}
+	}
+
+	public void grouping() throws Exception {
+
+		List<String> keys = new LinkedList<>();
+		keys.add("ClusterId");
+		LogicalGraph grouped = graph.groupBy(keys);
+		System.out.println(grouped.getVertices().collect().size());
+		System.out.println(grouped.getEdges().collect().size());
+
+		writeLogicalGraph(grouped, "src/main/resources/data/json/Metabolism/GroupedGraph");
 	}
 
 }

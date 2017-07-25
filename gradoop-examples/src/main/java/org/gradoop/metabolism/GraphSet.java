@@ -24,6 +24,11 @@ public class GraphSet {
 		this(new LinkedList<Vertex>(), new LinkedList<Edge>());
 	}
 
+	public GraphSet(Vertex first) {
+		this();
+		this.addVertex(first);
+	}
+
 	public GraphSet(List<Vertex> vertices, List<Edge> edges) {
 		this.vertices = vertices;
 		this.edges = edges;

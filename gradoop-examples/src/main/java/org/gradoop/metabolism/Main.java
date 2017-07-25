@@ -12,6 +12,7 @@ public class Main {
 
 		// mtb.writeSubsystems2File();
 		mtb.getLogestPath();
+		// mtb.grouping();
 
 	}
 
