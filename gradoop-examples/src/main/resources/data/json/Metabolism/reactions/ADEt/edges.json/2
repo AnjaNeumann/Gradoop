@@ -1,0 +1,3 @@
+{"id":"59770637c7edff2526bc3e93","source":"59770637c7edff2526bc3e91","target":"59770637c7edff2526bc3b60","data":{"quantity":1},"meta":{"label":"output","graphs":["59770637c7edff2526bc3a4d","59770637c7edff2526bc3e34","59770637c7edff2526bc3e92"]}}
+{"id":"59770637c7edff2526bc3e94","source":"59770637c7edff2526bc3b60","target":"59770637c7edff2526bc3e91","data":{"quantity":-1},"meta":{"label":"input","graphs":["59770637c7edff2526bc3a4e","59770637c7edff2526bc3e34","59770637c7edff2526bc3e92"]}}
+{"id":"59770637c7edff2526bc3e95","source":"59770637c7edff2526bc3bbe","target":"59770637c7edff2526bc3e91","data":{},"meta":{"label":"gene","graphs":["59770637c7edff2526bc3e34","59770637c7edff2526bc3e92"]}}

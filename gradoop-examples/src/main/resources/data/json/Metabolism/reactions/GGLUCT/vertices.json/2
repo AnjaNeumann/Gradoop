@@ -1,2 +1,1 @@
-{"id":"5964c0f0c7edff2ede4d4254","data":{"type":"metabolite","oldID":"gluala"},"meta":{"label":"5 L Glutamyl L alanine C8H13N2O5","graphs":["5964c0f0c7edff2ede4d412a","5964c0f0c7edff2ede4d443a","5964c0f0c7edff2ede4d499e","5964c0f0c7edff2ede4d499d"]}}
-{"id":"5964c0f0c7edff2ede4d423f","data":{"type":"metabolite","oldID":"ala__L"},"meta":{"label":"L-Alanine","graphs":["5964c0f0c7edff2ede4d412a","5964c0f0c7edff2ede4d43fa","5964c0f0c7edff2ede4d4129","5964c0f0c7edff2ede4d4510","5964c0f0c7edff2ede4d4616","5964c0f0c7edff2ede4d499e","5964c0f0c7edff2ede4d499d"]}}
+{"id":"59770637c7edff2526bc3c3e","data":{"type":"gene","oldID":"Gctg_AT1","ClusterId":"59770637c7edff2526bc42c2"},"meta":{"label":"Gctg_AT1","graphs":["59770637c7edff2526bc42c2","59770637c7edff2526bc42c1"]}}

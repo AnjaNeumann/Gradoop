@@ -1,0 +1,4 @@
+{"id":"59770637c7edff2526bc3bb0","data":{"type":"gene","oldID":"Atp1a1b3","ClusterId":"59770637c7edff2526bc3e34"},"meta":{"label":"Atp1a1b3","graphs":["59770637c7edff2526bc3e34","59770637c7edff2526bc45c5"]}}
+{"id":"59770637c7edff2526bc3baf","data":{"type":"gene","oldID":"Atp1a1b2","ClusterId":"59770637c7edff2526bc3e34"},"meta":{"label":"Atp1a1b2","graphs":["59770637c7edff2526bc3e34","59770637c7edff2526bc45c5"]}}
+{"id":"59770637c7edff2526bc3bae","data":{"type":"gene","oldID":"Atp1a1b4","ClusterId":"59770637c7edff2526bc3e34"},"meta":{"label":"Atp1a1b4","graphs":["59770637c7edff2526bc3e34","59770637c7edff2526bc45c5"]}}
+{"id":"59770637c7edff2526bc3bad","data":{"type":"gene","oldID":"Atp1a1b1","ClusterId":"59770637c7edff2526bc3e34"},"meta":{"label":"Atp1a1b1","graphs":["59770637c7edff2526bc3e34","59770637c7edff2526bc45c5"]}}

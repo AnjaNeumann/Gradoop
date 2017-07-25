@@ -1,1 +1,1 @@
-{"id":"5964c0f0c7edff2ede4d425b","data":{"type":"metabolite","oldID":"hco3"},"meta":{"label":"Bicarbonate","graphs":["5964c0f0c7edff2ede4d412a","5964c0f0c7edff2ede4d444f","5964c0f0c7edff2ede4d4510","5964c0f0c7edff2ede4d4670","5964c0f0c7edff2ede4d4129","5964c0f0c7edff2ede4d4a8d","5964c0f0c7edff2ede4d4a8c","5964c0f0c7edff2ede4d4a96"]}}
+{"id":"59770637c7edff2526bc3c68","data":{"type":"gene","oldID":"Slc4a1_1_e","ClusterId":"59770637c7edff2526bc3e34"},"meta":{"label":"Slc4a1_1_e","graphs":["59770637c7edff2526bc3e34","59770637c7edff2526bc43ba"]}}

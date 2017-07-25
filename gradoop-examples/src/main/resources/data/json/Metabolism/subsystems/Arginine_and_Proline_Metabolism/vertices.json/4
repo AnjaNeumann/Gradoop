@@ -1,2 +1,2 @@
-{"id":"5964c0f0c7edff2ede4d4579","data":{"type":"reaction_blank"},"meta":{"label":"Adenosylmethionine decarboxylase","graphs":["5964c0f0c7edff2ede4d457b","5964c0f0c7edff2ede4d457a","5964c0f0c7edff2ede4d4129"]}}
-{"id":"5964c0f0c7edff2ede4d4be4","data":{"type":"reaction_blank"},"meta":{"label":"5  methylthioadenosine phosphorylase","graphs":["5964c0f0c7edff2ede4d457b","5964c0f0c7edff2ede4d4be5","5964c0f0c7edff2ede4d4129"]}}
+{"id":"59770637c7edff2526bc3e9d","data":{"type":"reaction_blank","ClusterId":"59770637c7edff2526bc3e9f"},"meta":{"label":"Adenosylmethionine decarboxylase","graphs":["59770637c7edff2526bc3e9f","59770637c7edff2526bc3e9e","59770637c7edff2526bc3a4d"]}}
+{"id":"59770637c7edff2526bc4508","data":{"type":"reaction_blank","ClusterId":"59770637c7edff2526bc3e9f"},"meta":{"label":"5  methylthioadenosine phosphorylase","graphs":["59770637c7edff2526bc3e9f","59770637c7edff2526bc4509","59770637c7edff2526bc3a4d"]}}

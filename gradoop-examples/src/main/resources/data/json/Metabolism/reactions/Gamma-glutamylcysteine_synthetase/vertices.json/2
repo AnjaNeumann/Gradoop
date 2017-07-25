@@ -1,1 +1,2 @@
-{"id":"5964c0f0c7edff2ede4d49c6","data":{"type":"reaction_blank"},"meta":{"label":"Gamma-glutamylcysteine synthetase","graphs":["5964c0f0c7edff2ede4d499e","5964c0f0c7edff2ede4d49c7","5964c0f0c7edff2ede4d4129"]}}
+{"id":"59770637c7edff2526bc3c42","data":{"type":"gene","oldID":"Gclm_AT1","ClusterId":"59770637c7edff2526bc42c2"},"meta":{"label":"Gclm_AT1","graphs":["59770637c7edff2526bc42c2","59770637c7edff2526bc42eb"]}}
+{"id":"59770637c7edff2526bc3c41","data":{"type":"gene","oldID":"Gclc_AT1","ClusterId":"59770637c7edff2526bc42c2"},"meta":{"label":"Gclc_AT1","graphs":["59770637c7edff2526bc42c2","59770637c7edff2526bc42eb"]}}

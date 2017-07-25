@@ -1,2 +1,1 @@
-{"id":"5964c0f0c7edff2ede4d4329","data":{"type":"gene","oldID":"Gpam_AT1"},"meta":{"label":"Gpam_AT1","graphs":["5964c0f0c7edff2ede4d45b3","5964c0f0c7edff2ede4d4a11","5964c0f0c7edff2ede4d4a18","5964c0f0c7edff2ede4d4a1f"]}}
-{"id":"5964c0f0c7edff2ede4d4a1e","data":{"type":"reaction_blank"},"meta":{"label":"Glycerol-3-phosphate acyltransferase (C18:2)","graphs":["5964c0f0c7edff2ede4d45b3","5964c0f0c7edff2ede4d4a1f","5964c0f0c7edff2ede4d4129"]}}
+{"id":"59770637c7edff2526bc4342","data":{"type":"reaction_blank","ClusterId":"59770637c7edff2526bc3ed7"},"meta":{"label":"Glycerol-3-phosphate acyltransferase (C18:2)","graphs":["59770637c7edff2526bc3ed7","59770637c7edff2526bc4343","59770637c7edff2526bc3a4d"]}}

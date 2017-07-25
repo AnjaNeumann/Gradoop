@@ -1,3 +1,1 @@
-{"id":"5964c0f0c7edff2ede4d4341","data":{"type":"gene","oldID":"Ca3_AT1"},"meta":{"label":"Ca3_AT1","graphs":["5964c0f0c7edff2ede4d4a8d","5964c0f0c7edff2ede4d4a8c"]}}
-{"id":"5964c0f0c7edff2ede4d4342","data":{"type":"gene","oldID":"Ca1_AT1"},"meta":{"label":"Ca1_AT1","graphs":["5964c0f0c7edff2ede4d4a8d","5964c0f0c7edff2ede4d4a8c"]}}
-{"id":"5964c0f0c7edff2ede4d4343","data":{"type":"gene","oldID":"Ca2_AT1"},"meta":{"label":"Ca2_AT1","graphs":["5964c0f0c7edff2ede4d4a8d","5964c0f0c7edff2ede4d4a8c"]}}
+{"id":"59770637c7edff2526bc43af","data":{"type":"reaction_blank","ClusterId":"59770637c7edff2526bc43b1"},"meta":{"label":"HCO3 equilibration reaction","graphs":["59770637c7edff2526bc43b1","59770637c7edff2526bc43b0","59770637c7edff2526bc3a4d"]}}

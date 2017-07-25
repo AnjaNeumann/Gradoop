@@ -1,2 +1,1 @@
-{"id":"5964c0f0c7edff2ede4d412b","data":{"type":"metabolite","oldID":"13dpg"},"meta":{"label":"3-Phospho-D-glyceroyl phosphate","graphs":["5964c0f0c7edff2ede4d4129","5964c0f0c7edff2ede4d4624","5964c0f0c7edff2ede4d48c4","5964c0f0c7edff2ede4d4994","5964c0f0c7edff2ede4d4d2c"]}}
-{"id":"5964c0f0c7edff2ede4d4132","data":{"type":"metabolite","oldID":"3pg"},"meta":{"label":"3-Phospho-D-glycerate","graphs":["5964c0f0c7edff2ede4d4129","5964c0f0c7edff2ede4d4624","5964c0f0c7edff2ede4d48cb","5964c0f0c7edff2ede4d4d2c","5964c0f0c7edff2ede4d4d3a"]}}
+{"id":"59770637c7edff2526bc464f","data":{"type":"reaction_blank","ClusterId":"59770637c7edff2526bc3f48"},"meta":{"label":"Phosphoglycerate kinase","graphs":["59770637c7edff2526bc3f48","59770637c7edff2526bc4650","59770637c7edff2526bc3a4d"]}}

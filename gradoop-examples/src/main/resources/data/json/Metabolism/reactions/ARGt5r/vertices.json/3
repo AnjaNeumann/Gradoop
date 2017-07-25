@@ -1,1 +1,1 @@
-{"id":"5964c0f0c7edff2ede4d4240","data":{"type":"metabolite","oldID":"arg__L"},"meta":{"label":"L-Arginine","graphs":["5964c0f0c7edff2ede4d412a","5964c0f0c7edff2ede4d43fd","5964c0f0c7edff2ede4d4129","5964c0f0c7edff2ede4d4653","5964c0f0c7edff2ede4d4652","5964c0f0c7edff2ede4d4510","5964c0f0c7edff2ede4d465a"]}}
+{"id":"59770637c7edff2526bc3f7d","data":{"type":"reaction_blank","ClusterId":"59770637c7edff2526bc3e34"},"meta":{"label":"ARGt5r","graphs":["59770637c7edff2526bc3e34","59770637c7edff2526bc3f7e","59770637c7edff2526bc3a4d","59770637c7edff2526bc3a4e"]}}

@@ -1,1 +1,10 @@
-{"id":"5964c0f0c7edff2ede4d4581","data":{"type":"reaction_blank"},"meta":{"label":"Adenylate cyclase","graphs":["5964c0f0c7edff2ede4d4574","5964c0f0c7edff2ede4d4582","5964c0f0c7edff2ede4d4129"]}}
+{"id":"59770637c7edff2526bc3bc1","data":{"type":"gene","oldID":"Adcy3_AT1","ClusterId":"59770637c7edff2526bc3e98"},"meta":{"label":"Adcy3_AT1","graphs":["59770637c7edff2526bc3e98","59770637c7edff2526bc3ea6"]}}
+{"id":"59770637c7edff2526bc3bc2","data":{"type":"gene","oldID":"Adcy4_AT1","ClusterId":"59770637c7edff2526bc3e98"},"meta":{"label":"Adcy4_AT1","graphs":["59770637c7edff2526bc3e98","59770637c7edff2526bc3ea6"]}}
+{"id":"59770637c7edff2526bc3bc9","data":{"type":"gene","oldID":"Adcy9_AT1","ClusterId":"59770637c7edff2526bc3e98"},"meta":{"label":"Adcy9_AT1","graphs":["59770637c7edff2526bc3e98","59770637c7edff2526bc3ea6"]}}
+{"id":"59770637c7edff2526bc3bc4","data":{"type":"gene","oldID":"Adcy5_AT1","ClusterId":"59770637c7edff2526bc3e98"},"meta":{"label":"Adcy5_AT1","graphs":["59770637c7edff2526bc3e98","59770637c7edff2526bc3ea6"]}}
+{"id":"59770637c7edff2526bc3bca","data":{"type":"gene","oldID":"Adcy1_AT1","ClusterId":"59770637c7edff2526bc3e98"},"meta":{"label":"Adcy1_AT1","graphs":["59770637c7edff2526bc3e98","59770637c7edff2526bc3ea6"]}}
+{"id":"59770637c7edff2526bc3bc3","data":{"type":"gene","oldID":"Adcy8_AT1","ClusterId":"59770637c7edff2526bc3e98"},"meta":{"label":"Adcy8_AT1","graphs":["59770637c7edff2526bc3e98","59770637c7edff2526bc3ea6"]}}
+{"id":"59770637c7edff2526bc3bc8","data":{"type":"gene","oldID":"Adcy6_AT1","ClusterId":"59770637c7edff2526bc3e98"},"meta":{"label":"Adcy6_AT1","graphs":["59770637c7edff2526bc3e98","59770637c7edff2526bc3ea6"]}}
+{"id":"59770637c7edff2526bc3bc7","data":{"type":"gene","oldID":"Adcy6_AT2","ClusterId":"59770637c7edff2526bc3e98"},"meta":{"label":"Adcy6_AT2","graphs":["59770637c7edff2526bc3e98","59770637c7edff2526bc3ea6"]}}
+{"id":"59770637c7edff2526bc3bc5","data":{"type":"gene","oldID":"Adcy2_AT1","ClusterId":"59770637c7edff2526bc3e98"},"meta":{"label":"Adcy2_AT1","graphs":["59770637c7edff2526bc3e98","59770637c7edff2526bc3ea6"]}}
+{"id":"59770637c7edff2526bc3bc6","data":{"type":"gene","oldID":"Adcy7_AT1","ClusterId":"59770637c7edff2526bc3e98"},"meta":{"label":"Adcy7_AT1","graphs":["59770637c7edff2526bc3e98","59770637c7edff2526bc3ea6"]}}

@@ -1,4 +1,4 @@
-{"id":"5964c0f0c7edff2ede4d43af","data":{"type":"gene","oldID":"Ppa2_AT3"},"meta":{"label":"Ppa2_AT3","graphs":["5964c0f0c7edff2ede4d4f72","5964c0f0c7edff2ede4d4f71"]}}
-{"id":"5964c0f0c7edff2ede4d43b0","data":{"type":"gene","oldID":"Ppa2_AT4"},"meta":{"label":"Ppa2_AT4","graphs":["5964c0f0c7edff2ede4d4f72","5964c0f0c7edff2ede4d4f71"]}}
-{"id":"5964c0f0c7edff2ede4d43b1","data":{"type":"gene","oldID":"Ppa2_AT1"},"meta":{"label":"Ppa2_AT1","graphs":["5964c0f0c7edff2ede4d4f72","5964c0f0c7edff2ede4d4f71"]}}
-{"id":"5964c0f0c7edff2ede4d43b2","data":{"type":"gene","oldID":"Ppa2_AT2"},"meta":{"label":"Ppa2_AT2","graphs":["5964c0f0c7edff2ede4d4f72","5964c0f0c7edff2ede4d4f71"]}}
+{"id":"59770637c7edff2526bc3cd3","data":{"type":"gene","oldID":"Ppa2_AT3","ClusterId":"59770637c7edff2526bc4896"},"meta":{"label":"Ppa2_AT3","graphs":["59770637c7edff2526bc4896","59770637c7edff2526bc4895"]}}
+{"id":"59770637c7edff2526bc3cd4","data":{"type":"gene","oldID":"Ppa2_AT4","ClusterId":"59770637c7edff2526bc4896"},"meta":{"label":"Ppa2_AT4","graphs":["59770637c7edff2526bc4896","59770637c7edff2526bc4895"]}}
+{"id":"59770637c7edff2526bc3cd5","data":{"type":"gene","oldID":"Ppa2_AT1","ClusterId":"59770637c7edff2526bc4896"},"meta":{"label":"Ppa2_AT1","graphs":["59770637c7edff2526bc4896","59770637c7edff2526bc4895"]}}
+{"id":"59770637c7edff2526bc3cd6","data":{"type":"gene","oldID":"Ppa2_AT2","ClusterId":"59770637c7edff2526bc4896"},"meta":{"label":"Ppa2_AT2","graphs":["59770637c7edff2526bc4896","59770637c7edff2526bc4895"]}}

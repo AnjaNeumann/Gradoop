@@ -1,4 +1,1 @@
-{"id":"5964c0f0c7edff2ede4d428c","data":{"type":"gene","oldID":"Atp1a1b3"},"meta":{"label":"Atp1a1b3","graphs":["5964c0f0c7edff2ede4d4510","5964c0f0c7edff2ede4d4ca1"]}}
-{"id":"5964c0f0c7edff2ede4d428b","data":{"type":"gene","oldID":"Atp1a1b2"},"meta":{"label":"Atp1a1b2","graphs":["5964c0f0c7edff2ede4d4510","5964c0f0c7edff2ede4d4ca1"]}}
-{"id":"5964c0f0c7edff2ede4d428a","data":{"type":"gene","oldID":"Atp1a1b4"},"meta":{"label":"Atp1a1b4","graphs":["5964c0f0c7edff2ede4d4510","5964c0f0c7edff2ede4d4ca1"]}}
-{"id":"5964c0f0c7edff2ede4d4289","data":{"type":"gene","oldID":"Atp1a1b1"},"meta":{"label":"Atp1a1b1","graphs":["5964c0f0c7edff2ede4d4510","5964c0f0c7edff2ede4d4ca1"]}}
+{"id":"59770637c7edff2526bc45c4","data":{"type":"reaction_blank","ClusterId":"59770637c7edff2526bc3e34"},"meta":{"label":"NaKt","graphs":["59770637c7edff2526bc3e34","59770637c7edff2526bc45c5","59770637c7edff2526bc3a4e","59770637c7edff2526bc3a4d"]}}

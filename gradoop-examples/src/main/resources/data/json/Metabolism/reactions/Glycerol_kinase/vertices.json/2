@@ -1,4 +1,1 @@
-{"id":"5964c0f0c7edff2ede4d431f","data":{"type":"gene","oldID":"Gkp3_AT1"},"meta":{"label":"Gkp3_AT1","graphs":["5964c0f0c7edff2ede4d46c8","5964c0f0c7edff2ede4d49d6"]}}
-{"id":"5964c0f0c7edff2ede4d4321","data":{"type":"gene","oldID":"Gk2_AT1"},"meta":{"label":"Gk2_AT1","graphs":["5964c0f0c7edff2ede4d46c8","5964c0f0c7edff2ede4d49d6"]}}
-{"id":"5964c0f0c7edff2ede4d4320","data":{"type":"gene","oldID":"Gk_AT1"},"meta":{"label":"Gk_AT1","graphs":["5964c0f0c7edff2ede4d46c8","5964c0f0c7edff2ede4d49d6"]}}
-{"id":"5964c0f0c7edff2ede4d4322","data":{"type":"gene","oldID":"Gk_AT2"},"meta":{"label":"Gk_AT2","graphs":["5964c0f0c7edff2ede4d46c8","5964c0f0c7edff2ede4d49d6"]}}
+{"id":"59770637c7edff2526bc42f9","data":{"type":"reaction_blank","ClusterId":"59770637c7edff2526bc3fec"},"meta":{"label":"Glycerol kinase","graphs":["59770637c7edff2526bc3fec","59770637c7edff2526bc42fa","59770637c7edff2526bc3a4d"]}}

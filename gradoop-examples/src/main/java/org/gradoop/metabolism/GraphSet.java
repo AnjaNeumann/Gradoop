@@ -106,4 +106,14 @@ public class GraphSet {
 		return LogicalGraph.fromDataSets(null, (DataSet<Vertex>) vertices, (DataSet<Edge>) edges, config);
 
 	}
+
+	public GraphSet copy() {
+		return new GraphSet(copyVertices(), copyEdges());
+	}
+
+	private List<Vertex> copyVertices() {
+		List<Vertex> verticesCopy = new LinkedList<>();
+		verticesCopy.addAll(vertices);
+		return verticesCopy;
+	}
 }

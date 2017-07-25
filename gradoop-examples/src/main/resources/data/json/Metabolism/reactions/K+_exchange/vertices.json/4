@@ -1,1 +1,1 @@
-{"id":"5964c0f0c7edff2ede4d4260","data":{"type":"metabolite","oldID":"k"},"meta":{"label":"Potassium","graphs":["5964c0f0c7edff2ede4d412a","5964c0f0c7edff2ede4d445e","5964c0f0c7edff2ede4d4510","5964c0f0c7edff2ede4d4b1d","5964c0f0c7edff2ede4d4129","5964c0f0c7edff2ede4d4ca1"]}}
+{"id":"59770637c7edff2526bc3d81","data":{"type":"reaction_blank","ClusterId":"NoID"},"meta":{"label":"K+ exchange","graphs":["59770637c7edff2526bc3d82","59770637c7edff2526bc3a4e"]}}

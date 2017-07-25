@@ -1,3 +1,5 @@
-{"id":"5964c0f0c7edff2ede4d4677","data":{"type":"reaction_blank"},"meta":{"label":"Bilirubin UDP-glucuronosyltransferase","graphs":["5964c0f0c7edff2ede4d4679","5964c0f0c7edff2ede4d4678","5964c0f0c7edff2ede4d4129"]}}
-{"id":"5964c0f0c7edff2ede4d4681","data":{"type":"reaction_blank"},"meta":{"label":"Nad(p)h biliverdin reductase","graphs":["5964c0f0c7edff2ede4d4679","5964c0f0c7edff2ede4d4682","5964c0f0c7edff2ede4d4129"]}}
-{"id":"5964c0f0c7edff2ede4d4ae7","data":{"type":"reaction_blank"},"meta":{"label":"Heme oxygenase 1","graphs":["5964c0f0c7edff2ede4d4679","5964c0f0c7edff2ede4d4ae8","5964c0f0c7edff2ede4d4129"]}}
+{"id":"59770637c7edff2526bc3bec","data":{"type":"gene","oldID":"Blvra_AT1","ClusterId":"59770637c7edff2526bc3f9d"},"meta":{"label":"Blvra_AT1","graphs":["59770637c7edff2526bc3f9d","59770637c7edff2526bc3fa6"]}}
+{"id":"59770637c7edff2526bc3c73","data":{"type":"gene","oldID":"Hmox2_AT1","ClusterId":"59770637c7edff2526bc3f9d"},"meta":{"label":"Hmox2_AT1","graphs":["59770637c7edff2526bc3f9d","59770637c7edff2526bc440c"]}}
+{"id":"59770637c7edff2526bc3beb","data":{"type":"gene","oldID":"Ugt1A4_AT1","ClusterId":"59770637c7edff2526bc3f9d"},"meta":{"label":"Ugt1A4_AT1","graphs":["59770637c7edff2526bc3f9d","59770637c7edff2526bc3f9c"]}}
+{"id":"59770637c7edff2526bc3bea","data":{"type":"gene","oldID":"Ugt1A1_AT1","ClusterId":"59770637c7edff2526bc3f9d"},"meta":{"label":"Ugt1A1_AT1","graphs":["59770637c7edff2526bc3f9d","59770637c7edff2526bc3f9c"]}}
+{"id":"59770637c7edff2526bc3c72","data":{"type":"gene","oldID":"Hmox1_AT1","ClusterId":"59770637c7edff2526bc3f9d"},"meta":{"label":"Hmox1_AT1","graphs":["59770637c7edff2526bc3f9d","59770637c7edff2526bc440c"]}}

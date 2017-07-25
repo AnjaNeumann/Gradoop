@@ -1,1 +1,2 @@
-{"id":"5964c0f0c7edff2ede4d43ce","data":{"type":"gene","oldID":"Taldo1_AT1"},"meta":{"label":"Taldo1_AT1","graphs":["5964c0f0c7edff2ede4d495a","5964c0f0c7edff2ede4d50b3"]}}
+{"id":"59770637c7edff2526bc49d6","data":{"type":"reaction_blank","ClusterId":"59770637c7edff2526bc427e"},"meta":{"label":"Transaldolase","graphs":["59770637c7edff2526bc427e","59770637c7edff2526bc49d7","59770637c7edff2526bc3a4d"]}}
+{"id":"59770637c7edff2526bc3b43","data":{"type":"metabolite","oldID":"s7p","ClusterId":"59770637c7edff2526bc427e,59770637c7edff2526bc427e"},"meta":{"label":"Sedoheptulose 7-phosphate","graphs":["59770637c7edff2526bc3a4d","59770637c7edff2526bc427e","59770637c7edff2526bc49d7","59770637c7edff2526bc49f6"]}}

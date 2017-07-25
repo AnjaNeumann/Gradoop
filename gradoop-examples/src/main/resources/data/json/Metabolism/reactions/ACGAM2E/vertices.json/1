@@ -1,1 +1,1 @@
-{"id":"5964c0f0c7edff2ede4d4292","data":{"type":"gene","oldID":"Renbp_AT1"},"meta":{"label":"Renbp_AT1","graphs":["5964c0f0c7edff2ede4d452d","5964c0f0c7edff2ede4d452c"]}}
+{"id":"59770637c7edff2526bc3a61","data":{"type":"metabolite","oldID":"acgam","ClusterId":"59770637c7edff2526bc3e51,59770637c7edff2526bc3e51"},"meta":{"label":"N-Acetyl-D-glucosamine","graphs":["59770637c7edff2526bc3a4d","59770637c7edff2526bc3e51","59770637c7edff2526bc3e50","59770637c7edff2526bc3e56"]}}
