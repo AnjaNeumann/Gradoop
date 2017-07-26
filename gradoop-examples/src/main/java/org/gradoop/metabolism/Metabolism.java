@@ -17,6 +17,7 @@ import org.gradoop.common.model.impl.pojo.Edge;
 import org.gradoop.common.model.impl.pojo.GraphHead;
 import org.gradoop.common.model.impl.pojo.Vertex;
 import org.gradoop.examples.AbstractRunner;
+import org.gradoop.flink.algorithms.fsm.TransactionalFSM;
 import org.gradoop.flink.io.impl.json.JSONDataSink;
 import org.gradoop.flink.io.impl.json.JSONDataSource;
 import org.gradoop.flink.model.impl.GraphCollection;
@@ -30,23 +31,14 @@ import com.google.common.base.Preconditions;
 public class Metabolism extends AbstractRunner {
 
 	private LogicalGraph graph;
-
 	private String inputDir;
-
 	private Map<Vertex, Integer> edgesInCounts = new HashMap<>();
-
 	private Map<Vertex, Integer> edgesOutCounts = new HashMap<>();
-
 	private Map<GradoopId, Vertex> vertexMap;
-
 	private Map<Vertex, List<Edge>> edgesOutMap;
-
 	private LinkedList<GraphSet> paths;
-
 	private ExecutionEnvironment env;
-
 	private Map<Vertex, GraphSet> longestPathMap;
-
 	private List<Vertex> visitedVertices;
 
 	/**
@@ -82,19 +74,7 @@ public class Metabolism extends AbstractRunner {
 	 */
 	public void getSubsystems() throws Exception {
 
-		String graphHeadFile = inputDir + "/graphs.json";
-		String vertexFile = inputDir + "/vertices.json";
-		String edgeFile = inputDir + "/edges.json";
-
-		// ExecutionEnvironment env =
-		// ExecutionEnvironment.getExecutionEnvironment();
-		GradoopFlinkConfig config = GradoopFlinkConfig.createConfig(env);
-
-		// writeLogicalGraph(graph, inputDir + "/graphs");
-		JSONDataSource dataSource = new JSONDataSource(graphHeadFile, vertexFile, edgeFile, config);
-
-		// read graph collection from DataSource
-		GraphCollection graphCollection = dataSource.getGraphCollection();
+		GraphCollection graphCollection = getGraphCollection();
 
 		@SuppressWarnings("serial")
 		GraphCollection filtered = graphCollection.select(new FilterFunction<GraphHead>() {
@@ -111,6 +91,26 @@ public class Metabolism extends AbstractRunner {
 	}
 
 	/**
+	 * get GraphCollection from input path (main args)
+	 * 
+	 * @return
+	 */
+	private GraphCollection getGraphCollection() {
+		String graphHeadFile = inputDir + "/graphs.json";
+		String vertexFile = inputDir + "/vertices.json";
+		String edgeFile = inputDir + "/edges.json";
+
+		GradoopFlinkConfig config = GradoopFlinkConfig.createConfig(env);
+
+		// writeLogicalGraph(graph, inputDir + "/graphs");
+		JSONDataSource dataSource = new JSONDataSource(graphHeadFile, vertexFile, edgeFile, config);
+
+		// read graph collection from DataSource
+		GraphCollection graphCollection = dataSource.getGraphCollection();
+		return graphCollection;
+	}
+
+	/**
 	 * find longest path (max of all subpaths) in a logical graph and write it
 	 * as logical graph to file
 	 * 
@@ -120,22 +120,9 @@ public class Metabolism extends AbstractRunner {
 
 		List<Vertex> vertices = graph.getVertices().collect();
 		longestPathMap = new HashMap<>(vertices.size());
-		vertexMap = new HashMap<>(vertices.size());
-		edgesOutMap = new HashMap<>(vertices.size());
-		if (edgesInCounts.isEmpty())
-			getVertexEdges(0, 0);
 
-		Set<Vertex> sourceSet = new HashSet<>();
-		for (Vertex v : vertices) {
-
-			vertexMap.put(v.getId(), v);
-			edgesOutMap.put(v, graph.getOutgoingEdges(v.getId()).collect());
-			if (edgesInCounts.get(v).equals(0) && v.getPropertyValue("type").toString().equals("metabolite")) {
-
-				// System.out.println(v.getLabel());
-				sourceSet.add(v);
-			}
-		}
+		setVertexMaps(vertices);
+		Set<Vertex> sourceSet = getSources(graph, vertices, "metabolite");
 
 		paths = new LinkedList<>();
 		Instant start = Instant.now();
@@ -180,6 +167,68 @@ public class Metabolism extends AbstractRunner {
 	}
 
 	/**
+	 * find all vertices without incoming edges of type "type"
+	 * 
+	 * @param vertices
+	 * @return
+	 * @throws Exception
+	 */
+	private Set<Vertex> getSources(LogicalGraph graph, List<Vertex> vertices, String type) throws Exception {
+		Set<Vertex> sourceSet = new HashSet<>();
+		int edgecount = 0;
+		for (Vertex v : vertices) {
+
+			if (v.getPropertyValue("type").toString().equals(type)) {
+				// v.getPropertyValue("type").toString().equals("metabolite")
+				edgecount = graph.getIncomingEdges(v.getId()).collect().size();
+				if (edgecount == 0) {
+					sourceSet.add(v);
+				}
+			}
+		}
+		return sourceSet;
+	}
+
+	/**
+	 * find all vertices without outgoing edges of type "type"
+	 * 
+	 * @param vertices
+	 * @return
+	 * @throws Exception
+	 */
+	private Set<Vertex> getSinks(LogicalGraph graph, List<Vertex> vertices, String type) throws Exception {
+		Set<Vertex> sinkSet = new HashSet<>();
+		int edgecount = 0;
+		for (Vertex v : vertices) {
+
+			if (v.getPropertyValue("type").toString().equals(type)) {
+				// v.getPropertyValue("type").toString().equals("metabolite")
+				edgecount = graph.getOutgoingEdges(v.getId()).collect().size();
+				if (edgecount == 0) {
+					sinkSet.add(v);
+				}
+			}
+		}
+		return sinkSet;
+	}
+
+	/**
+	 * set hashmaps vertex id -> vertex and vertex -> outgoing edges (for graph
+	 * traversing)
+	 * 
+	 * @param vertices
+	 * @throws Exception
+	 */
+	private void setVertexMaps(List<Vertex> vertices) throws Exception {
+		vertexMap = new HashMap<>(vertices.size());
+		edgesOutMap = new HashMap<>(vertices.size());
+		for (Vertex v : vertices) {
+			vertexMap.put(v.getId(), v);
+			edgesOutMap.put(v, graph.getOutgoingEdges(v.getId()).collect());
+		}
+	}
+
+	/**
 	 * creates a new JSONDataSink (to write a logical graph to file)
 	 * 
 	 * @param folder:
@@ -195,6 +244,69 @@ public class Metabolism extends AbstractRunner {
 		GradoopFlinkConfig config = GradoopFlinkConfig.createConfig(env);
 
 		return new JSONDataSink(graphHeadFile, vertexFile, edgeFile, config);
+
+	}
+
+	public void findOutputMetabolites(String path) throws Exception {
+		LogicalGraph extracellular = readLogicalGraph(path);
+		Set<Vertex> sinks = getSinks(extracellular, extracellular.getVertices().collect(), "reaction_blank");
+		List<Vertex> allvertices = graph.getVertices().collect();
+		setVertexMaps(allvertices);
+		List<Vertex> outputs = new LinkedList<>();
+		System.out.println(sinks.size());
+		// int edgecount;
+		for (Vertex v : allvertices) {
+			if (v.getPropertyValue("type").toString().equals("metabolite")) {
+				boolean contains = true;
+				List<Edge> edgesOut = graph.getOutgoingEdges(v.getId()).collect();
+				// edgecount = edgesOut.size();
+				for (Edge edge : edgesOut) {
+					if (!sinks.contains(vertexMap.get(edge.getTargetId())))
+						contains = false;
+
+				}
+				if (contains)
+					outputs.add(v);
+			}
+		}
+		for (Vertex out : outputs) {
+			System.out.println(out.getLabel());
+		}
+
+	}
+
+	/**
+	 * find all vertices of type "metabolite" which cannot be created from input
+	 * from outside
+	 * 
+	 * @param path:
+	 *            path to extracellular space graph
+	 * @throws Exception
+	 */
+	public void findInputMetabolites(String path) throws Exception {
+		LogicalGraph extracellular = readLogicalGraph(path);
+		// System.out.println(extracellular.getVertices().collect().size());
+		Set<Vertex> sources = getSources(extracellular, extracellular.getVertices().collect(), "reaction_blank");
+
+		List<Vertex> allvertices = graph.getVertices().collect();
+		setVertexMaps(allvertices);
+		GraphSet graphSet = new GraphSet();
+
+		for (Vertex source : sources) {
+			System.out.println(source.getLabel() + " ...calculating subgraph");
+			Vertex start = vertexMap.get(source.getId());
+			graphSet.addVertex(start);
+			graphSet = getSubgraphSet(start, graphSet);
+		}
+		System.out.println(sources.size());
+		for (Vertex v : allvertices) {
+			if (v.getPropertyValue("type").toString().equals("metabolite")) {
+				if (!graphSet.containsVertex(v)) {
+					System.out.println(v.getLabel());
+				}
+			}
+
+		}
 
 	}
 
@@ -269,20 +381,11 @@ public class Metabolism extends AbstractRunner {
 	 */
 	public void writeSubsystems2File() throws Exception {
 
-		String graphHeadFile = inputDir + "/graphs.json";
-		String vertexFile = inputDir + "/vertices.json";
-		String edgeFile = inputDir + "/edges.json";
-		// ExecutionEnvironment env =
-		// ExecutionEnvironment.getExecutionEnvironment();
-		GradoopFlinkConfig config = GradoopFlinkConfig.createConfig(env);
-		JSONDataSource dataSource = new JSONDataSource(graphHeadFile, vertexFile, edgeFile, config);
-
-		// read graph collection from DataSource
-		GraphCollection graphCollection = dataSource.getGraphCollection();
+		GraphCollection graphCollection = getGraphCollection();
 		List<GraphHead> graphHeads = graphCollection.getGraphHeads().collect();
-
+		GradoopFlinkConfig config = GradoopFlinkConfig.createConfig(env);
 		for (GraphHead gh : graphHeads) {
-			if (gh.getLabel().equals("subsystem")) {
+			if (!gh.getLabel().equals("subsystem")) {
 
 				LogicalGraph subgraph = graphCollection.getGraph(gh.getId());
 				String subsystemName = gh.getPropertyValue("name").toString().trim().replaceAll(" |,|:|;|\\/", "_");
@@ -389,6 +492,29 @@ public class Metabolism extends AbstractRunner {
 		System.out.println(grouped.getEdges().collect().size());
 		writeLogicalGraph(grouped, "src/main/resources/data/json/Metabolism/GroupedGraph");
 
+	}
+
+	/**
+	 * frequent subgraph mining
+	 * 
+	 * @param sim:
+	 *            similarity factor
+	 * @throws Exception
+	 */
+	@SuppressWarnings("serial")
+	public void fsm(float sim) throws Exception {
+		GraphCollection graphCollection = getGraphCollection();
+		graphCollection = graphCollection.select(new FilterFunction<GraphHead>() {
+			@Override
+			public boolean filter(GraphHead g) {
+				return g.getLabel().equals("subsystem");
+			}
+		});
+		System.out.println("filtered");
+		GraphCollection frequentPatterns = graphCollection.callForCollection(new TransactionalFSM(sim));
+		// System.out.println(frequentPatterns.getVertices().collect().size());
+		frequentPatterns.writeTo(getJDataSink("FSM"));
+		env.execute();
 	}
 
 }

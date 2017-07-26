@@ -11,8 +11,11 @@ public class Main {
 		// mtb.getSubsystems();
 
 		// mtb.writeSubsystems2File();
-		mtb.getLogestPath();
-		// mtb.fsm();
+		// mtb.getLogestPath();
+		// mtb.findInputMetabolites(args[0] +
+		// "/compartments/extracellular_space");
+		mtb.findOutputMetabolites(args[0] + "/compartments/extracellular_space");
+		// mtb.fsm(0.7f);
 		// mtb.grouping();
 
 	}
