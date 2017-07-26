@@ -1,0 +1,2 @@
+{"id":"59785fb6c7edff3366656f79","data":{"type":"gene","oldID":"Guk1_AT1","ClusterId":"Nucleotides"},"meta":{"label":"Guk1_AT1","graphs":["59785fb6c7edff33666571d2","59785fb6c7edff3366657602"]}}
+{"id":"59785fb6c7edff3366657601","data":{"type":"reaction_blank","ClusterId":"Nucleotides"},"meta":{"label":"Guanylate kinase (GMP:ATP)","graphs":["59785fb6c7edff33666571d2","59785fb6c7edff3366657602","59785fb6c7edff3366656d87"]}}

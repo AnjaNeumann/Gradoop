@@ -488,9 +488,16 @@ public class Metabolism extends AbstractRunner {
 		List<String> keys = new LinkedList<>();
 		keys.add("ClusterId");
 		LogicalGraph grouped = graph.groupBy(keys);
+
+		LogicalGraph transformed = grouped.transformVertices((current, transform) -> {
+			current.setLabel(current.getPropertyValue("ClusterId").toString());
+			return current;
+
+		});
+
 		System.out.println(grouped.getVertices().collect().size());
 		System.out.println(grouped.getEdges().collect().size());
-		writeLogicalGraph(grouped, "src/main/resources/data/json/Metabolism/GroupedGraph");
+		writeLogicalGraph(transformed, "src/main/resources/data/json/Metabolism/GroupedLabeledGraph");
 
 	}
 

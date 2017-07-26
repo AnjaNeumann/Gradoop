@@ -1,1 +1,1 @@
-{"id":"59770637c7edff2526bc3c4e","data":{"type":"gene","oldID":"Gsr_AT2","ClusterId":"59770637c7edff2526bc42d7"},"meta":{"label":"Gsr_AT2","graphs":["59770637c7edff2526bc42d7","59770637c7edff2526bc4358"]}}
+{"id":"59785fb6c7edff3366657691","data":{"type":"reaction_blank","ClusterId":"Glutamate metabolism"},"meta":{"label":"Glutathione oxidoreductase","graphs":["59785fb6c7edff3366657611","59785fb6c7edff3366657692","59785fb6c7edff3366656d87"]}}

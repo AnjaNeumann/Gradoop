@@ -1,7 +1,0 @@
-{"id":"59770637c7edff2526bc3bba","data":{"type":"gene","oldID":"Acp1_AT1","ClusterId":"59770637c7edff2526bc3e7a"},"meta":{"label":"Acp1_AT1","graphs":["59770637c7edff2526bc3e7a","59770637c7edff2526bc3e79"]}}
-{"id":"59770637c7edff2526bc3bbb","data":{"type":"gene","oldID":"Acp1_AT2","ClusterId":"59770637c7edff2526bc3e7a"},"meta":{"label":"Acp1_AT2","graphs":["59770637c7edff2526bc3e7a","59770637c7edff2526bc3e79"]}}
-{"id":"59770637c7edff2526bc3bbc","data":{"type":"gene","oldID":"Acp1_AT3","ClusterId":"59770637c7edff2526bc3e7a"},"meta":{"label":"Acp1_AT3","graphs":["59770637c7edff2526bc3e7a","59770637c7edff2526bc3e79"]}}
-{"id":"59770637c7edff2526bc3c28","data":{"type":"gene","oldID":"FadS_AT1","ClusterId":"59770637c7edff2526bc3e7a"},"meta":{"label":"FadS_AT1","graphs":["59770637c7edff2526bc3e7a","59770637c7edff2526bc4259"]}}
-{"id":"59770637c7edff2526bc3c29","data":{"type":"gene","oldID":"FadS_AT2","ClusterId":"59770637c7edff2526bc3e7a"},"meta":{"label":"FadS_AT2","graphs":["59770637c7edff2526bc3e7a","59770637c7edff2526bc4259"]}}
-{"id":"59770637c7edff2526bc3ce8","data":{"type":"gene","oldID":"Rfk_AT1","ClusterId":"59770637c7edff2526bc3e7a"},"meta":{"label":"Rfk_AT1","graphs":["59770637c7edff2526bc3e7a","59770637c7edff2526bc496b"]}}
-{"id":"59770637c7edff2526bc3c1b","data":{"type":"gene","oldID":"EnpP1_AT1","ClusterId":"59770637c7edff2526bc3e7a"},"meta":{"label":"EnpP1_AT1","graphs":["59770637c7edff2526bc3e7a","59770637c7edff2526bc422f"]}}

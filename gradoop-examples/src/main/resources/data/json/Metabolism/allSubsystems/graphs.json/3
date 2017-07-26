@@ -1,25 +1,9 @@
-{"id":"59770637c7edff2526bc4a1e","data":{"name":"Starch and Sucrose Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc3f33","data":{"name":"Methionine Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc4287","data":{"name":"Galactose metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc4241","data":{"name":"Fructose and Mannose Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc41d2","data":{"name":"&apos;"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc3fec","data":{"name":"Glycerophospholipid Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc3e9f","data":{"name":"Arginine and Proline Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc427e","data":{"name":"Pentose Phosphate Pathway"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc3e34","data":{"name":"Transport, Extracellular"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc3f77","data":{"name":"Urea cycle\/amino group metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc3e51","data":{"name":"Aminosugar Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc4214","data":{"name":"Fatty acid activation"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc3ec4","data":{"name":"Salvage Pathway"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc3f9d","data":{"name":"Heme Degradation"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc41d8","data":{"name":"Tyrosine metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc3faf","data":{"name":"Carnitine shuttle"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc3e2c","data":{"name":"Methionine Salvage"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc3e8a","data":{"name":"Purine Catabolism"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc42d7","data":{"name":"Glutamate metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc49df","data":{"name":"Thiamine Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc3d58","data":{"name":"Extracellular exchange"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc4519","data":{"name":"NAD Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc3ed7","data":{"name":"Diacylglycerol Synthesis"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc426c","data":{"name":"Citric Acid Cycle"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc4306","data":{"name":"Pyruvate Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59785fb6c7edff3366657d58","data":{"name":"Starch and Sucrose Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59785fb6c7edff336665726d","data":{"name":"Methionine Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59785fb6c7edff33666575c1","data":{"name":"Galactose metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59785fb6c7edff336665757b","data":{"name":"Fructose and Mannose Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59785fb6c7edff336665750c","data":{"name":"&apos;"},"meta":{"label":"subsystem"}}
+{"id":"59785fb6c7edff3366657326","data":{"name":"Glycerophospholipid Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59785fb6c7edff33666571d9","data":{"name":"Arginine and Proline Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59785fb6c7edff33666575b8","data":{"name":"Pentose Phosphate Pathway"},"meta":{"label":"subsystem"}}
+{"id":"59785fb6c7edff336665716e","data":{"name":"Transport, Extracellular"},"meta":{"label":"subsystem"}}

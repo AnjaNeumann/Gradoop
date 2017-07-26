@@ -1,10 +1,7 @@
-{"id":"59770637c7edff2526bc466a","data":{"name":"Phenylalanine metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc3de6","data":{"name":"Intracellular source\/sink"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc3fe5","data":{"name":"ROS Detoxification"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc4352","data":{"name":"Ascorbate and Aldarate Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc45dd","data":{"name":"Pyrimidine Biosynthesis"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc410f","data":{"name":"Heme Biosynthesis"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc43b1","data":{"name":"Miscellaneous"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc41c6","data":{"name":"Pentose and Glucuronate Interconversions"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc3f48","data":{"name":"Glycolysis\/Gluconeogenesis"},"meta":{"label":"subsystem"}}
-{"id":"59770637c7edff2526bc42c2","data":{"name":"Glutathione Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59785fb6c7edff336665781b","data":{"name":"Inositol Phosphate Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59785fb6c7edff33666578e3","data":{"name":"Pyrimidine Catabolism"},"meta":{"label":"subsystem"}}
+{"id":"59785fb6c7edff336665795a","data":{"name":"Vitamin B6 Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59785fb6c7edff33666571b4","data":{"name":"Riboflavin Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59785fb6c7edff3366657bd0","data":{"name":"Oxidative Phosphorylation"},"meta":{"label":"subsystem"}}
+{"id":"59785fb6c7edff33666577d1","data":{"name":"Eicosanoid Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59785fb6c7edff33666571d2","data":{"name":"Nucleotides"},"meta":{"label":"subsystem"}}

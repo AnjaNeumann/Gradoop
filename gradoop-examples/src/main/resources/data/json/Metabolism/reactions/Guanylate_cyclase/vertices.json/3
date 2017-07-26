@@ -1,1 +1,1 @@
-{"id":"59770637c7edff2526bc4381","data":{"type":"reaction_blank","ClusterId":"59770637c7edff2526bc3e98"},"meta":{"label":"Guanylate cyclase","graphs":["59770637c7edff2526bc3e98","59770637c7edff2526bc4382","59770637c7edff2526bc3a4d"]}}
+{"id":"59785fb6c7edff3366656dfe","data":{"type":"metabolite","oldID":"gtp","ClusterId":"Nucleotides"},"meta":{"label":"GTP","graphs":["59785fb6c7edff3366656d87","59785fb6c7edff33666571d2","59785fb6c7edff33666576bc","59785fb6c7edff3366657879"]}}

@@ -1,0 +1,4 @@
+{"id":"59785fb6c7edff33666571b2","data":{"type":"reaction_blank","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"ACP1 FMN","graphs":["59785fb6c7edff33666571b4","59785fb6c7edff33666571b3","59785fb6c7edff3366656d87"]}}
+{"id":"59785fb6c7edff3366656ef4","data":{"type":"gene","oldID":"Acp1_AT1","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"Acp1_AT1","graphs":["59785fb6c7edff33666571b4","59785fb6c7edff33666571b3"]}}
+{"id":"59785fb6c7edff3366656ef5","data":{"type":"gene","oldID":"Acp1_AT2","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"Acp1_AT2","graphs":["59785fb6c7edff33666571b4","59785fb6c7edff33666571b3"]}}
+{"id":"59785fb6c7edff3366656ef6","data":{"type":"gene","oldID":"Acp1_AT3","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"Acp1_AT3","graphs":["59785fb6c7edff33666571b4","59785fb6c7edff33666571b3"]}}

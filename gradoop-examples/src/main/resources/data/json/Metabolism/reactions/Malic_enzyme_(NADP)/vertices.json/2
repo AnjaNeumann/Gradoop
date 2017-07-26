@@ -1,1 +1,1 @@
-{"id":"59770637c7edff2526bc44b8","data":{"type":"reaction_blank","ClusterId":"59770637c7edff2526bc4306"},"meta":{"label":"Malic enzyme (NADP)","graphs":["59770637c7edff2526bc4306","59770637c7edff2526bc44b9","59770637c7edff2526bc3a4d"]}}
+{"id":"59785fb6c7edff3366656fbb","data":{"type":"gene","oldID":"Me1_AT1","ClusterId":"Pyruvate Metabolism"},"meta":{"label":"Me1_AT1","graphs":["59785fb6c7edff3366657640","59785fb6c7edff33666577f3"]}}
