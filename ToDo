@@ -7,5 +7,22 @@ BDP:
 - vertex grouping nach #edges
 - Daten aus Gradoop exportiern (visualisierbar)
 - überlegen, was man noch so mit gradoop machen kann
+- Metabolite, die nicht von außen hergestellt werden
 
 - Gene einlesen (Namesgebung der Kanten überdenken)
+- Katalysatoren
+
+- Metabolite -> Abfallstoffe
+- pattern matching: kreise
+
+
+Vortrag:
+- Datenstruktur erklären (Reaktionen, Vereinfachtes Model: Gene repräsentieren Proteine, Subsysteme, Compartments)
+- Konverter (Gradoop Input: EPGM)
+- Gradoop (Aggregation, Pattern matching, Filtern, Selektion, Grouping+Transformieren)
+- Gradoop-Visualisierung (Mohammad Ali Rostami)
+
+- Ausblick: 
+	- alle Daten aus Bigg Model in Gradoop einlesbar + visualisierbar
+	- Analysen mit Gradoop (Pattern Matching, Frequent Subgraph Mining)
+	- Visualisierung 
