@@ -17,7 +17,11 @@ public class Main {
 		// mtb.findOutputMetabolites(args[0] +
 		// "/compartments/extracellular_space");
 		// mtb.fsm(0.7f);
-		mtb.grouping();
+		// mtb.grouping();
+		String pattern = "(n)-->(m)";
+		// "(a)-[*]->(a)";
+
+		mtb.patternMatching(pattern, "testcircle");
 
 	}
 

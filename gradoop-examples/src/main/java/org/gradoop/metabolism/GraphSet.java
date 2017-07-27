@@ -63,7 +63,7 @@ public class GraphSet {
 	}
 
 	private List<Edge> copyEdges() {
-		List<Edge> copyEdges = new LinkedList<Edge>();
+		List<Edge> copyEdges = new ArrayList<Edge>(edges.size() + 1);
 		copyEdges.addAll(edges);
 		return copyEdges;
 	}
@@ -117,7 +117,7 @@ public class GraphSet {
 	}
 
 	private List<Vertex> copyVertices() {
-		List<Vertex> verticesCopy = new LinkedList<>();
+		List<Vertex> verticesCopy = new ArrayList<>(vertices.size() + 1);
 		verticesCopy.addAll(vertices);
 		return verticesCopy;
 	}
