@@ -1,4 +1,0 @@
-{"id":"59785fb6c7edff3366657d79","source":"59785fb6c7edff3366657d77","target":"59785fb6c7edff3366656e8a","data":{"quantity":1},"meta":{"label":"output","graphs":["59785fb6c7edff3366656d87","59785fb6c7edff3366657449","59785fb6c7edff3366657d78"]}}
-{"id":"59785fb6c7edff3366657d7a","source":"59785fb6c7edff3366657d77","target":"59785fb6c7edff3366656eb7","data":{"quantity":1},"meta":{"label":"output","graphs":["59785fb6c7edff3366656d87","59785fb6c7edff3366657449","59785fb6c7edff3366657d78"]}}
-{"id":"59785fb6c7edff3366657d7b","source":"59785fb6c7edff3366656e07","target":"59785fb6c7edff3366657d77","data":{"quantity":-1},"meta":{"label":"input","graphs":["59785fb6c7edff3366656d87","59785fb6c7edff3366657449","59785fb6c7edff3366657d78"]}}
-{"id":"59785fb6c7edff3366657d7c","source":"59785fb6c7edff3366657034","target":"59785fb6c7edff3366657d77","data":{},"meta":{"label":"gene","graphs":["59785fb6c7edff3366657449","59785fb6c7edff3366657d78"]}}

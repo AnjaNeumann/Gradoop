@@ -1,0 +1,3 @@
+{"id":"59785fb6c7edff33666571b2","data":{"type":"reaction_blank","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"ACP1 FMN","graphs":["59785fb6c7edff33666571b4","59785fb6c7edff33666571b3","59785fb6c7edff3366656d87"]}}
+{"id":"59785fb6c7edff3366657568","data":{"type":"reaction_blank","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"FADDP","graphs":["59785fb6c7edff33666571b4","59785fb6c7edff3366657569","59785fb6c7edff3366656d87"]}}
+{"id":"59785fb6c7edff3366657592","data":{"type":"reaction_blank","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"FMN adenylyltransferase","graphs":["59785fb6c7edff33666571b4","59785fb6c7edff3366657593","59785fb6c7edff3366656d87"]}}

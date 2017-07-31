@@ -1,0 +1,5 @@
+{"id":"59785fb6c7edff33666572e7","data":{"type":"reaction_blank","ClusterId":"Carnitine shuttle"},"meta":{"label":"C160CPT1","graphs":["59785fb6c7edff33666572e9","59785fb6c7edff33666572e8","59785fb6c7edff3366656d87"]}}
+{"id":"59785fb6c7edff33666572ef","data":{"type":"reaction_blank","ClusterId":"Carnitine shuttle"},"meta":{"label":"C160 reverse","graphs":["59785fb6c7edff33666572e9","59785fb6c7edff33666572f0","59785fb6c7edff3366656d87"]}}
+{"id":"59785fb6c7edff33666572f6","data":{"type":"reaction_blank","ClusterId":"Carnitine shuttle"},"meta":{"label":"C181CPT1","graphs":["59785fb6c7edff33666572e9","59785fb6c7edff33666572f7","59785fb6c7edff3366656d87"]}}
+{"id":"59785fb6c7edff33666572fd","data":{"type":"reaction_blank","ClusterId":"Carnitine shuttle"},"meta":{"label":"Carnitine octadecenoyl transferase","graphs":["59785fb6c7edff33666572e9","59785fb6c7edff33666572fe","59785fb6c7edff3366656d87"]}}
+{"id":"59785fb6c7edff336665779f","data":{"type":"reaction_blank","ClusterId":"Carnitine shuttle"},"meta":{"label":"LNLCCPT1","graphs":["59785fb6c7edff33666572e9","59785fb6c7edff33666577a0","59785fb6c7edff3366656d87"]}}

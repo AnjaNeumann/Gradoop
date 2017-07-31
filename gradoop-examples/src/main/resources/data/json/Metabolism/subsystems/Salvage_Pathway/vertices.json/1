@@ -1,0 +1,3 @@
+{"id":"59785fb6c7edff33666571fc","data":{"type":"reaction_blank","ClusterId":"Salvage Pathway"},"meta":{"label":"Adenine phosphoribosyltransferase","graphs":["59785fb6c7edff33666571fe","59785fb6c7edff33666571fd","59785fb6c7edff3366656d87"]}}
+{"id":"59785fb6c7edff33666576ca","data":{"type":"reaction_blank","ClusterId":"Salvage Pathway"},"meta":{"label":"Guanine phosphoribosyltransferase","graphs":["59785fb6c7edff33666571fe","59785fb6c7edff33666576cb","59785fb6c7edff3366656d87"]}}
+{"id":"59785fb6c7edff3366657752","data":{"type":"reaction_blank","ClusterId":"Salvage Pathway"},"meta":{"label":"Hypoxanthine phosphoribosyltransferase (Hypoxanthine)","graphs":["59785fb6c7edff33666571fe","59785fb6c7edff3366657753","59785fb6c7edff3366656d87"]}}

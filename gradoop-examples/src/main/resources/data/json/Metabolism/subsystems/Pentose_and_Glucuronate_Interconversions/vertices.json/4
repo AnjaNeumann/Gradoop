@@ -1,0 +1,3 @@
+{"id":"59785fb6c7edff33666574fe","data":{"type":"reaction_blank","ClusterId":"Pentose and Glucuronate Interconversions"},"meta":{"label":"DGULND","graphs":["59785fb6c7edff3366657500","59785fb6c7edff33666574ff","59785fb6c7edff3366656d87"]}}
+{"id":"59785fb6c7edff33666576d1","data":{"type":"reaction_blank","ClusterId":"Pentose and Glucuronate Interconversions"},"meta":{"label":"GULN3D","graphs":["59785fb6c7edff3366657500","59785fb6c7edff33666576d2","59785fb6c7edff3366656d87"]}}
+{"id":"59785fb6c7edff33666576d9","data":{"type":"reaction_blank","ClusterId":"Pentose and Glucuronate Interconversions"},"meta":{"label":"Gulonate dehydrogenase","graphs":["59785fb6c7edff3366657500","59785fb6c7edff33666576da","59785fb6c7edff3366656d87"]}}

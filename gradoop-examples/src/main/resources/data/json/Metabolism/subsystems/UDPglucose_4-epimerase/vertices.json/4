@@ -1,2 +1,0 @@
-{"id":"59785fb6c7edff3366657d50","data":{"type":"reaction_blank","ClusterId":"Galactose metabolism"},"meta":{"label":"UDPglucose 4-epimerase","graphs":["59785fb6c7edff33666575c1","59785fb6c7edff3366657d51","59785fb6c7edff3366656d87"]}}
-{"id":"59785fb6c7edff3366656e87","data":{"type":"metabolite","oldID":"udpgal","ClusterId":"Galactose metabolism"},"meta":{"label":"UDPgalactose","graphs":["59785fb6c7edff3366656d87","59785fb6c7edff33666575c1","59785fb6c7edff33666575d3","59785fb6c7edff3366657d51","59785fb6c7edff3366657d68"]}}

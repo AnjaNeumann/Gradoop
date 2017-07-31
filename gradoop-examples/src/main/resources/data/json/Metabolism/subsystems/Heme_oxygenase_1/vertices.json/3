@@ -1,3 +1,0 @@
-{"id":"59785fb6c7edff3366656fad","data":{"type":"gene","oldID":"Hmox2_AT1","ClusterId":"Heme Degradation"},"meta":{"label":"Hmox2_AT1","graphs":["59785fb6c7edff33666572d7","59785fb6c7edff3366657746"]}}
-{"id":"59785fb6c7edff3366656fac","data":{"type":"gene","oldID":"Hmox1_AT1","ClusterId":"Heme Degradation"},"meta":{"label":"Hmox1_AT1","graphs":["59785fb6c7edff33666572d7","59785fb6c7edff3366657746"]}}
-{"id":"59785fb6c7edff3366657745","data":{"type":"reaction_blank","ClusterId":"Heme Degradation"},"meta":{"label":"Heme oxygenase 1","graphs":["59785fb6c7edff33666572d7","59785fb6c7edff3366657746","59785fb6c7edff3366656d87"]}}

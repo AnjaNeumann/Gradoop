@@ -1,2 +1,0 @@
-{"id":"59785fb6c7edff3366656f08","data":{"type":"gene","oldID":"AprT_AT1","ClusterId":"Salvage Pathway"},"meta":{"label":"AprT_AT1","graphs":["59785fb6c7edff33666571fe","59785fb6c7edff33666571fd"]}}
-{"id":"59785fb6c7edff33666571fc","data":{"type":"reaction_blank","ClusterId":"Salvage Pathway"},"meta":{"label":"Adenine phosphoribosyltransferase","graphs":["59785fb6c7edff33666571fe","59785fb6c7edff33666571fd","59785fb6c7edff3366656d87"]}}
