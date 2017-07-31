@@ -2,6 +2,7 @@
 package org.gradoop.metabolism;
 
 import java.time.Instant;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -135,9 +136,7 @@ public class Metabolism extends AbstractRunner {
 		Instant start = Instant.now();
 		for (Vertex v : sourceSet) {
 			System.out.println(v.getLabel() + ": calculating path");
-			visitedVertices = new LinkedList<>();
-			GraphSet graphSet = new GraphSet();
-			graphSet = getTargetSet(v);
+			GraphSet graphSet = getTargetSet(v, Collections.emptyList());
 			paths.add(graphSet);
 
 			System.out.println(graphSet.getVertexCount());
@@ -155,14 +154,8 @@ public class Metabolism extends AbstractRunner {
 
 		System.out.println("Finding all partial graphs took " + millisecondsTaken + "ms.");
 
-		int cnt = 0;
-		GraphSet gs = null;
-		for (GraphSet set : paths) {
-			if (set.getVertexCount() > cnt) {
-				cnt = set.getVertexCount();
-				gs = set;
-			}
-		}
+		GraphSet gs = paths.stream().max((gs1, gs2) -> Integer.compare(gs1.getVertexCount(), gs2.getVertexCount()))
+				.orElse(null);
 
 		GradoopFlinkConfig config = GradoopFlinkConfig.createConfig(env);
 		LogicalGraph lg = LogicalGraph.fromCollections(new GraphHead(GradoopId.get(), "longestPath", null),
@@ -182,15 +175,12 @@ public class Metabolism extends AbstractRunner {
 	 */
 	private Set<Vertex> getSources(LogicalGraph graph, List<Vertex> vertices, String type) throws Exception {
 		Set<Vertex> sourceSet = new HashSet<>();
-		int edgecount = 0;
 		for (Vertex v : vertices) {
-
 			if (v.getPropertyValue("type").toString().equals(type)) {
 				// v.getPropertyValue("type").toString().equals("metabolite")
-				edgecount = graph.getIncomingEdges(v.getId()).collect().size();
-				if (edgecount == 0) {
+				List<Edge> incomingEdges = graph.getIncomingEdges(v.getId()).collect();
+				if (incomingEdges.isEmpty())
 					sourceSet.add(v);
-				}
 			}
 		}
 		return sourceSet;
@@ -233,6 +223,7 @@ public class Metabolism extends AbstractRunner {
 			vertexMap.put(v.getId(), v);
 			edgesOutMap.put(v, graph.getOutgoingEdges(v.getId()).collect());
 		}
+		edgesOutMap.values().forEach(list -> list.sort((e1, e2) -> e1.getId().compareTo(e2.getId())));
 	}
 
 	/**
@@ -254,6 +245,13 @@ public class Metabolism extends AbstractRunner {
 
 	}
 
+	/**
+	 * prints all metabolites which are only connected (as input) to
+	 * extracellular space reactions (transport to outside)
+	 * 
+	 * @param path
+	 * @throws Exception
+	 */
 	public void findOutputMetabolites(String path) throws Exception {
 		LogicalGraph extracellular = readLogicalGraph(path);
 		Set<Vertex> sinks = getSinks(extracellular, extracellular.getVertices().collect(), "reaction_blank");
@@ -347,37 +345,34 @@ public class Metabolism extends AbstractRunner {
 	/**
 	 * find longest Path collection with source vertex
 	 * 
-	 * @param vertex
+	 * @param newVertex
 	 * @return longest Path collection
 	 */
-	private GraphSet getTargetSet(Vertex vertex) {
-		List<Edge> out = edgesOutMap.get(vertex);
-		visitedVertices.add(vertex);
-		int max = -1;
-		Edge input = null;
-		GraphSet output = new GraphSet();
-
+	private GraphSet getTargetSet(Vertex newVertex, List<Vertex> alreadyVisited) {
+		List<Edge> out = edgesOutMap.get(newVertex);
+		List<Vertex> alreadyVisitedFromHere = copyList(alreadyVisited);
+		alreadyVisitedFromHere.add(newVertex);
+		Edge newEdge = null;
+		GraphSet toReturn = new GraphSet();
 		for (Edge edge : out) {
 			GraphSet graphSetPart = new GraphSet();
 			Vertex target = vertexMap.get(edge.getTargetId());
-			if (!visitedVertices.contains(target)) {
+			if (!alreadyVisitedFromHere.contains(target)) {
 				if (!longestPathMap.containsKey(target)) {
-					graphSetPart = getTargetSet(target);
+					graphSetPart = getTargetSet(target, alreadyVisitedFromHere);
 					longestPathMap.put(target, graphSetPart);
 				} else
 					graphSetPart = longestPathMap.get(target);
 			}
-			if (graphSetPart.getEdgeCount() > max) {
-				output = graphSetPart.copy();
-				input = edge;
-				max = graphSetPart.getVertexCount();
+			if (graphSetPart.getVertexCount() > toReturn.getVertexCount()) {
+				toReturn = graphSetPart.copy();
+				newEdge = edge;
 			}
 		}
-		if (input != null)
-			output.addEdge(input);
-
-		output.addVertex(vertex);
-		return output;
+		if (newEdge != null)
+			toReturn.addEdge(newEdge);
+		toReturn.addVertex(newVertex);
+		return toReturn;
 
 	}
 
@@ -599,6 +594,34 @@ public class Metabolism extends AbstractRunner {
 		// System.out.println(frequentPatterns.getVertices().collect().size());
 		frequentPatterns.writeTo(getJDataSink("FSM"));
 		env.execute();
+	}
+
+	/**
+	 * pattern matching
+	 * 
+	 * @param pattern:
+	 *            cypher statement
+	 * @throws Exception
+	 */
+	public void patternMatching(String pattern, String folder) throws Exception {
+		GraphCollection patternGraph = graph.match(pattern);
+		System.out.println(patternGraph.getVertices().count());
+		System.out.println(patternGraph.getEdges().count());
+		// writeGraphCollection(patternGraph,
+		// "src/main/resources/data/json/Metabolism/" + folder);
+		// env.execute();
+	}
+
+	/**
+	 * copy list
+	 * 
+	 * @param toCopy
+	 * @return
+	 */
+	public static <T> List<T> copyList(List<T> toCopy) {
+		List<T> toReturn = new LinkedList<>();
+		toReturn.addAll(toCopy);
+		return toReturn;
 	}
 
 }
