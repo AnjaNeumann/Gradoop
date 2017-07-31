@@ -1,0 +1,26 @@
+{"id":"597748bdc7edff2a5c9c7a9e","data":{"name":"L lactate reversible transport via proton symport"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7a1b","data":{"name":"Hexadecanoate  n C160  transport in via uniport"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c794c","data":{"name":"Glycerol transport via channel"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7902","data":{"name":"GALt1r"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7fd2","data":{"name":"Riboflavin transport out (ATP dependent)"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7af3","data":{"name":"Malate exchange, diffusion"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7b8a","data":{"name":"NAt"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c803c","data":{"name":"Thiamine monophosphate transport (passive - red blood cell)"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c79b6","data":{"name":"Oxidized glutathione irreversible active transport (rbc)"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c75df","data":{"name":"ASCBt"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7afc","data":{"name":"MANt1r"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7aca","data":{"name":"LNLCt"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7514","data":{"name":"ADNt"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c749c","data":{"name":"5 Aminolevulinate transport in via proton symport"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c785e","data":{"name":"Ethanolamine transport via diffusion  extracellular "},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c8048","data":{"name":"Thiamine transprot (passive - red blood cell)"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7590","data":{"name":"ALAt4"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7760","data":{"name":"COt"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7fba","data":{"name":"Pyruvate transport in via proton symport"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7e93","data":{"name":"PIt"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7a76","data":{"name":"HYXNt"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7917","data":{"name":"GGLUCT"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c78ab","data":{"name":"Iron  II  transport"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7630","data":{"name":"CAMPt"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c79fd","data":{"name":"H2O2t"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c78c8","data":{"name":"Fumarate transport via diffusion (reversible)"},"meta":{"label":"reaction"}}

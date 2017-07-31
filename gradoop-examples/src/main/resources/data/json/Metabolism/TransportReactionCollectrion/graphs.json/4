@@ -1,0 +1,19 @@
+{"id":"597748bdc7edff2a5c9c7a17","data":{"name":"Homocysteine transport (extracellular)"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7bb9","data":{"name":"NH4t3r"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c74d9","data":{"name":"Acetate reversible transport via proton symport"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c776e","data":{"name":"CYStec"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7cc7","data":{"name":"PHEtec"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7493","data":{"name":"4PYRDX"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7c4b","data":{"name":"OROATP"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c75ea","data":{"name":"BILGLCURt"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c74c3","data":{"name":"N-acetylneuraminate proton symport"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7b2b","data":{"name":"METtec"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7b17","data":{"name":"MEPIVESSte"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7730","data":{"name":"CGMPt"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7837","data":{"name":"DOPAtu"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7f59","data":{"name":"Puterscine transport (faciliated)"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7bd8","data":{"name":"L-Normetanephrine seceretion via secretory vesicle (ATP driven)"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7a97","data":{"name":"KCCt"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c75d4","data":{"name":"ARGt5r"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c7ab2","data":{"name":"LEUKTRB4t"},"meta":{"label":"reaction"}}
+{"id":"597748bdc7edff2a5c9c775c","data":{"name":"CO2 transporter via diffusion"},"meta":{"label":"reaction"}}

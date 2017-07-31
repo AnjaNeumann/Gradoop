@@ -1,0 +1,10 @@
+{"id":"597b587bb2669c36fd326c0a","data":{"type":"gene","oldID":"Atp2b1_AT1","ClusterId":"NoID"},"meta":{"label":"Atp2b1_AT1","graphs":["597b587bb2669c36fd326e4e","597b587bb2669c36fd326fe9"]}}
+{"id":"597b587bb2669c36fd326c0b","data":{"type":"gene","oldID":"Abcc4_1_e","ClusterId":"NoID"},"meta":{"label":"Abcc4_1_e","graphs":["597b587bb2669c36fd326e4e","597b587bb2669c36fd326ff4","597b587bb2669c36fd3270f4"]}}
+{"id":"597b587bb2669c36fd326c09","data":{"type":"gene","oldID":"Atp2b4_AT1","ClusterId":"NoID"},"meta":{"label":"Atp2b4_AT1","graphs":["597b587bb2669c36fd326e4e","597b587bb2669c36fd326fe9"]}}
+{"id":"597b587bb2669c36fd326bca","data":{"type":"gene","oldID":"Atp1a1b3","ClusterId":"NoID"},"meta":{"label":"Atp1a1b3","graphs":["597b587bb2669c36fd326e4e","597b587bb2669c36fd3275df"]}}
+{"id":"597b587bb2669c36fd326bc9","data":{"type":"gene","oldID":"Atp1a1b2","ClusterId":"NoID"},"meta":{"label":"Atp1a1b2","graphs":["597b587bb2669c36fd326e4e","597b587bb2669c36fd3275df"]}}
+{"id":"597b587bb2669c36fd326bc8","data":{"type":"gene","oldID":"Atp1a1b4","ClusterId":"NoID"},"meta":{"label":"Atp1a1b4","graphs":["597b587bb2669c36fd326e4e","597b587bb2669c36fd3275df"]}}
+{"id":"597b587bb2669c36fd326c62","data":{"type":"gene","oldID":"Slc6a9_AT1","ClusterId":"NoID"},"meta":{"label":"Slc6a9_AT1","graphs":["597b587bb2669c36fd326e4e","597b587bb2669c36fd327328"]}}
+{"id":"597b587bb2669c36fd326c63","data":{"type":"gene","oldID":"Slc6a9_AT2","ClusterId":"NoID"},"meta":{"label":"Slc6a9_AT2","graphs":["597b587bb2669c36fd326e4e","597b587bb2669c36fd327328"]}}
+{"id":"597b587bb2669c36fd326bc7","data":{"type":"gene","oldID":"Atp1a1b1","ClusterId":"NoID"},"meta":{"label":"Atp1a1b1","graphs":["597b587bb2669c36fd326e4e","597b587bb2669c36fd3275df"]}}
+{"id":"597b587bb2669c36fd326bcd","data":{"type":"gene","oldID":"Abcg2","ClusterId":"NoID"},"meta":{"label":"Abcg2","graphs":["597b587bb2669c36fd326e4e","597b587bb2669c36fd327996"]}}

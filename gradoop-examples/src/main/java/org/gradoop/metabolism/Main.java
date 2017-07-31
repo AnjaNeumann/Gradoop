@@ -4,6 +4,8 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 		Metabolism mtb = new Metabolism(args);
+		mtb.getCatalysts();
+//		mtb.getTransportReactions();
 		// mtb.getMembraneReactionGraph();
 
 		// mtb.getVertexEdges(0, 0);
@@ -17,7 +19,7 @@ public class Main {
 		// mtb.findOutputMetabolites(args[0] +
 		// "/compartments/extracellular_space");
 		// mtb.fsm(0.7f);
-		mtb.grouping();
+//		mtb.grouping();
 
 	}
 

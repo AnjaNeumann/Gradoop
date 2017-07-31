@@ -10,23 +10,30 @@ import java.util.Map;
 import java.util.Set;
 
 import org.apache.flink.api.common.functions.FilterFunction;
+import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.gradoop.common.model.api.entities.EPGMGraphHead;
 import org.gradoop.common.model.impl.id.GradoopId;
+import org.gradoop.common.model.impl.id.GradoopIdList;
 import org.gradoop.common.model.impl.pojo.Edge;
 import org.gradoop.common.model.impl.pojo.GraphHead;
-import org.gradoop.common.model.impl.pojo.Vertex;
+import org.gradoop.common.model.impl.pojo.Vertex;import org.gradoop.common.model.impl.properties.PropertyValue;
 import org.gradoop.examples.AbstractRunner;
+import org.gradoop.examples.patternmatching.CypherExample;
 import org.gradoop.flink.algorithms.fsm.TransactionalFSM;
 import org.gradoop.flink.io.impl.json.JSONDataSink;
 import org.gradoop.flink.io.impl.json.JSONDataSource;
+import org.gradoop.flink.model.api.functions.AggregateFunction;
 import org.gradoop.flink.model.impl.GraphCollection;
 import org.gradoop.flink.model.impl.LogicalGraph;
+import org.gradoop.flink.model.impl.LogicalGraphTest;
+import org.gradoop.flink.model.impl.functions.graphcontainment.NotInGraphBroadcast;
 import org.gradoop.flink.model.impl.operators.aggregation.functions.count.EdgeCount;
 import org.gradoop.flink.model.impl.operators.aggregation.functions.count.VertexCount;
 import org.gradoop.flink.util.GradoopFlinkConfig;
 
 import com.google.common.base.Preconditions;
+import com.sun.tools.javah.Gen;
 
 public class Metabolism extends AbstractRunner {
 
@@ -397,11 +404,82 @@ public class Metabolism extends AbstractRunner {
 
 				// execute program
 				env.execute();
-
 			}
 		}
 	}
 
+	/**
+	 * writes all logical graphs of type subsystem to separate file
+	 * 
+	 * @throws Exception
+	 */
+	
+	public void getCatalysts() throws Exception {
+		GraphCollection graphCollection = getGraphCollection();
+		GradoopIdList gradoopIdList = new GradoopIdList();
+		
+		for (Vertex v : graph.match("(m1 {type : \"metabolite\"})-->(r1)-->(m1), (m2 {type : \"metabolite\"})-->(r1)-->(m3 {type : \"metabolite\"})") 
+				.difference(graph.match("(n1)-->(r1)-->(n1), (n2)-->(r1)-->(n2)," + 
+				"(n3)-->(r1)-->(n3)")).getVertices().collect())
+		{
+			if (v.getPropertyValue("type").toString().equals("reaction_blank")){
+				for (GradoopId graphID : v.getGraphIds()) {
+					if (graphCollection.getGraph(graphID).getGraphHead().count() > 0){
+						if (graphCollection.getGraph(graphID).getGraphHead().collect().get(0).getLabel().equals("reaction")){
+							gradoopIdList.add(graphID);
+						}
+					}
+				}	
+			}
+		}
+		
+		GraphCollection collectionOut = graphCollection.getGraphs(gradoopIdList);
+		collectionOut.writeTo(getJDataSink("ActivTransportReactionCollectrion"));
+		env.execute();
+}
+
+	public void getTransportReactions() throws Exception
+	{
+		LogicalGraph extracellular = null, cytosol = null;
+		GraphCollection graphCollection = getGraphCollection();
+		List<GraphHead> graphHeads = graphCollection.getGraphHeads().collect();
+		GradoopFlinkConfig config = GradoopFlinkConfig.createConfig(env);
+		for (GraphHead gh : graphHeads) {
+			if (gh.getLabel().equals("compartment")) {
+				switch (gh.getPropertyValue("name").toString()) {
+				case "cytosol":
+					cytosol = graphCollection.getGraph(gh.getId());
+					break;
+
+				default:
+					extracellular = graphCollection.getGraph(gh.getId());
+					break;
+				}
+			}
+		}
+		System.out.println(extracellular.getVertices().count() + " + " + cytosol.getVertices().count() +" > " +extracellular.overlap(cytosol).getVertices().count());
+		DataSet<Vertex> transportReactions = cytosol.overlap(extracellular).match("({type : \"reaction_blank\"})").getVertices();		
+		GradoopIdList gradoopIdList = new GradoopIdList();
+		
+		for (Vertex transportBlancNode : transportReactions.collect()) {
+			
+			for (GradoopId graphID : transportBlancNode.getGraphIds()) {
+				if (graphCollection.getGraph(graphID).getGraphHead().count() > 0)
+					if (graphCollection.getGraph(graphID).getGraphHead().collect().get(0).getLabel().equals("reaction")){
+						gradoopIdList.add(graphID);
+						continue;
+					}
+			}
+		}
+//		result.writeTo(new JSONDataSink(graphs + ".json", vertices + ".json", edges + ".json", config));
+		
+//		env.execute();
+		
+		GraphCollection collectionOut = graphCollection.getGraphs(gradoopIdList);
+		collectionOut.writeTo(getJDataSink("TransportReactionCollectrion"));
+		env.execute();
+	}
+	
 	/**
 	 * add Property VertexCount to graph
 	 * 
@@ -431,7 +509,6 @@ public class Metabolism extends AbstractRunner {
 
 	public void getMembraneReactionGraph() throws Exception {
 		System.out.println(graph.match("(n1)-[:gene_or]->(n2)").getVertices().count());
-
 	}
 
 	/**
