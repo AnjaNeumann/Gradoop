@@ -3,7 +3,6 @@ package org.gradoop.metabolism;
 import static org.junit.Assert.assertTrue;
 
 import org.gradoop.common.model.api.entities.EPGMGraphHead;
-import org.gradoop.examples.AbstractRunner;
 import org.gradoop.flink.model.impl.LogicalGraph;
 import org.gradoop.flink.model.impl.operators.aggregation.functions.count.EdgeCount;
 import org.gradoop.flink.model.impl.operators.aggregation.functions.count.VertexCount;

@@ -7,7 +7,8 @@ public class Main {
 		mtb.getCatalysts();
 //		mtb.getTransportReactions();
 		// mtb.getMembraneReactionGraph();
-
+		System.out.println(mtb.getEdgeCount());
+		System.out.println(mtb.getVertexCount());
 		// mtb.getVertexEdges(0, 0);
 
 		// mtb.getSubsystems();
@@ -19,15 +20,14 @@ public class Main {
 		// mtb.findOutputMetabolites(args[0] +
 		// "/compartments/extracellular_space");
 		// mtb.fsm(0.7f);
-<<<<<<< HEAD
-//		mtb.grouping();
-=======
+
+
 		// mtb.grouping();
-		String pattern = "(n)-->(m)";
+		// String pattern = "(n)-->(m)";
 		// "(a)-[*]->(a)";
 
-		mtb.patternMatching(pattern, "testcircle");
->>>>>>> 60982a5a46567b0f455fddb2a68abaed2bf07367
+		// mtb.patternMatching(pattern, "testcircle");
+
 
 	}
 
