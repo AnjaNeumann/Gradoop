@@ -1,0 +1,11 @@
+{"id":"59809b91c7edff22d6d344eb","data":{"type":"gene","oldID":"Taldo1_AT1","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"Taldo1_AT1","graphs":["59809b91c7edff22d6d34a77","59809b91c7edff22d6d351d0"]}}
+{"id":"59809b91c7edff22d6d344e5","data":{"type":"gene","oldID":"Rpia_AT1","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"Rpia_AT1","graphs":["59809b91c7edff22d6d34a77","59809b91c7edff22d6d3518d"]}}
+{"id":"59809b91c7edff22d6d34445","data":{"type":"gene","oldID":"Pgd_AT1","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"Pgd_AT1","graphs":["59809b91c7edff22d6d34a77","59809b91c7edff22d6d34b26"]}}
+{"id":"59809b91c7edff22d6d344ed","data":{"type":"gene","oldID":"Tkt_AT1","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"Tkt_AT1","graphs":["59809b91c7edff22d6d34a77","59809b91c7edff22d6d351ef","59809b91c7edff22d6d351f6"]}}
+{"id":"59809b91c7edff22d6d344e4","data":{"type":"gene","oldID":"Rpe_AT2","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"Rpe_AT2","graphs":["59809b91c7edff22d6d34a77","59809b91c7edff22d6d35187"]}}
+{"id":"59809b91c7edff22d6d344e3","data":{"type":"gene","oldID":"Rpe_AT1","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"Rpe_AT1","graphs":["59809b91c7edff22d6d34a77","59809b91c7edff22d6d35187"]}}
+{"id":"59809b91c7edff22d6d344d8","data":{"type":"gene","oldID":"Prps1_AT1","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"Prps1_AT1","graphs":["59809b91c7edff22d6d34a77","59809b91c7edff22d6d350f2"]}}
+{"id":"59809b91c7edff22d6d344b8","data":{"type":"gene","oldID":"Pgls_AT1","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"Pgls_AT1","graphs":["59809b91c7edff22d6d34a77","59809b91c7edff22d6d34e50"]}}
+{"id":"59809b91c7edff22d6d344d9","data":{"type":"gene","oldID":"Prps1l1_AT2","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"Prps1l1_AT2","graphs":["59809b91c7edff22d6d34a77","59809b91c7edff22d6d350f2"]}}
+{"id":"59809b91c7edff22d6d344d7","data":{"type":"gene","oldID":"Prps1l1_AT1","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"Prps1l1_AT1","graphs":["59809b91c7edff22d6d34a77","59809b91c7edff22d6d350f2"]}}
+{"id":"59809b91c7edff22d6d3442a","data":{"type":"gene","oldID":"G6pd_AT1","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"G6pd_AT1","graphs":["59809b91c7edff22d6d34a77","59809b91c7edff22d6d34a76"]}}

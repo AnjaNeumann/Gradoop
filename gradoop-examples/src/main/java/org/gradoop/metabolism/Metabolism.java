@@ -1,6 +1,8 @@
 
 package org.gradoop.metabolism;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Instant;
 import java.util.Collections;
 import java.util.HashMap;
@@ -10,6 +12,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.flink.api.common.functions.FilterFunction;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
@@ -30,6 +33,10 @@ import org.gradoop.flink.util.GradoopFlinkConfig;
 
 import com.google.common.base.Preconditions;
 
+/**
+ * perform some gradoop operations for BiGG model data input: path to EPGM
+ *
+ */
 public class Metabolism extends AbstractRunner {
 
 	private LogicalGraph graph;
@@ -41,19 +48,18 @@ public class Metabolism extends AbstractRunner {
 	private LinkedList<GraphSet> paths;
 	private ExecutionEnvironment env;
 	private Map<Vertex, GraphSet> longestPathMap;
-	private List<Vertex> visitedVertices;
 
 	/**
 	 * Constructor
 	 * 
 	 * @param args:
-	 *            input path
+	 *            input path to EPGM
 	 */
 	public Metabolism(String[] args) {
 
 		Preconditions.checkArgument(args.length == 1, "input dir required");
 		inputDir = args[0];
-		System.out.println(args[0]);
+		// System.out.println(args[0]);
 		env = ExecutionEnvironment.getExecutionEnvironment();
 		this.graph = readLogicalGraph(inputDir);
 
@@ -93,7 +99,7 @@ public class Metabolism extends AbstractRunner {
 	}
 
 	/**
-	 * get GraphCollection from input path (main args)
+	 * get GraphCollection from input path
 	 * 
 	 * @return
 	 */
@@ -137,13 +143,6 @@ public class Metabolism extends AbstractRunner {
 
 		}
 
-		// GraphSet longestPath = sourceSet.parallelStream().map(node ->
-		// getTargetSet(node))
-		// .peek(gs -> System.out.println("Graphset with " + gs.getVertexCount()
-		// + " vertices processed."))
-		// .max((gs1, gs2) -> Integer.compare(gs1.getVertexCount(),
-		// gs2.getVertexCount())).orElse(null);
-
 		Long millisecondsTaken = Instant.now().toEpochMilli() - start.toEpochMilli();
 
 		System.out.println("Finding all partial graphs took " + millisecondsTaken + "ms.");
@@ -161,9 +160,11 @@ public class Metabolism extends AbstractRunner {
 	}
 
 	/**
-	 * find all vertices without incoming edges of type "type"
+	 * find all vertices from graph without incoming edges of type "type"
 	 * 
+	 * @param graph
 	 * @param vertices
+	 * @param type
 	 * @return
 	 * @throws Exception
 	 */
@@ -171,7 +172,6 @@ public class Metabolism extends AbstractRunner {
 		Set<Vertex> sourceSet = new HashSet<>();
 		for (Vertex v : vertices) {
 			if (v.getPropertyValue("type").toString().equals(type)) {
-				// v.getPropertyValue("type").toString().equals("metabolite")
 				List<Edge> incomingEdges = graph.getIncomingEdges(v.getId()).collect();
 				if (incomingEdges.isEmpty())
 					sourceSet.add(v);
@@ -183,7 +183,9 @@ public class Metabolism extends AbstractRunner {
 	/**
 	 * find all vertices without outgoing edges of type "type"
 	 * 
+	 * @param graph
 	 * @param vertices
+	 * @param type
 	 * @return
 	 * @throws Exception
 	 */
@@ -193,7 +195,6 @@ public class Metabolism extends AbstractRunner {
 		for (Vertex v : vertices) {
 
 			if (v.getPropertyValue("type").toString().equals(type)) {
-				// v.getPropertyValue("type").toString().equals("metabolite")
 				edgecount = graph.getOutgoingEdges(v.getId()).collect().size();
 				if (edgecount == 0) {
 					sinkSet.add(v);
@@ -204,8 +205,8 @@ public class Metabolism extends AbstractRunner {
 	}
 
 	/**
-	 * set hashmaps vertex id -> vertex and vertex -> outgoing edges (for graph
-	 * traversing)
+	 * fill hashmaps vertexMap (id -> vertex) and edgesOutMap (vertex ->
+	 * outgoing edges ) for graph traversing
 	 * 
 	 * @param vertices
 	 * @throws Exception
@@ -226,8 +227,14 @@ public class Metabolism extends AbstractRunner {
 	 * @param folder:
 	 *            target folder
 	 * @return
+	 * @throws IOException
 	 */
-	private JSONDataSink getJDataSink(String folder) {
+	private JSONDataSink getJDataSink(String folder) throws IOException {
+
+		File f = new File(inputDir + "/" + folder);
+		if (f.exists()) {
+			FileUtils.deleteDirectory(f);
+		}
 
 		String graphHeadFile = inputDir + "/" + folder + "/graphs.json";
 		String vertexFile = inputDir + "/" + folder + "/vertices.json";
@@ -241,7 +248,7 @@ public class Metabolism extends AbstractRunner {
 
 	/**
 	 * prints all metabolites which are only connected (as input) to
-	 * extracellular space reactions (transport to outside)
+	 * extracellular space reactions (transport to outside) and print them
 	 * 
 	 * @param path
 	 * @throws Exception
@@ -276,7 +283,7 @@ public class Metabolism extends AbstractRunner {
 
 	/**
 	 * find all vertices of type "metabolite" which cannot be created from input
-	 * from outside
+	 * from outside and print it
 	 * 
 	 * @param path:
 	 *            path to extracellular space graph
@@ -375,21 +382,18 @@ public class Metabolism extends AbstractRunner {
 	 * 
 	 * @throws Exception
 	 */
-	public void writeSubsystems2File() throws Exception {
+	public void writeSubsystems2File(String type) throws Exception {
 
 		GraphCollection graphCollection = getGraphCollection();
 		List<GraphHead> graphHeads = graphCollection.getGraphHeads().collect();
-		GradoopFlinkConfig config = GradoopFlinkConfig.createConfig(env);
+
 		for (GraphHead gh : graphHeads) {
-			if (gh.getLabel().equals("subsystem")) {
+			if (gh.getLabel().equals(type)) {
 
 				LogicalGraph subgraph = graphCollection.getGraph(gh.getId());
 				String subsystemName = gh.getPropertyValue("name").toString().trim().replaceAll(" |,|:|;|\\/", "_");
-				String graphs = inputDir + "/subsystems/" + subsystemName + "/graphHeads.json";
-				String vertices = inputDir + "/subsystems/" + subsystemName + "/vertices.json";
-				String edges = inputDir + "/subsystems/" + subsystemName + "/edges.json";
 
-				subgraph.writeTo(new JSONDataSink(graphs, vertices, edges, config));
+				subgraph.writeTo(getJDataSink(type + "/" + subsystemName));
 
 				// execute program
 				env.execute();
@@ -424,7 +428,7 @@ public class Metabolism extends AbstractRunner {
 		}
 
 		GraphCollection collectionOut = graphCollection.getGraphs(gradoopIdList);
-		collectionOut.writeTo(getJDataSink("ActivTransportReactionCollectrion"));
+		collectionOut.writeTo(getJDataSink("ActivTransportReactionCollection"));
 		env.execute();
 	}
 
@@ -432,7 +436,6 @@ public class Metabolism extends AbstractRunner {
 		LogicalGraph extracellular = null, cytosol = null;
 		GraphCollection graphCollection = getGraphCollection();
 		List<GraphHead> graphHeads = graphCollection.getGraphHeads().collect();
-		GradoopFlinkConfig config = GradoopFlinkConfig.createConfig(env);
 		for (GraphHead gh : graphHeads) {
 			if (gh.getLabel().equals("compartment")) {
 				switch (gh.getPropertyValue("name").toString()) {
@@ -469,7 +472,7 @@ public class Metabolism extends AbstractRunner {
 		// env.execute();
 
 		GraphCollection collectionOut = graphCollection.getGraphs(gradoopIdList);
-		collectionOut.writeTo(getJDataSink("TransportReactionCollectrion"));
+		collectionOut.writeTo(getJDataSink("TransportReactionCollection"));
 		env.execute();
 	}
 
@@ -567,7 +570,11 @@ public class Metabolism extends AbstractRunner {
 
 		System.out.println(grouped.getVertices().collect().size());
 		System.out.println(grouped.getEdges().collect().size());
-		writeLogicalGraph(transformed, "src/main/resources/data/json/Metabolism/GroupedLabeledGraph");
+		File f = new File(inputDir + "/GroupedLabeledGraph");
+		if (f.exists()) {
+			FileUtils.deleteDirectory(f);
+		}
+		writeLogicalGraph(transformed, inputDir + "/GroupedLabeledGraph");
 
 	}
 
@@ -598,16 +605,18 @@ public class Metabolism extends AbstractRunner {
 	 * pattern matching
 	 * 
 	 * @param pattern:
-	 *            cypher statement
+	 *            pattern matching statement
+	 * @param folder:
+	 *            name of new folder to save output graph
+	 * 
 	 * @throws Exception
 	 */
 	public void patternMatching(String pattern, String folder) throws Exception {
 		GraphCollection patternGraph = graph.match(pattern);
-		System.out.println(patternGraph.getVertices().count());
-		System.out.println(patternGraph.getEdges().count());
-		// writeGraphCollection(patternGraph,
-		// "src/main/resources/data/json/Metabolism/" + folder);
-		// env.execute();
+		// System.out.println(patternGraph.getVertices().count());
+		// System.out.println(patternGraph.getEdges().count());
+		writeGraphCollection(patternGraph, "src/main/resources/data/json/Metabolism/" + folder);
+		env.execute();
 	}
 
 	/**

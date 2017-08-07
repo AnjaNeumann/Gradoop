@@ -1,0 +1,5 @@
+{"id":"59809b91c7edff22d6d344dd","data":{"type":"gene","oldID":"Pklr_AT1","ClusterId":"Glycolysis\/Gluconeogenesis"},"meta":{"label":"Pklr_AT1","graphs":["59809b91c7edff22d6d34741","59809b91c7edff22d6d35151"]}}
+{"id":"59809b91c7edff22d6d344df","data":{"type":"gene","oldID":"Pklr_AT2","ClusterId":"Glycolysis\/Gluconeogenesis"},"meta":{"label":"Pklr_AT2","graphs":["59809b91c7edff22d6d34741","59809b91c7edff22d6d35151"]}}
+{"id":"59809b91c7edff22d6d344e0","data":{"type":"gene","oldID":"Pkm2_AT1","ClusterId":"Glycolysis\/Gluconeogenesis"},"meta":{"label":"Pkm2_AT1","graphs":["59809b91c7edff22d6d34741","59809b91c7edff22d6d35151"]}}
+{"id":"59809b91c7edff22d6d344dc","data":{"type":"gene","oldID":"Pkm2_AT3","ClusterId":"Glycolysis\/Gluconeogenesis"},"meta":{"label":"Pkm2_AT3","graphs":["59809b91c7edff22d6d34741","59809b91c7edff22d6d35151"]}}
+{"id":"59809b91c7edff22d6d344de","data":{"type":"gene","oldID":"Pkm2_AT2","ClusterId":"Glycolysis\/Gluconeogenesis"},"meta":{"label":"Pkm2_AT2","graphs":["59809b91c7edff22d6d34741","59809b91c7edff22d6d35151"]}}

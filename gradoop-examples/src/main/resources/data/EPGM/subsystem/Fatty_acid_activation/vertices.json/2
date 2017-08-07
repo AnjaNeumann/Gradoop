@@ -1,0 +1,4 @@
+{"id":"59809b91c7edff22d6d34a0b","data":{"type":"reaction_blank","ClusterId":"Fatty acid activation"},"meta":{"label":"Fatty acid  CoA ligase  hexadecanoate ","graphs":["59809b91c7edff22d6d34a0d","59809b91c7edff22d6d34a0c","59809b91c7edff22d6d34246"]}}
+{"id":"59809b91c7edff22d6d34a15","data":{"type":"reaction_blank","ClusterId":"Fatty acid activation"},"meta":{"label":"Fatty acid  CoA ligase  octadecenoate ","graphs":["59809b91c7edff22d6d34a0d","59809b91c7edff22d6d34a16","59809b91c7edff22d6d34246"]}}
+{"id":"59809b91c7edff22d6d34a1e","data":{"type":"reaction_blank","ClusterId":"Fatty acid activation"},"meta":{"label":"FACOAL1821","graphs":["59809b91c7edff22d6d34a0d","59809b91c7edff22d6d34a1f","59809b91c7edff22d6d34246"]}}
+{"id":"59809b91c7edff22d6d34c65","data":{"type":"reaction_blank","ClusterId":"Fatty acid activation"},"meta":{"label":"Carnitine transferase","graphs":["59809b91c7edff22d6d34a0d","59809b91c7edff22d6d34c66","59809b91c7edff22d6d34246"]}}

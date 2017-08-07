@@ -1,0 +1,2 @@
+{"id":"59809b91c7edff22d6d3425d","data":{"type":"metabolite","oldID":"acmanap","ClusterId":"Aminosugar Metabolism"},"meta":{"label":"N-Acetyl-D-mannosamine 6-phosphate","graphs":["59809b91c7edff22d6d34246","59809b91c7edff22d6d3464a","59809b91c7edff22d6d34657","59809b91c7edff22d6d3474d"]}}
+{"id":"59809b91c7edff22d6d3425f","data":{"type":"metabolite","oldID":"acnamp","ClusterId":"Aminosugar Metabolism"},"meta":{"label":"Acnamp c","graphs":["59809b91c7edff22d6d34246","59809b91c7edff22d6d3464a","59809b91c7edff22d6d34657","59809b91c7edff22d6d3465f"]}}

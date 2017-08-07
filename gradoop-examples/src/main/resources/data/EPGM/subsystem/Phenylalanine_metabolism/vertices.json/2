@@ -1,0 +1,2 @@
+{"id":"59809b91c7edff22d6d34e61","data":{"type":"reaction_blank","ClusterId":"Phenylalanine metabolism"},"meta":{"label":"Phenylalanine transaminase","graphs":["59809b91c7edff22d6d34e63","59809b91c7edff22d6d34e62","59809b91c7edff22d6d34246"]}}
+{"id":"59809b91c7edff22d6d34327","data":{"type":"metabolite","oldID":"phpyr","ClusterId":"Phenylalanine metabolism"},"meta":{"label":"Phenylpyruvate","graphs":["59809b91c7edff22d6d34246","59809b91c7edff22d6d34e63","59809b91c7edff22d6d34e62"]}}

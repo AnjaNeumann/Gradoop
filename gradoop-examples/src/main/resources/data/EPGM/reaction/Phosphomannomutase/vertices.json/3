@@ -1,0 +1,2 @@
+{"id":"59809b91c7edff22d6d342da","data":{"type":"metabolite","oldID":"man1p","ClusterId":"Fructose and Mannose Metabolism"},"meta":{"label":"D-Mannose 1-phosphate","graphs":["59809b91c7edff22d6d34246","59809b91c7edff22d6d34a3a","59809b91c7edff22d6d35080"]}}
+{"id":"59809b91c7edff22d6d342db","data":{"type":"metabolite","oldID":"man6p","ClusterId":"Fructose and Mannose Metabolism"},"meta":{"label":"D-Mannose 6-phosphate","graphs":["59809b91c7edff22d6d34246","59809b91c7edff22d6d34a3a","59809b91c7edff22d6d34be0","59809b91c7edff22d6d34c9a","59809b91c7edff22d6d35080"]}}

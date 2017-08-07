@@ -1,0 +1,4 @@
+{"id":"59809b91c7edff22d6d34afd","data":{"type":"reaction_blank","ClusterId":"Pyruvate Metabolism"},"meta":{"label":"Hydroxyacylglutathione hydrolase","graphs":["59809b91c7edff22d6d34aff","59809b91c7edff22d6d34afe","59809b91c7edff22d6d34246"]}}
+{"id":"59809b91c7edff22d6d34c58","data":{"type":"reaction_blank","ClusterId":"Pyruvate Metabolism"},"meta":{"label":"Lactoylglutathione lyase","graphs":["59809b91c7edff22d6d34aff","59809b91c7edff22d6d34c59","59809b91c7edff22d6d34246"]}}
+{"id":"59809b91c7edff22d6d34cb1","data":{"type":"reaction_blank","ClusterId":"Pyruvate Metabolism"},"meta":{"label":"Malic enzyme (NADP)","graphs":["59809b91c7edff22d6d34aff","59809b91c7edff22d6d34cb2","59809b91c7edff22d6d34246"]}}
+{"id":"59809b91c7edff22d6d34cd3","data":{"type":"reaction_blank","ClusterId":"Pyruvate Metabolism"},"meta":{"label":"Methylglyoxal synthase","graphs":["59809b91c7edff22d6d34aff","59809b91c7edff22d6d34cd4","59809b91c7edff22d6d34246"]}}

@@ -1,0 +1,2 @@
+{"id":"59809b91c7edff22d6d35226","data":{"type":"reaction_blank","ClusterId":"Galactose metabolism"},"meta":{"label":"UDPglucose--hexose-1-phosphate uridylyltransferase","graphs":["59809b91c7edff22d6d34a80","59809b91c7edff22d6d35227","59809b91c7edff22d6d34246"]}}
+{"id":"59809b91c7edff22d6d34346","data":{"type":"metabolite","oldID":"udpgal","ClusterId":"Galactose metabolism"},"meta":{"label":"UDPgalactose","graphs":["59809b91c7edff22d6d34246","59809b91c7edff22d6d34a80","59809b91c7edff22d6d34a92","59809b91c7edff22d6d35210","59809b91c7edff22d6d35227"]}}

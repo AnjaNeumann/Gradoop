@@ -1,0 +1,3 @@
+{"id":"59809b91c7edff22d6d3472a","data":{"type":"reaction_blank","ClusterId":"Methionine Metabolism"},"meta":{"label":"Adenosylhomocysteinase","graphs":["59809b91c7edff22d6d3472c","59809b91c7edff22d6d3472b","59809b91c7edff22d6d34246"]}}
+{"id":"59809b91c7edff22d6d34785","data":{"type":"reaction_blank","ClusterId":"Methionine Metabolism"},"meta":{"label":"Band membrane protein-methyltransferase","graphs":["59809b91c7edff22d6d3472c","59809b91c7edff22d6d34786","59809b91c7edff22d6d34246"]}}
+{"id":"59809b91c7edff22d6d34cc2","data":{"type":"reaction_blank","ClusterId":"Methionine Metabolism"},"meta":{"label":"Methionine adenosyltransferase","graphs":["59809b91c7edff22d6d3472c","59809b91c7edff22d6d34cc3","59809b91c7edff22d6d34246"]}}

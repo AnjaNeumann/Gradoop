@@ -1,0 +1,3 @@
+{"id":"59809b91c7edff22d6d34906","data":{"type":"reaction_blank","ClusterId":"Heme Biosynthesis"},"meta":{"label":"Coproporphyrinogen oxidase (O2 required)","graphs":["59809b91c7edff22d6d34908","59809b91c7edff22d6d34907","59809b91c7edff22d6d34246"]}}
+{"id":"59809b91c7edff22d6d34a45","data":{"type":"reaction_blank","ClusterId":"Heme Biosynthesis"},"meta":{"label":"Ferrochelatase","graphs":["59809b91c7edff22d6d34908","59809b91c7edff22d6d34a46","59809b91c7edff22d6d34246"]}}
+{"id":"59809b91c7edff22d6d34bfd","data":{"type":"reaction_blank","ClusterId":"Heme Biosynthesis"},"meta":{"label":"Hydroxymethylbilane synthase","graphs":["59809b91c7edff22d6d34908","59809b91c7edff22d6d34bfe","59809b91c7edff22d6d34246"]}}

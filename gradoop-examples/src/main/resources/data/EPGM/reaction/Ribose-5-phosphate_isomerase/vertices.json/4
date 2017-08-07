@@ -1,0 +1,2 @@
+{"id":"59809b91c7edff22d6d3518c","data":{"type":"reaction_blank","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"Ribose-5-phosphate isomerase","graphs":["59809b91c7edff22d6d34a77","59809b91c7edff22d6d3518d","59809b91c7edff22d6d34246"]}}
+{"id":"59809b91c7edff22d6d3433b","data":{"type":"metabolite","oldID":"ru5p__D","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"D-Ribulose 5-phosphate","graphs":["59809b91c7edff22d6d34246","59809b91c7edff22d6d34a77","59809b91c7edff22d6d34b26","59809b91c7edff22d6d35187","59809b91c7edff22d6d3518d"]}}

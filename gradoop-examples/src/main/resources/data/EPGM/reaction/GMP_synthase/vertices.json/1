@@ -1,0 +1,2 @@
+{"id":"59809b91c7edff22d6d34b19","data":{"type":"reaction_blank","ClusterId":"Nucleotides"},"meta":{"label":"GMP synthase","graphs":["59809b91c7edff22d6d34691","59809b91c7edff22d6d34b1a","59809b91c7edff22d6d34246"]}}
+{"id":"59809b91c7edff22d6d34444","data":{"type":"gene","oldID":"Gmps_AT1","ClusterId":"Nucleotides"},"meta":{"label":"Gmps_AT1","graphs":["59809b91c7edff22d6d34691","59809b91c7edff22d6d34b1a"]}}

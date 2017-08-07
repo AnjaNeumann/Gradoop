@@ -4,30 +4,39 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 		Metabolism mtb = new Metabolism(args);
+
+		// finds all active transport reactions and write them to file
 		mtb.getCatalysts();
-//		mtb.getTransportReactions();
-		// mtb.getMembraneReactionGraph();
-		System.out.println(mtb.getEdgeCount());
-		System.out.println(mtb.getVertexCount());
-		// mtb.getVertexEdges(0, 0);
 
-		// mtb.getSubsystems();
+		// prints number of incoming and outgoing edges for each vertex
+		mtb.getVertexEdges(0, 0);
 
-		// mtb.writeSubsystems2File();
-		// mtb.getLogestPath();
-		// mtb.findInputMetabolites(args[0] +
-		// "/compartments/extracellular_space");
-		// mtb.findOutputMetabolites(args[0] +
-		// "/compartments/extracellular_space");
-		// mtb.fsm(0.7f);
+		// writes all subsystems to one file
+		mtb.getSubsystems();
 
+		// writes all graphs with label "reaction" to a separate file in a
+		// subfolder reaction
+		mtb.writeSubsystems2File("reaction");
+		// analog
+		mtb.writeSubsystems2File("subsystem");
+		mtb.writeSubsystems2File("compartment");
 
-		// mtb.grouping();
-		// String pattern = "(n)-->(m)";
-		// "(a)-[*]->(a)";
+		// groups the graph by subsystems, transform vertex labels and write
+		// graph to file
+		mtb.grouping();
 
-		// mtb.patternMatching(pattern, "testcircle");
+		// finds a long path (not necessary the longest) in EPGM and write it to
+		// file
 
+		mtb.getLogestPath();
+
+		// find all metabolites that cannot be created from input from outside
+		// and print them
+		mtb.findInputMetabolites(args[0] + "/compartment/extracellular_space");
+
+		// find all "waste"-metabolites: all metabolites that are just input
+		// from extracellular transport reactions
+		mtb.findOutputMetabolites(args[0] + "/compartment/extracellular_space");
 
 	}
 

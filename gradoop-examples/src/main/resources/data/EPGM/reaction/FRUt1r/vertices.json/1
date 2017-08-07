@@ -1,0 +1,4 @@
+{"id":"59809b91c7edff22d6d34427","data":{"type":"gene","oldID":"Slc2a11_1_e","ClusterId":"Transport, Extracellular"},"meta":{"label":"Slc2a11_1_e","graphs":["59809b91c7edff22d6d3462d","59809b91c7edff22d6d34a5b"]}}
+{"id":"59809b91c7edff22d6d34423","data":{"type":"gene","oldID":"Slc2a2_1_e","ClusterId":"Transport, Extracellular"},"meta":{"label":"Slc2a2_1_e","graphs":["59809b91c7edff22d6d3462d","59809b91c7edff22d6d34a5b"]}}
+{"id":"59809b91c7edff22d6d34425","data":{"type":"gene","oldID":"Slc2a5_1_e","ClusterId":"Transport, Extracellular"},"meta":{"label":"Slc2a5_1_e","graphs":["59809b91c7edff22d6d3462d","59809b91c7edff22d6d34a5b"]}}
+{"id":"59809b91c7edff22d6d34426","data":{"type":"gene","oldID":"Slc2a8_1_e","ClusterId":"Transport, Extracellular"},"meta":{"label":"Slc2a8_1_e","graphs":["59809b91c7edff22d6d3462d","59809b91c7edff22d6d34a5b"]}}
