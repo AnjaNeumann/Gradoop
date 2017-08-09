@@ -402,12 +402,12 @@ public class Metabolism extends AbstractRunner {
 	}
 
 	/**
-	 * writes all logical graphs of type subsystem to separate file
-	 * 
+	 * Using pattern matching to search for all the logical graphs of the active transport reactions 
+	 * between the compartments and writing the results to a separate file
 	 * @throws Exception
 	 */
 
-	public void getCatalysts() throws Exception {
+	public void getActivTransportReactions() throws Exception {
 		GraphCollection graphCollection = getGraphCollection();
 		GradoopIdList gradoopIdList = new GradoopIdList();
 
@@ -432,11 +432,17 @@ public class Metabolism extends AbstractRunner {
 		env.execute();
 	}
 
+	/**
+	 * Search all logical graphs of transport reactions between the compartments and writing the results to separate file
+	 * 
+	 * @throws Exception
+	 */
 	public void getTransportReactions() throws Exception {
 		LogicalGraph extracellular = null, cytosol = null;
 		GraphCollection graphCollection = getGraphCollection();
 		List<GraphHead> graphHeads = graphCollection.getGraphHeads().collect();
 		for (GraphHead gh : graphHeads) {
+			//The test data only contain 2 different compartments (cytosol & extracellular space)
 			if (gh.getLabel().equals("compartment")) {
 				switch (gh.getPropertyValue("name").toString()) {
 				case "cytosol":
@@ -449,14 +455,14 @@ public class Metabolism extends AbstractRunner {
 				}
 			}
 		}
-		System.out.println(extracellular.getVertices().count() + " + " + cytosol.getVertices().count() + " > "
-				+ extracellular.overlap(cytosol).getVertices().count());
+		
+		//All reactions occurring in more than one compartment are transport reactions
 		DataSet<Vertex> transportReactions = cytosol.overlap(extracellular).match("({type : \"reaction_blank\"})")
 				.getVertices();
 		GradoopIdList gradoopIdList = new GradoopIdList();
 
+		//Using the GraphIDs of the reaction_blank nodes to get the logic graphs of the reactions as result
 		for (Vertex transportBlancNode : transportReactions.collect()) {
-
 			for (GradoopId graphID : transportBlancNode.getGraphIds()) {
 				if (graphCollection.getGraph(graphID).getGraphHead().count() > 0)
 					if (graphCollection.getGraph(graphID).getGraphHead().collect().get(0).getLabel()
@@ -466,10 +472,6 @@ public class Metabolism extends AbstractRunner {
 					}
 			}
 		}
-		// result.writeTo(new JSONDataSink(graphs + ".json", vertices + ".json",
-		// edges + ".json", config));
-
-		// env.execute();
 
 		GraphCollection collectionOut = graphCollection.getGraphs(gradoopIdList);
 		collectionOut.writeTo(getJDataSink("TransportReactionCollection"));

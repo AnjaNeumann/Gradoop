@@ -6,7 +6,7 @@ public class Main {
 		Metabolism mtb = new Metabolism(args);
 
 		// finds all active transport reactions and write them to file
-		mtb.getCatalysts();
+		mtb.getActivTransportReactions();
 
 		// prints number of incoming and outgoing edges for each vertex
 		mtb.getVertexEdges(0, 0);
