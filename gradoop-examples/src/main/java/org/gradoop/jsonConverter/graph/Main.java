@@ -21,12 +21,15 @@ public class Main {
 		String inputdir = args[0];
 		String outputdir = args[1];
 		JSONParser jparser = new JSONParser();
+		
+		// read bigg model json file
 		JSONObject job = (JSONObject) jparser.parse(new FileReader(inputdir));
 
 		// graphs.json
 		// ID Name
 		Map<String, LogicGraph> mLogicGraphs = new HashMap<String, LogicGraph>();
 
+		//read all compartments
 		JSONObject jsonCompartments = (JSONObject) job.get("compartments");
 		for (Object jsonCompartmentKey : jsonCompartments.keySet()) {
 			String strKey = (String) jsonCompartmentKey;
@@ -34,9 +37,9 @@ public class Main {
 			mLogicGraphs.put(strKey, new LogicGraph("compartment", strName, strKey));
 		}
 
-		// nodes.json + edges.json
 		Map<String, Node> mMetabolites = new HashMap<String, Node>();
 
+		//read all metabolites
 		JSONArray jsonMetabolites = (JSONArray) job.get("metabolites");
 		for (Object jsonMetabolite : jsonMetabolites) {
 			String strKey = (String) ((JSONObject) jsonMetabolite).get("id");
@@ -46,6 +49,7 @@ public class Main {
 					new Node(strKey, (String) ((JSONObject) jsonMetabolite).get("name"), "metabolite"));
 		}
 
+		// read all genes
 		JSONArray jsonGenes = (JSONArray) job.get("genes");
 		Map<String, Node> mGenes = new HashMap<String, Node>();
 		for (Object jg : jsonGenes) {
@@ -55,55 +59,69 @@ public class Main {
 
 		}
 
+		
 		List<Node> lReaktions = new ArrayList<Node>();
 		List<Edge> lEdges = new ArrayList<Edge>();
 		JSONArray jsonReactions = (JSONArray) job.get("reactions");
+		
+		// read all reactions
 		for (Object jsonReaktionObject : jsonReactions) {
 			JSONObject jsonReaction = (JSONObject) jsonReaktionObject;
 			Node nodeReaction = new Node((String) jsonReaction.get("name"), "reaction_blank");
 			lReaktions.add(nodeReaction);
 
+			// create graph that represent the reaction
 			LogicGraph graphReaction = new LogicGraph("reaction", (String) jsonReaction.get("name"), null);
 			mLogicGraphs.put((String) jsonReaction.get("name"), graphReaction);
+			
+			//id to connect the genes, metabolites and reaction_blanc in reaction graph 
 			String strReactionGraphUUID = graphReaction.getStrUUID();
 
 			String strsubsystemGraphUUID = null;
+			
+			// get subsystem of reaction
 			String subsystem = (String) jsonReaction.get("subsystem");
+			
+			// create new subsystem or get id of existing subsystem
 			if (subsystem != null) {
 				if (!mLogicGraphs.containsKey(subsystem)) {
 					mLogicGraphs.put(subsystem, new LogicGraph("subsystem", subsystem, null));
 				}
-
 				strsubsystemGraphUUID = mLogicGraphs.get(subsystem).getStrUUID();
-
 			}
+			
+			// set infomations to blanc_node
 			if (strsubsystemGraphUUID != null)
 				nodeReaction.addGraph(strsubsystemGraphUUID);
 			nodeReaction.setClusterID(subsystem);
 			nodeReaction.addGraph(strReactionGraphUUID);
 
+			// get metabolites of current reactions
 			JSONObject metabolite = (JSONObject) jsonReaction.get("metabolites");
-
 			for (Object metaboliteName : metabolite.keySet()) {
 				String strMetaboliteName = (String) metaboliteName;
 				String strCompartmentID = null;
+				
+				// get compartment of metabolite
 				if (strMetaboliteName.contains("_")) {
 					strCompartmentID = mLogicGraphs
 							.get(strMetaboliteName.substring(strMetaboliteName.lastIndexOf('_') + 1)).getStrUUID();
 					strMetaboliteName = strMetaboliteName.substring(0, strMetaboliteName.lastIndexOf('_'));
 					mMetabolites.get(strMetaboliteName).addGraph(strCompartmentID);
-					;
 					nodeReaction.addGraph(strCompartmentID);
 				}
 
 				Double fCoefficient = (Double) metabolite.get(metaboliteName);
 
+				//set informations to metabolite
 				if (strsubsystemGraphUUID != null)
 					mMetabolites.get(strMetaboliteName).addGraph(strsubsystemGraphUUID);
 				mMetabolites.get(strMetaboliteName).addGraph(strReactionGraphUUID);
 				mMetabolites.get(strMetaboliteName).setClusterID(subsystem);
+				
 				String MetaboliteUUID = mMetabolites.get(strMetaboliteName).getStrUUID();
 
+				//create edges between reaction_blank node and metabolite node
 				Edge currentEdge = null;
 				if (fCoefficient < 0) {
 					currentEdge = new Edge(MetaboliteUUID, nodeReaction.getStrUUID(), fCoefficient, "input");
@@ -120,6 +138,7 @@ public class Main {
 				lEdges.add(currentEdge);
 			}
 
+			// get all genes of reaction
 			String[] genes = ((String) jsonReaction.get("gene_reaction_rule")).split(" ");
 			for (String gene : genes) {
 				if (mGenes.containsKey(gene)) {
@@ -146,7 +165,7 @@ public class Main {
 			}
 
 		}
-
+		
 		FileWriter filewriter = new FileWriter(outputdir + "/edges.json");
 
 		for (Edge edge : lEdges) {

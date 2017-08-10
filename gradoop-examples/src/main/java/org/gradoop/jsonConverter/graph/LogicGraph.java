@@ -4,6 +4,10 @@ import org.gradoop.common.model.impl.id.GradoopId;
 import org.json.simple.JSONObject;
 
 @SuppressWarnings("serial")
+/**
+ * data class to represent graphs in xml.
+ *
+ */
 public class LogicGraph extends JSONObject{
 
 	final private String strUUID = GradoopId.get().toString();

@@ -5,9 +5,15 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 @SuppressWarnings({ "unchecked", "serial" })
+
+/**
+ * data class to represent edges in xml.
+ *
+ */
 public class Edge extends JSONObject {
 
 	JSONArray m_LogicGraphsList = new JSONArray();
+	
 	final private String strUUID = GradoopId.get().toString();
 
 	public Edge(String source, String target, String label) {
@@ -31,7 +37,6 @@ public class Edge extends JSONObject {
 		metaObj.put("label", label);
 		metaObj.put("graphs", m_LogicGraphsList);
 		this.put("meta", metaObj);
-
 	}
 
 	public void addGraph(String GraphID) {

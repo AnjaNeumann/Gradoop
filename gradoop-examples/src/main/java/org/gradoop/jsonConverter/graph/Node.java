@@ -9,6 +9,12 @@ import org.json.simple.JSONObject;
 
 
 @SuppressWarnings({ "unchecked", "serial" })
+
+/**
+ * data class to represent nodes in xml.
+ *
+ */
+
 public class Node extends JSONObject {
 
 	private JSONArray m_LogicGraphsList = new JSONArray();
