@@ -158,7 +158,7 @@ public class Main {
 			}
 
 		}
-
+		
 		// writing data to EPGM files
 
 		FileWriter filewriter = new FileWriter(outputdir + "/edges.json");
