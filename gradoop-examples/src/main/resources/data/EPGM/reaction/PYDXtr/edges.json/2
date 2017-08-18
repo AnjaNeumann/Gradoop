@@ -1,0 +1,2 @@
+{"id":"59969f1cc7edff6b3d5b8242","source":"59969f1cc7edff6b3d5b7488","target":"59969f1cc7edff6b3d5b8240","data":{"quantity":-1},"meta":{"label":"input","graphs":["59969f1cc7edff6b3d5b733b","59969f1cc7edff6b3d5b7721","59969f1cc7edff6b3d5b8241"]}}
+{"id":"59969f1cc7edff6b3d5b8243","source":"59969f1cc7edff6b3d5b8240","target":"59969f1cc7edff6b3d5b7488","data":{"quantity":1},"meta":{"label":"output","graphs":["59969f1cc7edff6b3d5b733a","59969f1cc7edff6b3d5b7721","59969f1cc7edff6b3d5b8241"]}}

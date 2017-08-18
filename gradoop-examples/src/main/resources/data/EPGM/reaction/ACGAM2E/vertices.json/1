@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d3425a","data":{"type":"metabolite","oldID":"acgam","ClusterId":"Aminosugar Metabolism"},"meta":{"label":"N-Acetyl-D-glucosamine","graphs":["59809b91c7edff22d6d34246","59809b91c7edff22d6d3464a","59809b91c7edff22d6d34649","59809b91c7edff22d6d3464f"]}}
+{"id":"59969f1cc7edff6b3d5b773c","data":{"type":"reaction_blank","ClusterId":"Aminosugar Metabolism"},"meta":{"label":"ACGAM2E","graphs":["59969f1cc7edff6b3d5b773e","59969f1cc7edff6b3d5b773d","59969f1cc7edff6b3d5b733a"]}}

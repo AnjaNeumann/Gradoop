@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d3439d","data":{"type":"metabolite","oldID":"uri","ClusterId":"Pyrimidine Catabolism,Transport, Extracellular"},"meta":{"label":"Uridine","graphs":["59809b91c7edff22d6d34247","59809b91c7edff22d6d345db","59809b91c7edff22d6d34246","59809b91c7edff22d6d34da2","59809b91c7edff22d6d34da1","59809b91c7edff22d6d3462d","59809b91c7edff22d6d35249"]}}
+{"id":"59969f1cc7edff6b3d5b76ce","data":{"type":"reaction_blank","ClusterId":"NoID"},"meta":{"label":"Uridine exchange","graphs":["59969f1cc7edff6b3d5b76cf","59969f1cc7edff6b3d5b733b"]}}

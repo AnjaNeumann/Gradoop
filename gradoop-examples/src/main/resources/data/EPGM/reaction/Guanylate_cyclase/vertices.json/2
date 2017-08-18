@@ -1,1 +1,10 @@
-{"id":"59809b91c7edff22d6d342bd","data":{"type":"metabolite","oldID":"gtp","ClusterId":"Nucleotides"},"meta":{"label":"GTP","graphs":["59809b91c7edff22d6d34246","59809b91c7edff22d6d34691","59809b91c7edff22d6d34b7b","59809b91c7edff22d6d34d38"]}}
+{"id":"59969f1cc7edff6b3d5b754e","data":{"type":"gene","oldID":"Npr1_AT1","ClusterId":"Nucleotides"},"meta":{"label":"Npr1_AT1","graphs":["59969f1cc7edff6b3d5b7785","59969f1cc7edff6b3d5b7c6f"]}}
+{"id":"59969f1cc7edff6b3d5b754b","data":{"type":"gene","oldID":"Gucy2D_AT1","ClusterId":"Nucleotides"},"meta":{"label":"Gucy2D_AT1","graphs":["59969f1cc7edff6b3d5b7785","59969f1cc7edff6b3d5b7c6f"]}}
+{"id":"59969f1cc7edff6b3d5b7548","data":{"type":"gene","oldID":"Gucy1A3B2_AT1","ClusterId":"Nucleotides"},"meta":{"label":"Gucy1A3B2_AT1","graphs":["59969f1cc7edff6b3d5b7785","59969f1cc7edff6b3d5b7c6f"]}}
+{"id":"59969f1cc7edff6b3d5b7547","data":{"type":"gene","oldID":"Npr2_AT2","ClusterId":"Nucleotides"},"meta":{"label":"Npr2_AT2","graphs":["59969f1cc7edff6b3d5b7785","59969f1cc7edff6b3d5b7c6f"]}}
+{"id":"59969f1cc7edff6b3d5b754c","data":{"type":"gene","oldID":"Npr2_AT1","ClusterId":"Nucleotides"},"meta":{"label":"Npr2_AT1","graphs":["59969f1cc7edff6b3d5b7785","59969f1cc7edff6b3d5b7c6f"]}}
+{"id":"59969f1cc7edff6b3d5b754a","data":{"type":"gene","oldID":"Gucy2F_AT1","ClusterId":"Nucleotides"},"meta":{"label":"Gucy2F_AT1","graphs":["59969f1cc7edff6b3d5b7785","59969f1cc7edff6b3d5b7c6f"]}}
+{"id":"59969f1cc7edff6b3d5b754d","data":{"type":"gene","oldID":"Gucy1A2B2_AT1","ClusterId":"Nucleotides"},"meta":{"label":"Gucy1A2B2_AT1","graphs":["59969f1cc7edff6b3d5b7785","59969f1cc7edff6b3d5b7c6f"]}}
+{"id":"59969f1cc7edff6b3d5b754f","data":{"type":"gene","oldID":"Gucy1A2B3_AT1","ClusterId":"Nucleotides"},"meta":{"label":"Gucy1A2B3_AT1","graphs":["59969f1cc7edff6b3d5b7785","59969f1cc7edff6b3d5b7c6f"]}}
+{"id":"59969f1cc7edff6b3d5b7546","data":{"type":"gene","oldID":"Gucy2C_AT1","ClusterId":"Nucleotides"},"meta":{"label":"Gucy2C_AT1","graphs":["59969f1cc7edff6b3d5b7785","59969f1cc7edff6b3d5b7c6f"]}}
+{"id":"59969f1cc7edff6b3d5b7549","data":{"type":"gene","oldID":"Gucy1A3B3_AT1","ClusterId":"Nucleotides"},"meta":{"label":"Gucy1A3B3_AT1","graphs":["59969f1cc7edff6b3d5b7785","59969f1cc7edff6b3d5b7c6f"]}}

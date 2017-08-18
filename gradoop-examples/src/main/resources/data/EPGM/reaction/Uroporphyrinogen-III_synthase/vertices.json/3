@@ -1,1 +1,3 @@
-{"id":"59809b91c7edff22d6d344f3","data":{"type":"gene","oldID":"Uros_AT1","ClusterId":"Heme Biosynthesis"},"meta":{"label":"Uros_AT1","graphs":["59809b91c7edff22d6d34908","59809b91c7edff22d6d35237"]}}
+{"id":"59969f1cc7edff6b3d5b832a","data":{"type":"reaction_blank","ClusterId":"Heme Biosynthesis"},"meta":{"label":"Uroporphyrinogen-III synthase","graphs":["59969f1cc7edff6b3d5b79fc","59969f1cc7edff6b3d5b832b","59969f1cc7edff6b3d5b733a"]}}
+{"id":"59969f1cc7edff6b3d5b743d","data":{"type":"metabolite","oldID":"uppg3","ClusterId":"Heme Biosynthesis"},"meta":{"label":"Uroporphyrinogen III","graphs":["59969f1cc7edff6b3d5b733a","59969f1cc7edff6b3d5b79fc","59969f1cc7edff6b3d5b832b","59969f1cc7edff6b3d5b8331"]}}
+{"id":"59969f1cc7edff6b3d5b73ba","data":{"type":"metabolite","oldID":"hmbil","ClusterId":"Heme Biosynthesis"},"meta":{"label":"Hydroxymethylbilane","graphs":["59969f1cc7edff6b3d5b733a","59969f1cc7edff6b3d5b79fc","59969f1cc7edff6b3d5b7cf2","59969f1cc7edff6b3d5b832b"]}}

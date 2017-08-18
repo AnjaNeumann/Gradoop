@@ -6,7 +6,7 @@ public class Main {
 		Metabolism mtb = new Metabolism(args);
 
 		// finds all active transport reactions and write them to file
-		mtb.getActivTransportReactions();
+		mtb.getActiveTransportReactions();
 
 		// prints number of incoming and outgoing edges for each vertex
 		mtb.getVertexEdges(0, 0);
@@ -28,15 +28,18 @@ public class Main {
 		// finds a long path (not necessary the longest) in EPGM and write it to
 		// file
 
-		mtb.getLogestPath();
+		mtb.getLongestPath();
 
 		// find all metabolites that cannot be created from input from outside
 		// and print them
-		mtb.findInputMetabolites(args[0] + "/compartment/extracellular_space");
+		String input = mtb.findInputMetabolites(args[0] + "/compartment/extracellular_space");
 
 		// find all "waste"-metabolites: all metabolites that are just input
 		// from extracellular transport reactions
-		mtb.findOutputMetabolites(args[0] + "/compartment/extracellular_space");
+		String output = mtb.findOutputMetabolites(args[0] + "/compartment/extracellular_space");
+
+		System.out.println("Input Metabolite:\n" + input);
+		System.out.println("Output Metabolite:\n" + output);
 
 	}
 

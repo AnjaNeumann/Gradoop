@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d343b9","data":{"type":"gene","oldID":"Amd1_AT1","ClusterId":"Arginine and Proline Metabolism"},"meta":{"label":"Amd1_AT1","graphs":["59809b91c7edff22d6d34698","59809b91c7edff22d6d34697"]}}
+{"id":"59969f1cc7edff6b3d5b778a","data":{"type":"reaction_blank","ClusterId":"Arginine and Proline Metabolism"},"meta":{"label":"Adenosylmethionine decarboxylase","graphs":["59969f1cc7edff6b3d5b778c","59969f1cc7edff6b3d5b778b","59969f1cc7edff6b3d5b733a"]}}

@@ -20,7 +20,7 @@ public class Node extends JSONObject {
 	private JSONArray m_LogicGraphsList = new JSONArray();
 	private JSONObject data;
 	private ArrayList<String> ClusterID = new ArrayList<String>();
-	final private String strUUID = GradoopId.get().toString();
+	final private String id = GradoopId.get().toString();
 
 	public Node(String id, String label, String type) {
 		this(label, type);
@@ -30,7 +30,7 @@ public class Node extends JSONObject {
 
 	public Node(String label, String type) {
 		super();
-		this.put("id", strUUID);
+		this.put("id", id);
 
 		data = new JSONObject();
 		data.put("type", type);
@@ -76,8 +76,8 @@ public class Node extends JSONObject {
 		this.put(compartmentID, quantity);
 	}
 
-	public String getStrUUID() {
-		return strUUID;
+	public String getId() {
+		return id;
 	}
 
 }

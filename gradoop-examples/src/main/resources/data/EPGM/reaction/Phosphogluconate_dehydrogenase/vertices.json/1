@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d34445","data":{"type":"gene","oldID":"Pgd_AT1","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"Pgd_AT1","graphs":["59809b91c7edff22d6d34a77","59809b91c7edff22d6d34b26"]}}
+{"id":"59969f1cc7edff6b3d5b7c19","data":{"type":"reaction_blank","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"Phosphogluconate dehydrogenase","graphs":["59969f1cc7edff6b3d5b7b6b","59969f1cc7edff6b3d5b7c1a","59969f1cc7edff6b3d5b733a"]}}

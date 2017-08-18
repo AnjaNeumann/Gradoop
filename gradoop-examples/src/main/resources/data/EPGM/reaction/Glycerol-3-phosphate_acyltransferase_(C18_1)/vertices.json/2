@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d34446","data":{"type":"gene","oldID":"Gpam_AT1","ClusterId":"Diacylglycerol Synthesis"},"meta":{"label":"Gpam_AT1","graphs":["59809b91c7edff22d6d346d0","59809b91c7edff22d6d34b2e","59809b91c7edff22d6d34b35","59809b91c7edff22d6d34b3c"]}}
+{"id":"59969f1cc7edff6b3d5b7c28","data":{"type":"reaction_blank","ClusterId":"Diacylglycerol Synthesis"},"meta":{"label":"Glycerol-3-phosphate acyltransferase (C18:1)","graphs":["59969f1cc7edff6b3d5b77c4","59969f1cc7edff6b3d5b7c29","59969f1cc7edff6b3d5b733a"]}}

@@ -10,14 +10,14 @@ import org.json.simple.JSONObject;
  */
 public class LogicGraph extends JSONObject{
 
-	final private String strUUID = GradoopId.get().toString();
+	final private String id = GradoopId.get().toString();
 	final private String strName;
 	
 	@SuppressWarnings("unchecked")
 	public LogicGraph(String strLable, String strName, String strOldID) {
 		super();
 		this.strName = strName;
-		this.put("id", strUUID);
+		this.put("id", id);
 		
 		JSONObject data = new JSONObject();
 		data.put("name", strName);
@@ -34,8 +34,8 @@ public class LogicGraph extends JSONObject{
 
 	
 	
-	public String getStrUUID() {
-		return strUUID;
+	public String getId() {
+		return id;
 	}
 
 

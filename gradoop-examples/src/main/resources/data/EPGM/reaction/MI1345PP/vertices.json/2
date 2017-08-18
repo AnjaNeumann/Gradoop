@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d342df","data":{"type":"metabolite","oldID":"mi134p","ClusterId":"Inositol Phosphate Metabolism,Intracellular source\/sink"},"meta":{"label":"Mi134p c","graphs":["59809b91c7edff22d6d34246","59809b91c7edff22d6d345df","59809b91c7edff22d6d345f1","59809b91c7edff22d6d34cda","59809b91c7edff22d6d34cd9"]}}
+{"id":"59969f1cc7edff6b3d5b7dcc","data":{"type":"reaction_blank","ClusterId":"Inositol Phosphate Metabolism"},"meta":{"label":"MI1345PP","graphs":["59969f1cc7edff6b3d5b7dce","59969f1cc7edff6b3d5b7dcd","59969f1cc7edff6b3d5b733a"]}}

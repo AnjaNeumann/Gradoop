@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d342a0","data":{"type":"metabolite","oldID":"fad","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"Flavin adenine dinucleotide oxidized","graphs":["59809b91c7edff22d6d34246","59809b91c7edff22d6d34673","59809b91c7edff22d6d34a28","59809b91c7edff22d6d34a52"]}}
+{"id":"59969f1cc7edff6b3d5b7b45","data":{"type":"reaction_blank","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"FMN adenylyltransferase","graphs":["59969f1cc7edff6b3d5b7767","59969f1cc7edff6b3d5b7b46","59969f1cc7edff6b3d5b733a"]}}

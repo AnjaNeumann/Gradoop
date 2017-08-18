@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d342c6","data":{"type":"metabolite","oldID":"hmbil","ClusterId":"Heme Biosynthesis"},"meta":{"label":"Hydroxymethylbilane","graphs":["59809b91c7edff22d6d34246","59809b91c7edff22d6d34908","59809b91c7edff22d6d34bfe","59809b91c7edff22d6d35237"]}}
+{"id":"59969f1cc7edff6b3d5b755e","data":{"type":"gene","oldID":"Hmbs_AT1","ClusterId":"Heme Biosynthesis"},"meta":{"label":"Hmbs_AT1","graphs":["59969f1cc7edff6b3d5b79fc","59969f1cc7edff6b3d5b7cf2"]}}

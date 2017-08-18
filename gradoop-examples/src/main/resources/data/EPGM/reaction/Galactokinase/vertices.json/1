@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d3442b","data":{"type":"gene","oldID":"Galk1_AT1","ClusterId":"Galactose metabolism"},"meta":{"label":"Galk1_AT1","graphs":["59809b91c7edff22d6d34a80","59809b91c7edff22d6d34a7f"]}}
+{"id":"59969f1cc7edff6b3d5b7b72","data":{"type":"reaction_blank","ClusterId":"Galactose metabolism"},"meta":{"label":"Galactokinase","graphs":["59969f1cc7edff6b3d5b7b74","59969f1cc7edff6b3d5b7b73","59969f1cc7edff6b3d5b733a"]}}

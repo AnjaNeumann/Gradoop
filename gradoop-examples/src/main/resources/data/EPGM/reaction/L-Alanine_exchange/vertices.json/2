@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d3435c","data":{"type":"metabolite","oldID":"ala__L","ClusterId":"Glutathione Metabolism,Transport, Extracellular"},"meta":{"label":"L-Alanine","graphs":["59809b91c7edff22d6d34247","59809b91c7edff22d6d34517","59809b91c7edff22d6d34246","59809b91c7edff22d6d3462d","59809b91c7edff22d6d34733","59809b91c7edff22d6d34abb","59809b91c7edff22d6d34aba"]}}
+{"id":"59969f1cc7edff6b3d5b760a","data":{"type":"reaction_blank","ClusterId":"NoID"},"meta":{"label":"L-Alanine exchange","graphs":["59969f1cc7edff6b3d5b760b","59969f1cc7edff6b3d5b733b"]}}

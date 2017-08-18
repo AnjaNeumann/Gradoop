@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d343b0","data":{"type":"gene","oldID":"Nagk_AT1","ClusterId":"Aminosugar Metabolism"},"meta":{"label":"Nagk_AT1","graphs":["59809b91c7edff22d6d3464a","59809b91c7edff22d6d3464f","59809b91c7edff22d6d3474d"]}}
+{"id":"59969f1cc7edff6b3d5b7840","data":{"type":"reaction_blank","ClusterId":"Aminosugar Metabolism"},"meta":{"label":"N-acetyl-D-mannosamine kinase","graphs":["59969f1cc7edff6b3d5b773e","59969f1cc7edff6b3d5b7841","59969f1cc7edff6b3d5b733a"]}}

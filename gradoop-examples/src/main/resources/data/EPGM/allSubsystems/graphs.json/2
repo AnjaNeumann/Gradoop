@@ -1,23 +1,7 @@
-{"id":"59809b91c7edff22d6d34770","data":{"name":"Urea cycle\/amino group metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d3464a","data":{"name":"Aminosugar Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d34a0d","data":{"name":"Fatty acid activation"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d346bd","data":{"name":"Salvage Pathway"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d34796","data":{"name":"Heme Degradation"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d349d1","data":{"name":"Tyrosine metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d347a8","data":{"name":"Carnitine shuttle"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d34625","data":{"name":"Methionine Salvage"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d34683","data":{"name":"Purine Catabolism"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d34ad0","data":{"name":"Glutamate metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d351d8","data":{"name":"Thiamine Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d34551","data":{"name":"Extracellular exchange"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d34d12","data":{"name":"NAD Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d346d0","data":{"name":"Diacylglycerol Synthesis"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d34a65","data":{"name":"Citric Acid Cycle"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d34aff","data":{"name":"Pyruvate Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d34cda","data":{"name":"Inositol Phosphate Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d34da2","data":{"name":"Pyrimidine Catabolism"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d34e19","data":{"name":"Vitamin B6 Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d34673","data":{"name":"Riboflavin Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d3508f","data":{"name":"Oxidative Phosphorylation"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d34c90","data":{"name":"Eicosanoid Metabolism"},"meta":{"label":"subsystem"}}
-{"id":"59809b91c7edff22d6d34691","data":{"name":"Nucleotides"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b7dce","data":{"name":"Inositol Phosphate Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b7e96","data":{"name":"Pyrimidine Catabolism"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b7f0d","data":{"name":"Vitamin B6 Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b7767","data":{"name":"Riboflavin Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b8183","data":{"name":"Oxidative Phosphorylation"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b7d84","data":{"name":"Eicosanoid Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b7785","data":{"name":"Nucleotides"},"meta":{"label":"subsystem"}}

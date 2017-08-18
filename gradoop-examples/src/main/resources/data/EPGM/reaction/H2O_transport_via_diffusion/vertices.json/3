@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d3445d","data":{"type":"gene","oldID":"Slc5a1_1_e","ClusterId":"Transport, Extracellular"},"meta":{"label":"Slc5a1_1_e","graphs":["59809b91c7edff22d6d3462d","59809b91c7edff22d6d34ba4","59809b91c7edff22d6d34d2d"]}}
+{"id":"59969f1cc7edff6b3d5b7c97","data":{"type":"reaction_blank","ClusterId":"Transport, Extracellular"},"meta":{"label":"H2O transport via diffusion","graphs":["59969f1cc7edff6b3d5b7721","59969f1cc7edff6b3d5b7c98","59969f1cc7edff6b3d5b733a","59969f1cc7edff6b3d5b733b"]}}

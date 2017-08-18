@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d343fb","data":{"type":"gene","oldID":"Slc16a1_AT1","ClusterId":"Transport, Extracellular"},"meta":{"label":"Slc16a1_AT1","graphs":["59809b91c7edff22d6d3462d","59809b91c7edff22d6d3491d","59809b91c7edff22d6d34c41","59809b91c7edff22d6d3515d"]}}
+{"id":"59969f1cc7edff6b3d5b7a10","data":{"type":"reaction_blank","ClusterId":"Transport, Extracellular"},"meta":{"label":"D lactate transport via proton symport","graphs":["59969f1cc7edff6b3d5b7721","59969f1cc7edff6b3d5b7a11","59969f1cc7edff6b3d5b733a","59969f1cc7edff6b3d5b733b"]}}

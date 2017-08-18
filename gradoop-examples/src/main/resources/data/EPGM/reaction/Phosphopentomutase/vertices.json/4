@@ -1,2 +1,0 @@
-{"id":"59809b91c7edff22d6d34338","data":{"type":"metabolite","oldID":"r5p","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"Alpha-D-Ribose 5-phosphate","graphs":["59809b91c7edff22d6d34246","59809b91c7edff22d6d34a77","59809b91c7edff22d6d350e7","59809b91c7edff22d6d350f2","59809b91c7edff22d6d3518d","59809b91c7edff22d6d351ef"]}}
-{"id":"59809b91c7edff22d6d344d6","data":{"type":"gene","oldID":"Pgm1_AT1","ClusterId":"Pentose Phosphate Pathway"},"meta":{"label":"Pgm1_AT1","graphs":["59809b91c7edff22d6d34a77","59809b91c7edff22d6d350e7"]}}

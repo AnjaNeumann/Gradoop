@@ -1,4 +1,4 @@
-{"id":"59809b91c7edff22d6d3462c","data":{"name":"3-Methoxytyramine secretion via secretory vesicle (ATP driven)"},"meta":{"label":"reaction"}}
-{"id":"59809b91c7edff22d6d34b07","data":{"name":"GLYt7 LPAREN 211 RPAREN r"},"meta":{"label":"reaction"}}
-{"id":"59809b91c7edff22d6d347c8","data":{"name":"CAATPS"},"meta":{"label":"reaction"}}
-{"id":"59809b91c7edff22d6d3516c","data":{"name":"RIBFLVt3"},"meta":{"label":"reaction"}}
+{"id":"59969f1cc7edff6b3d5b7720","data":{"name":"3-Methoxytyramine secretion via secretory vesicle (ATP driven)"},"meta":{"label":"reaction"}}
+{"id":"59969f1cc7edff6b3d5b7bfb","data":{"name":"GLYt7 LPAREN 211 RPAREN r"},"meta":{"label":"reaction"}}
+{"id":"59969f1cc7edff6b3d5b78bc","data":{"name":"CAATPS"},"meta":{"label":"reaction"}}
+{"id":"59969f1cc7edff6b3d5b8260","data":{"name":"RIBFLVt3"},"meta":{"label":"reaction"}}

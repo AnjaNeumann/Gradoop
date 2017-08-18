@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d3459b","data":{"type":"reaction_blank","ClusterId":"NoID"},"meta":{"label":"Nicotinate exchange","graphs":["59809b91c7edff22d6d3459c","59809b91c7edff22d6d34247"]}}
+{"id":"59969f1cc7edff6b3d5b747c","data":{"type":"metabolite","oldID":"nac","ClusterId":"NAD Metabolism,Transport, Extracellular"},"meta":{"label":"Nicotinate","graphs":["59969f1cc7edff6b3d5b733b","59969f1cc7edff6b3d5b7690","59969f1cc7edff6b3d5b7721","59969f1cc7edff6b3d5b7e01","59969f1cc7edff6b3d5b733a","59969f1cc7edff6b3d5b7e06","59969f1cc7edff6b3d5b7e78"]}}

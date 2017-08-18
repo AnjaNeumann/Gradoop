@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d343e0","data":{"type":"gene","oldID":"Arg1_AT1","ClusterId":"Urea cycle\/amino group metabolism"},"meta":{"label":"Arg1_AT1","graphs":["59809b91c7edff22d6d34770","59809b91c7edff22d6d3476f"]}}
+{"id":"59969f1cc7edff6b3d5b7862","data":{"type":"reaction_blank","ClusterId":"Urea cycle\/amino group metabolism"},"meta":{"label":"Arginase","graphs":["59969f1cc7edff6b3d5b7864","59969f1cc7edff6b3d5b7863","59969f1cc7edff6b3d5b733a"]}}

@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d3454c","data":{"type":"reaction_blank","ClusterId":"NoID"},"meta":{"label":"D-Glucosamine exchange","graphs":["59809b91c7edff22d6d3454d","59809b91c7edff22d6d34247"]}}
+{"id":"59969f1cc7edff6b3d5b7462","data":{"type":"metabolite","oldID":"gam","ClusterId":"Aminosugar Metabolism,Transport, Extracellular"},"meta":{"label":"D-Glucosamine","graphs":["59969f1cc7edff6b3d5b733b","59969f1cc7edff6b3d5b7641","59969f1cc7edff6b3d5b7721","59969f1cc7edff6b3d5b7b9f","59969f1cc7edff6b3d5b733a","59969f1cc7edff6b3d5b773e","59969f1cc7edff6b3d5b7cc5"]}}

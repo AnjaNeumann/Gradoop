@@ -1,7 +1,7 @@
-{"id":"59809b91c7edff22d6d343b3","data":{"type":"gene","oldID":"Acp1_AT1","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"Acp1_AT1","graphs":["59809b91c7edff22d6d34673","59809b91c7edff22d6d34672"]}}
-{"id":"59809b91c7edff22d6d343b4","data":{"type":"gene","oldID":"Acp1_AT2","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"Acp1_AT2","graphs":["59809b91c7edff22d6d34673","59809b91c7edff22d6d34672"]}}
-{"id":"59809b91c7edff22d6d343b5","data":{"type":"gene","oldID":"Acp1_AT3","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"Acp1_AT3","graphs":["59809b91c7edff22d6d34673","59809b91c7edff22d6d34672"]}}
-{"id":"59809b91c7edff22d6d34421","data":{"type":"gene","oldID":"FadS_AT1","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"FadS_AT1","graphs":["59809b91c7edff22d6d34673","59809b91c7edff22d6d34a52"]}}
-{"id":"59809b91c7edff22d6d34422","data":{"type":"gene","oldID":"FadS_AT2","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"FadS_AT2","graphs":["59809b91c7edff22d6d34673","59809b91c7edff22d6d34a52"]}}
-{"id":"59809b91c7edff22d6d344e1","data":{"type":"gene","oldID":"Rfk_AT1","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"Rfk_AT1","graphs":["59809b91c7edff22d6d34673","59809b91c7edff22d6d35164"]}}
-{"id":"59809b91c7edff22d6d34414","data":{"type":"gene","oldID":"EnpP1_AT1","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"EnpP1_AT1","graphs":["59809b91c7edff22d6d34673","59809b91c7edff22d6d34a28"]}}
+{"id":"59969f1cc7edff6b3d5b74a7","data":{"type":"gene","oldID":"Acp1_AT1","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"Acp1_AT1","graphs":["59969f1cc7edff6b3d5b7767","59969f1cc7edff6b3d5b7766"]}}
+{"id":"59969f1cc7edff6b3d5b74a8","data":{"type":"gene","oldID":"Acp1_AT2","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"Acp1_AT2","graphs":["59969f1cc7edff6b3d5b7767","59969f1cc7edff6b3d5b7766"]}}
+{"id":"59969f1cc7edff6b3d5b74a9","data":{"type":"gene","oldID":"Acp1_AT3","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"Acp1_AT3","graphs":["59969f1cc7edff6b3d5b7767","59969f1cc7edff6b3d5b7766"]}}
+{"id":"59969f1cc7edff6b3d5b7515","data":{"type":"gene","oldID":"FadS_AT1","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"FadS_AT1","graphs":["59969f1cc7edff6b3d5b7767","59969f1cc7edff6b3d5b7b46"]}}
+{"id":"59969f1cc7edff6b3d5b7516","data":{"type":"gene","oldID":"FadS_AT2","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"FadS_AT2","graphs":["59969f1cc7edff6b3d5b7767","59969f1cc7edff6b3d5b7b46"]}}
+{"id":"59969f1cc7edff6b3d5b75d5","data":{"type":"gene","oldID":"Rfk_AT1","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"Rfk_AT1","graphs":["59969f1cc7edff6b3d5b7767","59969f1cc7edff6b3d5b8258"]}}
+{"id":"59969f1cc7edff6b3d5b7508","data":{"type":"gene","oldID":"EnpP1_AT1","ClusterId":"Riboflavin Metabolism"},"meta":{"label":"EnpP1_AT1","graphs":["59969f1cc7edff6b3d5b7767","59969f1cc7edff6b3d5b7b1c"]}}

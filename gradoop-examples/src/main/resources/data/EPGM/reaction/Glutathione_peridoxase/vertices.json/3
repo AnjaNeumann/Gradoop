@@ -1,9 +1,0 @@
-{"id":"59809b91c7edff22d6d3444e","data":{"type":"gene","oldID":"Prdx2_AT1","ClusterId":"Glutathione Metabolism"},"meta":{"label":"Prdx2_AT1","graphs":["59809b91c7edff22d6d34abb","59809b91c7edff22d6d34b62"]}}
-{"id":"59809b91c7edff22d6d3444b","data":{"type":"gene","oldID":"Prdx2_AT2","ClusterId":"Glutathione Metabolism"},"meta":{"label":"Prdx2_AT2","graphs":["59809b91c7edff22d6d34abb","59809b91c7edff22d6d34b62"]}}
-{"id":"59809b91c7edff22d6d34449","data":{"type":"gene","oldID":"Prdx2_AT3","ClusterId":"Glutathione Metabolism"},"meta":{"label":"Prdx2_AT3","graphs":["59809b91c7edff22d6d34abb","59809b91c7edff22d6d34b62"]}}
-{"id":"59809b91c7edff22d6d3444c","data":{"type":"gene","oldID":"Gpx4_AT1","ClusterId":"Glutathione Metabolism"},"meta":{"label":"Gpx4_AT1","graphs":["59809b91c7edff22d6d34abb","59809b91c7edff22d6d34b62"]}}
-{"id":"59809b91c7edff22d6d34448","data":{"type":"gene","oldID":"Prdx1_AT3","ClusterId":"Glutathione Metabolism"},"meta":{"label":"Prdx1_AT3","graphs":["59809b91c7edff22d6d34abb","59809b91c7edff22d6d34b62"]}}
-{"id":"59809b91c7edff22d6d3444a","data":{"type":"gene","oldID":"Prdx1_AT1","ClusterId":"Glutathione Metabolism"},"meta":{"label":"Prdx1_AT1","graphs":["59809b91c7edff22d6d34abb","59809b91c7edff22d6d34b62"]}}
-{"id":"59809b91c7edff22d6d34450","data":{"type":"gene","oldID":"Prdx1_AT2","ClusterId":"Glutathione Metabolism"},"meta":{"label":"Prdx1_AT2","graphs":["59809b91c7edff22d6d34abb","59809b91c7edff22d6d34b62"]}}
-{"id":"59809b91c7edff22d6d3444f","data":{"type":"gene","oldID":"Gpx1_AT1","ClusterId":"Glutathione Metabolism"},"meta":{"label":"Gpx1_AT1","graphs":["59809b91c7edff22d6d34abb","59809b91c7edff22d6d34b62"]}}
-{"id":"59809b91c7edff22d6d3444d","data":{"type":"gene","oldID":"Gpx1_AT2","ClusterId":"Glutathione Metabolism"},"meta":{"label":"Gpx1_AT2","graphs":["59809b91c7edff22d6d34abb","59809b91c7edff22d6d34b62"]}}

@@ -1,0 +1,16 @@
+{"id":"59969f1cc7edff6b3d5b7864","data":{"name":"Urea cycle\/amino group metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b773e","data":{"name":"Aminosugar Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b7b01","data":{"name":"Fatty acid activation"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b77b1","data":{"name":"Salvage Pathway"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b788a","data":{"name":"Heme Degradation"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b7ac5","data":{"name":"Tyrosine metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b789c","data":{"name":"Carnitine shuttle"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b7719","data":{"name":"Methionine Salvage"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b7777","data":{"name":"Purine Catabolism"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b7bc4","data":{"name":"Glutamate metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b82cc","data":{"name":"Thiamine Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b7645","data":{"name":"Extracellular exchange"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b7e06","data":{"name":"NAD Metabolism"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b77c4","data":{"name":"Diacylglycerol Synthesis"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b7b59","data":{"name":"Citric Acid Cycle"},"meta":{"label":"subsystem"}}
+{"id":"59969f1cc7edff6b3d5b7bf3","data":{"name":"Pyruvate Metabolism"},"meta":{"label":"subsystem"}}

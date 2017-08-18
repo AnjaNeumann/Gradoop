@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d3457d","data":{"type":"reaction_blank","ClusterId":"NoID"},"meta":{"label":"D-lactate exchange","graphs":["59809b91c7edff22d6d3457e","59809b91c7edff22d6d34247"]}}
+{"id":"59969f1cc7edff6b3d5b7472","data":{"type":"metabolite","oldID":"lac__D","ClusterId":"Pyruvate Metabolism,Transport, Extracellular"},"meta":{"label":"D-Lactate","graphs":["59969f1cc7edff6b3d5b733b","59969f1cc7edff6b3d5b7672","59969f1cc7edff6b3d5b733a","59969f1cc7edff6b3d5b7721","59969f1cc7edff6b3d5b7a11","59969f1cc7edff6b3d5b7bf3","59969f1cc7edff6b3d5b7bf2"]}}

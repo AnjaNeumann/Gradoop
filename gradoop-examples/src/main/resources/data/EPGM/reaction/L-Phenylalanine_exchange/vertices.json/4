@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d34390","data":{"type":"metabolite","oldID":"phe__L","ClusterId":"Phenylalanine metabolism,Transport, Extracellular"},"meta":{"label":"L-Phenylalanine","graphs":["59809b91c7edff22d6d34247","59809b91c7edff22d6d345b4","59809b91c7edff22d6d34246","59809b91c7edff22d6d34e63","59809b91c7edff22d6d34e62","59809b91c7edff22d6d3462d","59809b91c7edff22d6d34e6a"]}}
+{"id":"59969f1cc7edff6b3d5b76a7","data":{"type":"reaction_blank","ClusterId":"NoID"},"meta":{"label":"L-Phenylalanine exchange","graphs":["59969f1cc7edff6b3d5b76a8","59969f1cc7edff6b3d5b733b"]}}

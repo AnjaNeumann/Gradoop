@@ -1,0 +1,4 @@
+{"id":"59969f1cc7edff6b3d5b7530","data":{"type":"gene","oldID":"Gkp3_AT1","ClusterId":"Glycerophospholipid Metabolism"},"meta":{"label":"Gkp3_AT1","graphs":["59969f1cc7edff6b3d5b78d9","59969f1cc7edff6b3d5b7be7"]}}
+{"id":"59969f1cc7edff6b3d5b7532","data":{"type":"gene","oldID":"Gk2_AT1","ClusterId":"Glycerophospholipid Metabolism"},"meta":{"label":"Gk2_AT1","graphs":["59969f1cc7edff6b3d5b78d9","59969f1cc7edff6b3d5b7be7"]}}
+{"id":"59969f1cc7edff6b3d5b7531","data":{"type":"gene","oldID":"Gk_AT1","ClusterId":"Glycerophospholipid Metabolism"},"meta":{"label":"Gk_AT1","graphs":["59969f1cc7edff6b3d5b78d9","59969f1cc7edff6b3d5b7be7"]}}
+{"id":"59969f1cc7edff6b3d5b7533","data":{"type":"gene","oldID":"Gk_AT2","ClusterId":"Glycerophospholipid Metabolism"},"meta":{"label":"Gk_AT2","graphs":["59969f1cc7edff6b3d5b78d9","59969f1cc7edff6b3d5b7be7"]}}

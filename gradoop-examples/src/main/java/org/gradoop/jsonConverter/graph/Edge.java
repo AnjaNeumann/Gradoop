@@ -14,7 +14,7 @@ public class Edge extends JSONObject {
 
 	JSONArray m_LogicGraphsList = new JSONArray();
 	
-	final private String strUUID = GradoopId.get().toString();
+	final private String id = GradoopId.get().toString();
 
 	public Edge(String source, String target, String label) {
 		this(source, target, null, label);
@@ -24,7 +24,7 @@ public class Edge extends JSONObject {
 	public Edge(String source, String target, Double quantity, String label) {
 		super();
 
-		this.put("id", strUUID);
+		this.put("id", id);
 		this.put("target", target);
 		this.put("source", source);
 
@@ -44,8 +44,8 @@ public class Edge extends JSONObject {
 			m_LogicGraphsList.add(GraphID);
 	}
 
-	public String getStrUUID() {
-		return strUUID;
+	public String getId() {
+		return id;
 	}
 
 }

@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d34461","data":{"type":"gene","oldID":"Slc4a1_1_e","ClusterId":"Transport, Extracellular"},"meta":{"label":"Slc4a1_1_e","graphs":["59809b91c7edff22d6d3462d","59809b91c7edff22d6d34bb3"]}}
+{"id":"59969f1cc7edff6b3d5b7ca6","data":{"type":"reaction_blank","ClusterId":"Transport, Extracellular"},"meta":{"label":"HCO3 CLt","graphs":["59969f1cc7edff6b3d5b7721","59969f1cc7edff6b3d5b7ca7","59969f1cc7edff6b3d5b733b","59969f1cc7edff6b3d5b733a"]}}

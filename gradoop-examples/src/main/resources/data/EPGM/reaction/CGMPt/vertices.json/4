@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d348d2","data":{"type":"reaction_blank","ClusterId":"Transport, Extracellular"},"meta":{"label":"CGMPt","graphs":["59809b91c7edff22d6d3462d","59809b91c7edff22d6d348d3","59809b91c7edff22d6d34246","59809b91c7edff22d6d34247"]}}
+{"id":"59969f1cc7edff6b3d5b74de","data":{"type":"gene","oldID":"Abcc4_1_e","ClusterId":"Transport, Extracellular"},"meta":{"label":"Abcc4_1_e","graphs":["59969f1cc7edff6b3d5b7721","59969f1cc7edff6b3d5b78c7","59969f1cc7edff6b3d5b79c7"]}}

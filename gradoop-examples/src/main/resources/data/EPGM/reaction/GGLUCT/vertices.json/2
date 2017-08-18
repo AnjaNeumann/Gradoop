@@ -1,1 +1,1 @@
-{"id":"59809b91c7edff22d6d34255","data":{"type":"metabolite","oldID":"5oxpro","ClusterId":"Glutathione Metabolism"},"meta":{"label":"5-Oxoproline","graphs":["59809b91c7edff22d6d34246","59809b91c7edff22d6d34abb","59809b91c7edff22d6d34aba","59809b91c7edff22d6d34ddd"]}}
+{"id":"59969f1cc7edff6b3d5b7bad","data":{"type":"reaction_blank","ClusterId":"Glutathione Metabolism"},"meta":{"label":"GGLUCT","graphs":["59969f1cc7edff6b3d5b7baf","59969f1cc7edff6b3d5b7bae","59969f1cc7edff6b3d5b733a","59969f1cc7edff6b3d5b733b"]}}

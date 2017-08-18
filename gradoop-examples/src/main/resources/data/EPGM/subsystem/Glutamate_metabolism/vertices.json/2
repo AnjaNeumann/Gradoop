@@ -1,2 +1,2 @@
-{"id":"59809b91c7edff22d6d34447","data":{"type":"gene","oldID":"Gsr_AT2","ClusterId":"Glutamate metabolism"},"meta":{"label":"Gsr_AT2","graphs":["59809b91c7edff22d6d34ad0","59809b91c7edff22d6d34b51"]}}
-{"id":"59809b91c7edff22d6d34439","data":{"type":"gene","oldID":"Glul_AT1","ClusterId":"Glutamate metabolism"},"meta":{"label":"Glul_AT1","graphs":["59809b91c7edff22d6d34ad0","59809b91c7edff22d6d34acf"]}}
+{"id":"59969f1cc7edff6b3d5b7bc2","data":{"type":"reaction_blank","ClusterId":"Glutamate metabolism"},"meta":{"label":"Glutamine synthetase","graphs":["59969f1cc7edff6b3d5b7bc4","59969f1cc7edff6b3d5b7bc3","59969f1cc7edff6b3d5b733a"]}}
+{"id":"59969f1cc7edff6b3d5b7c44","data":{"type":"reaction_blank","ClusterId":"Glutamate metabolism"},"meta":{"label":"Glutathione oxidoreductase","graphs":["59969f1cc7edff6b3d5b7bc4","59969f1cc7edff6b3d5b7c45","59969f1cc7edff6b3d5b733a"]}}
