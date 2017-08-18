@@ -13,7 +13,7 @@ public class MetabolismTest extends AbstractRunner {
 	@Test
 	public void mTest() throws Exception {
 
-		String inputDir = "src/main/resources/data/json/Metabolism";
+		String inputDir = "src/main/resources/data/EPGM";
 
 		LogicalGraph graph = readLogicalGraph(inputDir);
 		VertexCount vertexCount = new VertexCount();
