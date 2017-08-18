@@ -8,8 +8,18 @@ import org.gradoop.flink.model.impl.operators.aggregation.functions.count.EdgeCo
 import org.gradoop.flink.model.impl.operators.aggregation.functions.count.VertexCount;
 import org.junit.Test;
 
+/**
+ * JUnit test class
+ *
+ */
 public class MetabolismTest extends AbstractRunner {
 
+	/**
+	 * constructs logical graph by input directory and set properties
+	 * vertexCount and edgeCount
+	 * 
+	 * @throws Exception
+	 */
 	@Test
 	public void mTest() throws Exception {
 
