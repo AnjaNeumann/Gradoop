@@ -14,3 +14,5 @@ metabolism:
 	- existierende Unterordner werden überschrieben
 	- frequent subgraph mining ist für unsere Form der Konvertierung nicht anwendbar, da bei uns keine Label gehäuft 		  auftreten.
 	- pattern matching funktioniert nur bedingt, z.B. ist es nicht möglich Kreise zu finden
+	- longestPath findet nur einen langen Pfad, nicht unbedingt den längsten (auch abhängig von der edge-Sortierung)
+
