@@ -6,6 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -15,6 +16,12 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+/**
+ * convertes BiGG Model Data to EPGM needs two arguments: input and output path
+ * input path: path to BiGG Model data, output path: folder, where EPGM should
+ * be stored
+ *
+ */
 public class Main {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException, ParseException {
@@ -52,10 +59,8 @@ public class Main {
 		JSONArray jsonGenes = (JSONArray) job.get("genes");
 		Map<String, Node> mGenes = new HashMap<String, Node>();
 		for (Object jg : jsonGenes) {
-
 			String strKey = (String) ((JSONObject) jg).get("id");
 			mGenes.put(strKey, new Node(strKey, (String) ((JSONObject) jg).get("id"), "gene"));
-
 		}
 
 		List<Node> lReaktions = new ArrayList<Node>();
@@ -119,12 +124,9 @@ public class Main {
 				String MetaboliteUUID = mMetabolites.get(strMetaboliteName).getId();
 
 				// create edges between reaction_blank node and metabolite node
-				Edge currentEdge = null;
-				if (fCoefficient < 0) {
-					currentEdge = new Edge(MetaboliteUUID, nodeReaction.getId(), fCoefficient, "input");
-				} else {
-					currentEdge = new Edge(nodeReaction.getId(), MetaboliteUUID, fCoefficient, "output");
-				}
+				Edge currentEdge = fCoefficient < 0
+						? new Edge(MetaboliteUUID, nodeReaction.getId(), fCoefficient, "input")
+						: new Edge(nodeReaction.getId(), MetaboliteUUID, fCoefficient, "output");
 
 				if (strCompartmentID != null) currentEdge.addGraph(strCompartmentID);
 
@@ -143,12 +145,8 @@ public class Main {
 					String GeneUUID = mGenes.get(gene).getId();
 
 					String label = "gene";
-					if (Arrays.asList(genes).contains("or")) {
-						label = label + "_or";
-					}
-					if (Arrays.asList(genes).contains("and")) {
-						label = label + "_and";
-					}
+					if (Arrays.asList(genes).contains("or")) label = label + "_or";
+					if (Arrays.asList(genes).contains("and")) label = label + "_and";
 					Edge currentEdge = new Edge(GeneUUID, nodeReaction.getId(), null, label);
 					if (strsubsystemGraphUUID != null) currentEdge.addGraph(strsubsystemGraphUUID);
 					currentEdge.addGraph(strReactionGraphUUID);
@@ -158,39 +156,25 @@ public class Main {
 			}
 
 		}
-		
-		// writing data to EPGM files
 
-		FileWriter filewriter = new FileWriter(outputdir + "/edges.json");
-
-		for (Edge edge : lEdges) {
-			filewriter.write(edge.toJSONString() + '\n');
-		}
+		write(lEdges, outputdir + "/edges.json");
 		System.out.println("edges written to file");
-		filewriter.close();
 
-		filewriter = new FileWriter(outputdir + "/graphs.json");
-		for (LogicGraph graph : mLogicGraphs.values()) {
-			filewriter.write(graph.toJSONString() + '\n');
-		}
+		write(mLogicGraphs.values(), outputdir + "/graphs.json");
 		System.out.println("graphs written to file");
-		filewriter.close();
 
-		filewriter = new FileWriter(outputdir + "/vertices.json");
-		for (Node reactionBlancNode : lReaktions) {
-			filewriter.write(reactionBlancNode.toJSONString() + '\n');
-		}
-
-		for (Node metabolite : mMetabolites.values()) {
-			filewriter.write(metabolite.toJSONString() + '\n');
-		}
-
-		for (Node gene : mGenes.values()) {
-			filewriter.write(gene.toJSONString() + "\n");
-		}
+		List<Node> nodes = new ArrayList<>(lReaktions.size() + mMetabolites.size() + mGenes.size());
+		nodes.addAll(lReaktions);
+		nodes.addAll(mMetabolites.values());
+		nodes.addAll(mGenes.values());
+		write(nodes, outputdir + "/vertices.json");
 		System.out.println("nodes written to file");
-		filewriter.close();
-
 	}
 
+	private static void write(Collection<? extends JSONObject> toWrite, String filename) throws IOException {
+		try (FileWriter filewriter = new FileWriter(filename)) {
+			for (JSONObject object : toWrite)
+				filewriter.write(object.toJSONString() + "\n");
+		}
+	}
 }

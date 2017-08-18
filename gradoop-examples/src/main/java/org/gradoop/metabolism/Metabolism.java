@@ -34,7 +34,7 @@ import org.gradoop.flink.util.GradoopFlinkConfig;
 import com.google.common.base.Preconditions;
 
 /**
- * perform some gradoop operations for BiGG model data input: path to EPGM
+ * perform some gradoop operations for BiGG model data, input: path to EPGM
  *
  */
 public class Metabolism extends AbstractRunner {
@@ -117,8 +117,8 @@ public class Metabolism extends AbstractRunner {
 	}
 
 	/**
-	 * find longest path (max of all subpaths) in a logical graph and write it
-	 * as logical graph to file
+	 * find a long path (max of all subpaths) in a logical graph and write it as
+	 * logical graph to file
 	 * 
 	 * @throws Exception
 	 */
@@ -147,12 +147,16 @@ public class Metabolism extends AbstractRunner {
 	}
 
 	/**
-	 * find all vertices from graph without incoming edges of type "type"
+	 * find all vertices from {@code graph} without incoming edges of type
+	 * {@code type}
 	 * 
 	 * @param graph
+	 *            graph, where incoming edges are collected
 	 * @param vertices
+	 *            vertex list, that should be searched in
 	 * @param type
-	 * @return
+	 *            node type
+	 * @return set of nodes without incoming edges
 	 * @throws Exception
 	 */
 	private Set<Vertex> getSources(LogicalGraph graph, List<Vertex> vertices, String type) throws Exception {
@@ -170,9 +174,12 @@ public class Metabolism extends AbstractRunner {
 	 * find all vertices without outgoing edges of type "type"
 	 * 
 	 * @param graph
+	 *            graph, where outgoing edges are collected
 	 * @param vertices
+	 *            vertex list, that should be searched in
 	 * @param type
-	 * @return
+	 *            node type
+	 * @return set of nodes without outgoing edges
 	 * @throws Exception
 	 */
 	private Set<Vertex> getSinks(LogicalGraph graph, List<Vertex> vertices, String type) throws Exception {
@@ -188,10 +195,12 @@ public class Metabolism extends AbstractRunner {
 	}
 
 	/**
-	 * fill hashmaps vertexMap (id -> vertex) and edgesOutMap (vertex ->
-	 * outgoing edges) for graph traversing
+	 * fill hashmaps {@link vertexMap} (id -> vertex) and {@link edgesOutMap}
+	 * (vertex -> outgoing edges) for graph traversing, edges just store ids of
+	 * source and target nodes
 	 * 
 	 * @param vertices
+	 *            values for {@link vertexMap} and keys for {@link edgesOutMap}
 	 * @throws Exception
 	 */
 	private void setVertexMaps(List<Vertex> vertices) throws Exception {
@@ -206,10 +215,10 @@ public class Metabolism extends AbstractRunner {
 	}
 
 	/**
-	 * creates a new JSONDataSink (to write a logical graph to file)
+	 * creates a new {@link JSONDataSink} to write a logical graph to file
 	 * 
 	 * @param folder:
-	 *            target folder
+	 *            target folder name
 	 * @return
 	 * @throws IOException
 	 */
@@ -229,8 +238,8 @@ public class Metabolism extends AbstractRunner {
 
 	/**
 	 * prints all metabolites which are only connected (as input) to
-	 * {@code extracellular_space} reactions (transport to outside) and print
-	 * them
+	 * {@code extracellular_space} reactions (transport to outside) and String
+	 * to print them
 	 * 
 	 * @param path
 	 *            pointing to the {@code extracellular_space} folder
@@ -267,7 +276,7 @@ public class Metabolism extends AbstractRunner {
 	 * 
 	 * @param path:
 	 *            pointing to the {@code extracellular_space} folder
-	 * @return
+	 * @return the result text
 	 * @throws Exception
 	 */
 	public String findInputMetabolites(String path) throws Exception {
@@ -319,9 +328,13 @@ public class Metabolism extends AbstractRunner {
 	}
 
 	/**
-	 * finds longest path collection by source vertex
+	 * finds longest path collections (vertices and edges) by source vertex
+	 * without circles
 	 * 
 	 * @param newVertex
+	 *            current source vertex to find longest path
+	 * @param alreadyVisited
+	 *            list of vertices that already belong to path (stop criterion)
 	 * @return longest path collection
 	 */
 	private GraphSet getTargetSet(Vertex newVertex, List<Vertex> alreadyVisited) {
@@ -353,6 +366,8 @@ public class Metabolism extends AbstractRunner {
 	/**
 	 * writes all logical graphs of type subsystem to separate file
 	 * 
+	 * @param type
+	 *            graph property (reaction, subsystem or compartment)
 	 * @throws Exception
 	 */
 	public void writeSubsystems2File(String type) throws Exception {
@@ -456,7 +471,7 @@ public class Metabolism extends AbstractRunner {
 	}
 
 	/**
-	 * Returns the vertex count of the graph by adding the property
+	 * Returns the number of vertices in graph by adding the property
 	 * {@code VertexCount}
 	 * 
 	 * @return VertexCount
@@ -471,7 +486,7 @@ public class Metabolism extends AbstractRunner {
 	}
 
 	/**
-	 * Returns the edge count of the graph by adding the property
+	 * Returns the number of edges in graph by adding the property
 	 * {@code EdgeCount}
 	 * 
 	 * @return EdgeCount
@@ -536,7 +551,7 @@ public class Metabolism extends AbstractRunner {
 	}
 
 	/**
-	 * groups graph by clusterId (subsystems)
+	 * groups the graph by the clusterId property (subsystems)
 	 * 
 	 * @throws Exception
 	 */
@@ -560,8 +575,8 @@ public class Metabolism extends AbstractRunner {
 	}
 
 	/**
-	 * Searches for subgraphes which appear regulary in the graph collection and
-	 * writes them into a file
+	 * Searches for subgraphes which appear regularly in the graph collection
+	 * and writes them into a file
 	 * 
 	 * @param sim:
 	 *            similarity factor
