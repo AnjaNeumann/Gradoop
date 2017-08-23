@@ -3,8 +3,8 @@ Dieses Repository enthält die  Ergebnisse des Modul BigData Praktikum SS2017 de
 
 ## Inhalt
 Das Ziel des Praktikums war das Einlesen eines vorgegebenen BiGG Model (siehe Datenquelle) in Gradoop und das Aufzeigen von beispielhaften Analysen und Auswertungen, welche mit Gradoop möglich sind. 
-
 Das Project unterteilt sich dabei in die zwei Programme "jsonConverter" und "metabolism". 
+
 ----
 
 ## Software
