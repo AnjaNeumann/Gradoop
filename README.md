@@ -17,7 +17,9 @@ Das Projekt ist mit Apache Maven entwickelt worden und kann im Ordner Gradoop mi
 ```sh
 mvn install
 ```
+
 gebaut werden.
+
 ----
 ## Datenquelle
 Die Datenquellen sind auf [bigg.ucsd.edu](http://bigg.ucsd.edu/) zu finden. Dabei handelt es sich nach eigener Aussage um: "nowledgebase of genome-scale metabolic network reconstructions.". Unser [Testdatensatz](http://bigg.ucsd.edu/models/iAB_RBC_283) ist dabei nur ein Teildatensatz für den das Einlesen ausgibig getestet wurde. Stichproben mit anderen Datensätzen wurden ebenfalls erfolgreich eingelesen.
