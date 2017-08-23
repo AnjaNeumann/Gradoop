@@ -22,13 +22,13 @@ gebaut werden.
 
 ----
 ## Datenquelle
-Die Datenquellen sind auf [bigg.ucsd.edu](http://bigg.ucsd.edu/) zu finden. Dabei handelt es sich nach eigener Aussage um: "nowledgebase of genome-scale metabolic network reconstructions.". Unser [Testdatensatz](http://bigg.ucsd.edu/models/iAB_RBC_283) ist dabei nur ein Teildatensatz für den das Einlesen ausgibig getestet wurde. Stichproben mit anderen Datensätzen wurden ebenfalls erfolgreich eingelesen.
+Die Datenquelle ist auf [bigg.ucsd.edu](http://bigg.ucsd.edu/) zu finden. Dabei handelt es sich nach eigener Aussage um ein: "knowledgebase of genome-scale metabolic network reconstructions". Das Einlesen wurde mit dem [Testdatensatz](http://bigg.ucsd.edu/models/iAB_RBC_283) ausgiebig getestet. Andere Datensätze wurden ebenfalls stichprobenartig erfolgreich eingelesen.
 
 ----
 ## Ausführen des Projekts
 
 ### jsonConverter:
-* die Main-Klasse benötigt zwei Argumente: den Pfad zum BiGG-Model-Datensatz(input path) und den Pfad zu dem Ordner, wo   die konvertierten Daten (EPGM) gespeichert werden sollen (output path)
+* die Main-Klasse benötigt zwei Argumente: den Pfad zum BiGG-Model-Datensatz(input path) und den Pfad zu dem Ordner, wo   die konvertierten Daten (EPGM-extended property graph model) gespeichert werden sollen (output path)
 *  Argumente setzen und starten
 *  EPGM Daten (edges.json, nodes.json, graphs.json) werden in den Ordner (output path) geschrieben
 	
