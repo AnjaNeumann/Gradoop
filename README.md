@@ -40,9 +40,6 @@ Die Datenquelle ist auf [bigg.ucsd.edu](http://bigg.ucsd.edu/) zu finden. Dabei 
 *  die Metabolism-Klasse enthält Methoden zur Analyse des Graphen mittels Gradoop-Operationen
 *  die meisten Methoden erzeugen einen neuen Logischen Graphen und schreiben ihn in einen Unterordner
 *  existierende Unterordner werden überschrieben
-*  die frequent-subgraph-mining-Methode ist für unsere Form der Konvertierung nicht anwendbar, da bei uns keine Label gehäuft auftreten.
-*  die pattern-matching-Methode funktioniert nur bedingt, z.B. ist es nicht möglich Kreise zu finden
-*  die longestPath-Methode findet nur einen langen Pfad, nicht unbedingt den längsten (auch abhängig von der edge-Sortierung)
 *  in der Main-Klasse werden beispielhaft ein paar Methoden aufgerufen, deren Ergebnisse gespeichert oder in der Konsole ausgegeben werden
 ```java
         //args of main class
