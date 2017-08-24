@@ -1,5 +1,5 @@
 # Analysing Metabilic Networks in Gradoop
-Dieses Repository enthält die  Ergebnisse des Big-Data Praktikum SS2017 mit dem Thema "Analyzing Metabolic Networks with Gradoop" der Universität Leipzig.
+Dieses Repository enthält die  Ergebnisse des Big-Data Praktikum SS2017 mit dem Thema "Analysing Metabolic Networks in Gradoop" der Universität Leipzig.
 
 ## Inhalt
 Das Ziel des Praktikums war das Einlesen eines vorgegebenen BiGG Model Datensatz (siehe Datenquelle) in Gradoop und das Aufzeigen von beispielhaften Analysen und Auswertungen, welche mit Gradoop möglich sind. 
@@ -22,24 +22,48 @@ gebaut werden.
 
 ----
 ## Datenquelle
-Die Datenquelle ist auf [bigg.ucsd.edu](http://bigg.ucsd.edu/) zu finden. Dabei handelt es sich nach eigener Aussage um ein: "knowledgebase of genome-scale metabolic network reconstructions". Das Einlesen wurde mit dem [Testdatensatz](http://bigg.ucsd.edu/models/iAB_RBC_283) ausgiebig getestet. Andere Datensätze wurden ebenfalls stichprobenartig erfolgreich eingelesen.
+Die Datenquelle ist auf [bigg.ucsd.edu](http://bigg.ucsd.edu/) zu finden. Dabei handelt es sich nach eigener Aussage um ein "knowledgebase of genome-scale metabolic network reconstructions". Das Einlesen wurde mit dem [Testdatensatz](http://bigg.ucsd.edu/models/iAB_RBC_283) ausgiebig getestet. Andere Datensätze wurden ebenfalls stichprobenartig erfolgreich eingelesen.
 
 ----
 ## Ausführen des Projekts
 
 ### jsonConverter:
-* die Main-Klasse benötigt zwei Argumente: den Pfad zum BiGG-Model-Datensatz(input path) und den Pfad zu dem Ordner, wo   die konvertierten Daten (EPGM-extended property graph model) gespeichert werden sollen (output path)
+* die Main-Klasse benötigt zwei Argumente: 
+   input path: den Pfad zum BiGG-Model-Datensatz 
+    output path: den Pfad zu dem Ordner, wo die konvertierten Daten gespeichert werden sollen
+* der Output sind EPGM-Daten (extended property graph model) im JSON-Format
 *  Argumente setzen und starten
-*  EPGM Daten (edges.json, nodes.json, graphs.json) werden in den Ordner (output path) geschrieben
+*  die EPGM-Daten (edges.json, nodes.json, graphs.json) werden in den Ordner (output path) geschrieben
 	
 ### metabolism:
 *  die Main-Klasse benötigt als Argument den Pfad zum EPGM
 *  die Metabolism-Klasse enthält Methoden zur Analyse des Graphen mittels Gradoop-Operationen
 *  die meisten Methoden erzeugen einen neuen Logischen Graphen und schreiben ihn in einen Unterordner
 *  existierende Unterordner werden überschrieben
-*  die frequent-subgraph-mining-Methode ist für unsere Form der Konvertierung nicht anwendbar, da bei uns keine Label gehäuft 		  auftreten.
+*  die frequent-subgraph-mining-Methode ist für unsere Form der Konvertierung nicht anwendbar, da bei uns keine Label gehäuft auftreten.
 *  die pattern-matching-Methode funktioniert nur bedingt, z.B. ist es nicht möglich Kreise zu finden
 *  die longestPath-Methode findet nur einen langen Pfad, nicht unbedingt den längsten (auch abhängig von der edge-Sortierung)
-*  in der Main-Klasse werden beispielhaft ein paar Methoden aufgerufen, deren die Ergebnisse gespeichert oder in der Konsole ausgegeben werden
+*  in der Main-Klasse werden beispielhaft ein paar Methoden aufgerufen, deren Ergebnisse gespeichert oder in der Konsole ausgegeben werden
+```java
+        //args of main class
+        Metabolism mtb = new Metabolism(args);
+
+		// finds all active transport reactions and write them to file
+		mtb.getActiveTransportReactions();
+
+		// prints number of incoming and outgoing edges for each vertex
+		mtb.getVertexEdges(0, 0);
+
+		// writes all subsystems to one file
+		mtb.getSubsystems();
+
+		// writes all graphs with label "reaction" to a separate file in a
+		// subfolder reaction
+		mtb.writeSubsystems2File("reaction");
+
+		// groups the graph by subsystems, transform vertex labels and write
+		// graph to file
+		mtb.grouping();
+```
 *  die gespeicherten EPGM-Daten können mit Gradoop-Vis visualisiert werden.
 
