@@ -42,8 +42,8 @@ Die Datenquelle ist auf [bigg.ucsd.edu](http://bigg.ucsd.edu/) zu finden. Dabei 
 *  existierende Unterordner werden überschrieben
 *  in der Main-Klasse werden beispielhaft ein paar Methoden aufgerufen, deren Ergebnisse gespeichert oder in der Konsole ausgegeben werden
 ```java
-        //args of main class
-        Metabolism mtb = new Metabolism(args);
+		//args of main class
+		Metabolism mtb = new Metabolism(args);
 
 		// finds all active transport reactions and write them to file
 		mtb.getActiveTransportReactions();
